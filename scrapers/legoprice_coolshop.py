@@ -38,6 +38,10 @@ def extract_products_from_soup(soup, lego_data):
         href = title_link.get('href', '') if title_link else ''
         if href and href.startswith('/'):
             href = f"https://www.coolshop.is{href}"
+
+        card_text = card.get_text(" ", strip=True).lower()
+        if 'ekki til á lager' in card_text:
+            continue
             
         price_tag = card.select_one("div.product__card-price")
         price = price_tag.get_text(strip=True).replace(' kr', '').replace('.', '').replace(',', '.').strip() if price_tag else None

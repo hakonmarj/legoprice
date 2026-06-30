@@ -20,6 +20,7 @@ except Exception:
 
 
 BRICKLINK_BASE = "https://api.bricklink.com/api/store/v1"
+VAT_RATE = 0.24
 
 
 def load_dotenv_file(path: Path):
@@ -299,9 +300,10 @@ def main():
 
                 if usd_to_isk and avg_usd_num and avg_usd_num > 0:
                     avg_isk = avg_usd_num * usd_to_isk
+                    avg_isk_incl_vat = avg_isk * (1 + VAT_RATE)
                     product["bricklink_6m_avg_price_new_isk"] = avg_isk
                     if lowest_isk_num and lowest_isk_num > 0:
-                        product["lowest_price_vs_bricklink_avg_ratio"] = lowest_isk_num / avg_isk
+                        product["lowest_price_vs_bricklink_avg_ratio"] = lowest_isk_num / avg_isk_incl_vat
                     else:
                         product["lowest_price_vs_bricklink_avg_ratio"] = None
                 else:

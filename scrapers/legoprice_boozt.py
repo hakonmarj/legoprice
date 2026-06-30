@@ -22,6 +22,20 @@ def extract_lego_set_number(title):
     return extract_set_number(title)
 
 
+def apply_min_discount(current_price_text, original_price_text=None, discount_rate=0.20):
+    current_price = parse_price_isk(current_price_text)
+    if current_price is None:
+        return None
+
+    original_price = parse_price_isk(original_price_text)
+    if original_price is None or original_price <= 0:
+        original_price = current_price
+
+    target_price = max(0, int(round(original_price * (1 - discount_rate))))
+    effective_price = min(current_price, target_price)
+    return f"{effective_price} kr"
+
+
 def log_unresolved_products(products):
     missing = [p for p in products if not p.get('lego_set_number')]
     print(f"Unresolved set numbers: {len(missing)}/{len(products)}")
@@ -36,9 +50,10 @@ def extract_products_from_soup(soup, lego_data):
     for card in product_cards:
         title = card.get("aria-label", "").strip()
         product_id = card.get("data-product-id", "")
-        product_link = card.get("data-url", "")
-        if product_link and product_link.startswith('/'):
-            product_link = f"https://www.boozt.com{product_link}"
+        product_link = ''
+        first_link = card.select_one('a[href]')
+        if first_link:
+            product_link = first_link.get('href', '')
 
         # Current price: prefer data-actual-price attribute, fallback to visible price text
         price_text = card.get("data-actual-price") or ''
@@ -73,9 +88,13 @@ def extract_products_from_soup(soup, lego_data):
         if lego_set_number and lego_set_number not in lego_data:
             lego_set_number = None
 
+        discounted_price = apply_min_discount(lowest_price, original_price, discount_rate=0.20)
+        if not discounted_price:
+            continue
+
         product = {
-            "boozt_price": format_price_isk(price_text),
-            "lowest_price": lowest_price or (price_text and price_text + ' kr') or None,
+            "boozt_price": discounted_price,
+            "lowest_price": discounted_price,
             "original_boozt_price": original_price or None,
             "lego_set_number": lego_set_number,
             "name": title,
@@ -125,7 +144,7 @@ def create_driver():
 
 def fetch_all_pages(csv_filename):
     """Fetch all pages of LEGO products and lookup set data from CSV."""
-    base_url = "https://www.boozt.com/is/is/born/leikfong/lego-leikfong?order=sale_asc&page="
+    base_url = "https://www.boozt.com/is/is/born/leikfong/lego-leikfong?page="
     
     # Load LEGO set data from the CSV file
     lego_data = load_lego_data(csv_filename)

@@ -6,7 +6,6 @@ const storeFilter = document.getElementById('storeFilter');
 const themeFilter = document.getElementById('themeFilter');
 const topN = document.getElementById('topN');
 const sortBy = document.getElementById('sortBy');
-const topTableBody = document.querySelector('#topTable tbody');
 
 let allSets = [];
 
@@ -20,6 +19,11 @@ function toNumber(value) {
   if (value === null || value === undefined || value === '') return null;
   const n = Number(value);
   return Number.isFinite(n) ? n : null;
+}
+
+function formatFixed(value, digits) {
+  const num = toNumber(value);
+  return num === null ? '-' : num.toFixed(digits);
 }
 
 function cardTemplate(item) {
@@ -55,9 +59,8 @@ function cardTemplate(item) {
         <div><span class="label">Theme:</span> <span class="value">${decodeHtmlEntities(item.theme || '-')}</span></div>
         <div><span class="label">Pieces:</span> <span class="value">${item.num_parts || '-'}</span></div>
         <div class="best-price"><span class="label">Best price:</span> <span class="value">${item.lowest_price || '-'} @ ${item.lowest_price_store || '-'}</span></div>
-        <div><span class="label">Pieces/ISK:</span> <span class="value">${(item.pieces_per_kr || 0).toFixed ? item.pieces_per_kr.toFixed(4) : '-'}</span></div>
-        <div><span class="label">BrickLink avg (USD):</span> <span class="value">${item.bricklink_6m_avg_price_new_usd ?? '-'}</span></div>
-        <div><span class="label">BrickLink avg (ISK):</span> <span class="value">${toNumber(item.bricklink_6m_avg_price_new_isk)?.toFixed(0) ?? '-'}</span></div>
+        <div><span class="label">Pieces/ISK:</span> <span class="value">${formatFixed(item.pieces_per_kr, 4)}</span></div>
+        <div><span class="label">BrickLink avg (ISK incl. VAT):</span> <span class="value">${toNumber(item.bricklink_6m_avg_price_new_isk) != null ? Math.round(toNumber(item.bricklink_6m_avg_price_new_isk) * 1.24) + ' kr' : '-'}</span></div>
         <div><span class="label">Price vs BL avg ratio:</span> <span class="value">${toNumber(item.lowest_price_vs_bricklink_avg_ratio)?.toFixed(3) ?? '-'}</span></div>
         <div><span class="label">BrickLink sales:</span> <span class="value">${item.bricklink_6m_sales_count_new ?? '-'}</span></div>
       </div>
@@ -79,18 +82,6 @@ function passesPreset(item, preset) {
     return (toNumber(item.bricklink_6m_sales_count_new) || 0) >= 10;
   }
   return true;
-}
-
-function topRowTemplate(item) {
-  return `
-    <tr>
-      <td>${item.lego_set_number || '-'}</td>
-      <td>${item.name || '-'}</td>
-      <td>${item.lowest_price || '-'}</td>
-      <td>${item.lowest_price_store || '-'}</td>
-      <td>${(item.pieces_per_kr || 0).toFixed ? item.pieces_per_kr.toFixed(4) : '-'}</td>
-    </tr>
-  `;
 }
 
 function filterAndSort() {
@@ -128,7 +119,6 @@ function filterAndSort() {
   }
 
   summary.textContent = `Showing ${rows.length} of ${fullCount} sets`;
-  topTableBody.innerHTML = rows.slice(0, 10).map(topRowTemplate).join('');
   grid.innerHTML = rows.map(cardTemplate).join('');
 }
 
