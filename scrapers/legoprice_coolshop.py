@@ -16,6 +16,13 @@ try:
 except Exception:
     requests = None
 
+
+def log_unresolved_products(products):
+    missing = [p for p in products if not p.get('lego_set_number')]
+    print(f"Unresolved set numbers: {len(missing)}/{len(products)}")
+    for product in missing:
+        print(f"  - {product.get('name', '')} | {product.get('coolshop_url') or 'no-url'}")
+
 def extract_products_from_soup(soup, lego_data):
     # Tag-agnostic selector: matches <div class="product__card"> and <article class="product__card">
     product_cards = soup.select(".product__card")
@@ -28,20 +35,30 @@ def extract_products_from_soup(soup, lego_data):
         if not title:
             title_tag = card.select_one("h3.product__card-title")
             title = title_tag.get_text(strip=True) if title_tag else ""
+        href = title_link.get('href', '') if title_link else ''
+        if href and href.startswith('/'):
+            href = f"https://www.coolshop.is{href}"
             
         price_tag = card.select_one("div.product__card-price")
         price = price_tag.get_text(strip=True).replace(' kr', '').replace('.', '').replace(',', '.').strip() if price_tag else None
 
-        # Extract LEGO set number - find all 5-digit numbers and take the last one
+        # Skip items with no price (sold out or unavailable)
+        if not price:
+            continue
+
+        # Extract LEGO set number from title only
         set_numbers = re.findall(r'(\d{5})', title)
         lego_set_number = set_numbers[-1] if set_numbers else None
+        if lego_set_number and lego_set_number not in lego_data:
+            lego_set_number = None
 
         product = {
             "coolshop_price": price,
             "lowest_price": price,
             "original_coolshop_price": price,
             "lego_set_number": lego_set_number,
-            "name": title  # Store the full title for reference
+            "name": title,  # Store the full title for reference
+            "coolshop_url": href or None,
         }
 
         if lego_set_number and lego_set_number in lego_data:
@@ -51,6 +68,7 @@ def extract_products_from_soup(soup, lego_data):
 
         products.append(product)
 
+    log_unresolved_products(products)
     return products
 
 def load_lego_data(csv_filename):

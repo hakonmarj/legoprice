@@ -3,7 +3,7 @@ from pathlib import Path
 from utils.price_utils import parse_price_isk, format_price_isk, is_valid_set_number
 
 
-STORES = ['hagkaup', 'coolshop', 'kubbabudin', 'boozt', 'kidsworld']
+STORES = ['hagkaup', 'coolshop', 'kubbabudin', 'boozt', 'kidsworld', 'elko']
 
 def load_store_data(store_name):
     """Load the JSON data from a store's output file."""

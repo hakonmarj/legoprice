@@ -1,19 +1,5 @@
 [
   {
-    "lego_set_number": "31162",
-    "name": "Cute Bunny",
-    "num_parts": "326",
-    "prices": {
-      "hagkaup": "1 kr",
-      "coolshop": "4499 kr",
-      "boozt": "2589 kr",
-      "kidsworld": "3778 kr"
-    },
-    "lowest_price": "1 kr",
-    "lowest_price_isk": 1,
-    "lowest_price_store": "hagkaup"
-  },
-  {
     "lego_set_number": "71051",
     "name": "Dolphin Suit",
     "num_parts": "7",
@@ -64,7 +50,8 @@
     "num_parts": "82",
     "prices": {
       "coolshop": "799 kr",
-      "kidsworld": "632 kr"
+      "kidsworld": "632 kr",
+      "elko": "695 kr"
     },
     "lowest_price": "632 kr",
     "lowest_price_isk": 632,
@@ -76,7 +63,8 @@
     "num_parts": "79",
     "prices": {
       "coolshop": "799 kr",
-      "kidsworld": "632 kr"
+      "kidsworld": "632 kr",
+      "elko": "695 kr"
     },
     "lowest_price": "632 kr",
     "lowest_price_isk": 632,
@@ -88,7 +76,8 @@
     "num_parts": "77",
     "prices": {
       "coolshop": "799 kr",
-      "kidsworld": "632 kr"
+      "kidsworld": "632 kr",
+      "elko": "695 kr"
     },
     "lowest_price": "632 kr",
     "lowest_price_isk": 632,
@@ -112,7 +101,8 @@
     "num_parts": "68",
     "prices": {
       "coolshop": "799 kr",
-      "kidsworld": "632 kr"
+      "kidsworld": "632 kr",
+      "elko": "695 kr"
     },
     "lowest_price": "632 kr",
     "lowest_price_isk": 632,
@@ -136,7 +126,8 @@
     "num_parts": "39",
     "prices": {
       "coolshop": "799 kr",
-      "kidsworld": "632 kr"
+      "kidsworld": "632 kr",
+      "elko": "695 kr"
     },
     "lowest_price": "632 kr",
     "lowest_price_isk": 632,
@@ -148,7 +139,8 @@
     "num_parts": "35",
     "prices": {
       "coolshop": "799 kr",
-      "kidsworld": "632 kr"
+      "kidsworld": "632 kr",
+      "elko": "695 kr"
     },
     "lowest_price": "632 kr",
     "lowest_price_isk": 632,
@@ -160,7 +152,8 @@
     "num_parts": "33",
     "prices": {
       "coolshop": "799 kr",
-      "kidsworld": "632 kr"
+      "kidsworld": "632 kr",
+      "elko": "695 kr"
     },
     "lowest_price": "632 kr",
     "lowest_price_isk": 632,
@@ -207,7 +200,8 @@
     "name": "Hot Rod Car",
     "num_parts": "83",
     "prices": {
-      "kidsworld": "632 kr"
+      "kidsworld": "632 kr",
+      "elko": "695 kr"
     },
     "lowest_price": "632 kr",
     "lowest_price_isk": 632,
@@ -262,7 +256,8 @@
     "name": "Garden Bunny House",
     "num_parts": "46",
     "prices": {
-      "kidsworld": "632 kr"
+      "kidsworld": "632 kr",
+      "elko": "695 kr"
     },
     "lowest_price": "632 kr",
     "lowest_price_isk": 632,
@@ -273,7 +268,8 @@
     "name": "Ariel & Flounder's Birthday Music Fun",
     "num_parts": "39",
     "prices": {
-      "kidsworld": "632 kr"
+      "kidsworld": "632 kr",
+      "elko": "695 kr"
     },
     "lowest_price": "632 kr",
     "lowest_price_isk": 632,
@@ -313,16 +309,49 @@
     "lowest_price_store": "kidsworld"
   },
   {
-    "lego_set_number": "30700",
-    "name": "Arin vs. Dragonian Battle",
+    "lego_set_number": "30734",
+    "name": "Mini F1 ACADEMY Car",
+    "num_parts": "58",
+    "prices": {
+      "coolshop": "799 kr",
+      "elko": "695 kr"
+    },
+    "lowest_price": "695 kr",
+    "lowest_price_isk": 695,
+    "lowest_price_store": "elko"
+  },
+  {
+    "lego_set_number": "30715",
+    "name": "Cute Animal Birthday Party",
+    "num_parts": "64",
+    "prices": {
+      "elko": "695 kr"
+    },
+    "lowest_price": "695 kr",
+    "lowest_price_isk": 695,
+    "lowest_price_store": "elko"
+  },
+  {
+    "lego_set_number": "30721",
+    "name": "Flower Stand with Roses",
+    "num_parts": "55",
+    "prices": {
+      "elko": "695 kr"
+    },
+    "lowest_price": "695 kr",
+    "lowest_price_isk": 695,
+    "lowest_price_store": "elko"
+  },
+  {
+    "lego_set_number": "30719",
+    "name": "Go-Kart Racer",
     "num_parts": "48",
     "prices": {
-      "hagkaup": "699 kr",
-      "coolshop": "799 kr"
+      "elko": "695 kr"
     },
-    "lowest_price": "699 kr",
-    "lowest_price_isk": 699,
-    "lowest_price_store": "hagkaup"
+    "lowest_price": "695 kr",
+    "lowest_price_isk": 695,
+    "lowest_price_store": "elko"
   },
   {
     "lego_set_number": "30676",
@@ -426,17 +455,6 @@
     "lowest_price_store": "hagkaup"
   },
   {
-    "lego_set_number": "30704",
-    "name": "Balkiry Attack",
-    "num_parts": "42",
-    "prices": {
-      "hagkaup": "789 kr"
-    },
-    "lowest_price": "789 kr",
-    "lowest_price_isk": 789,
-    "lowest_price_store": "hagkaup"
-  },
-  {
     "lego_set_number": "30696",
     "name": "Autumn's Waffle Stand",
     "num_parts": "37",
@@ -471,17 +489,6 @@
     "lowest_price_store": "hagkaup"
   },
   {
-    "lego_set_number": "71050",
-    "name": "Margo Kess / Spider-Byte",
-    "num_parts": "7",
-    "prices": {
-      "hagkaup": "789 kr"
-    },
-    "lowest_price": "789 kr",
-    "lowest_price_isk": 789,
-    "lowest_price_store": "hagkaup"
-  },
-  {
     "lego_set_number": "30686",
     "name": "My First Flower & Bee",
     "num_parts": "7",
@@ -495,13 +502,14 @@
   {
     "lego_set_number": "71049",
     "name": "F1 Collectible Race Car - Random Box",
-    "num_parts": "0",
+    "num_parts": "29",
     "prices": {
-      "coolshop": "799 kr"
+      "coolshop": "799 kr",
+      "elko": "794 kr"
     },
-    "lowest_price": "799 kr",
-    "lowest_price_isk": 799,
-    "lowest_price_store": "coolshop"
+    "lowest_price": "794 kr",
+    "lowest_price_isk": 794,
+    "lowest_price_store": "elko"
   },
   {
     "lego_set_number": "30666",
@@ -515,9 +523,9 @@
     "lowest_price_store": "coolshop"
   },
   {
-    "lego_set_number": "30734",
-    "name": "Mini F1 ACADEMY Car",
-    "num_parts": "58",
+    "lego_set_number": "30700",
+    "name": "Arin vs. Dragonian Battle",
+    "num_parts": "48",
     "prices": {
       "coolshop": "799 kr"
     },
@@ -589,19 +597,8 @@
     "prices": {
       "coolshop": "2499 kr",
       "boozt": "1184 kr",
-      "kidsworld": "1899 kr"
-    },
-    "lowest_price": "1184 kr",
-    "lowest_price_isk": 1184,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "31140",
-    "name": "Magical Unicorn",
-    "num_parts": "145",
-    "prices": {
-      "coolshop": "2499 kr",
-      "boozt": "1184 kr"
+      "kidsworld": "1899 kr",
+      "elko": "1795 kr"
     },
     "lowest_price": "1184 kr",
     "lowest_price_isk": 1184,
@@ -640,20 +637,8 @@
     "prices": {
       "coolshop": "2499 kr",
       "boozt": "1184 kr",
-      "kidsworld": "1899 kr"
-    },
-    "lowest_price": "1184 kr",
-    "lowest_price_isk": 1184,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "42675",
-    "name": "Unicorn Cake Delivery Car",
-    "num_parts": "67",
-    "prices": {
-      "coolshop": "2499 kr",
-      "boozt": "1184 kr",
-      "kidsworld": "1899 kr"
+      "kidsworld": "1899 kr",
+      "elko": "1695 kr"
     },
     "lowest_price": "1184 kr",
     "lowest_price_isk": 1184,
@@ -691,19 +676,6 @@
     "prices": {
       "coolshop": "2499 kr",
       "boozt": "1184 kr"
-    },
-    "lowest_price": "1184 kr",
-    "lowest_price_isk": 1184,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "11026",
-    "name": "White Baseplate",
-    "num_parts": "1",
-    "prices": {
-      "coolshop": "1999 kr",
-      "boozt": "1184 kr",
-      "kidsworld": "1688 kr"
     },
     "lowest_price": "1184 kr",
     "lowest_price_isk": 1184,
@@ -749,40 +721,14 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "71780",
-    "name": "Kai's Ninja Race Car EVO",
-    "num_parts": "94",
-    "prices": {
-      "hagkaup": "2299 kr",
-      "coolshop": "2499 kr",
-      "boozt": "1236 kr",
-      "kidsworld": "1899 kr"
-    },
-    "lowest_price": "1236 kr",
-    "lowest_price_isk": 1236,
-    "lowest_price_store": "boozt"
-  },
-  {
     "lego_set_number": "10442",
     "name": "Wild Animal Families: Penguins & Lions",
     "num_parts": "10",
     "prices": {
       "hagkaup": "1999 kr",
       "boozt": "1236 kr",
-      "kidsworld": "1899 kr"
-    },
-    "lowest_price": "1236 kr",
-    "lowest_price_isk": 1236,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "31134",
-    "name": "Space Shuttle",
-    "num_parts": "144",
-    "prices": {
-      "coolshop": "2499 kr",
-      "boozt": "1236 kr",
-      "kidsworld": "1899 kr"
+      "kidsworld": "1899 kr",
+      "elko": "1395 kr"
     },
     "lowest_price": "1236 kr",
     "lowest_price_isk": 1236,
@@ -812,6 +758,18 @@
     "lowest_price": "1238 kr",
     "lowest_price_isk": 1238,
     "lowest_price_store": "boozt"
+  },
+  {
+    "lego_set_number": "10413",
+    "name": "Daily Routines: Bath Time",
+    "num_parts": "15",
+    "prices": {
+      "coolshop": "2499 kr",
+      "elko": "1294 kr"
+    },
+    "lowest_price": "1294 kr",
+    "lowest_price_isk": 1294,
+    "lowest_price_store": "elko"
   },
   {
     "lego_set_number": "31377",
@@ -882,7 +840,8 @@
     "prices": {
       "coolshop": "2499 kr",
       "boozt": "1296 kr",
-      "kidsworld": "1899 kr"
+      "kidsworld": "1899 kr",
+      "elko": "1695 kr"
     },
     "lowest_price": "1296 kr",
     "lowest_price_isk": 1296,
@@ -921,20 +880,8 @@
     "prices": {
       "coolshop": "2499 kr",
       "boozt": "1296 kr",
-      "kidsworld": "1899 kr"
-    },
-    "lowest_price": "1296 kr",
-    "lowest_price_isk": 1296,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "43303",
-    "name": "Mini Jasmine & Rapunzel",
-    "num_parts": "59",
-    "prices": {
-      "coolshop": "2499 kr",
-      "boozt": "1296 kr",
-      "kidsworld": "1899 kr"
+      "kidsworld": "1899 kr",
+      "elko": "1695 kr"
     },
     "lowest_price": "1296 kr",
     "lowest_price_isk": 1296,
@@ -1021,7 +968,8 @@
       "hagkaup": "1999 kr",
       "coolshop": "2499 kr",
       "boozt": "1326 kr",
-      "kidsworld": "1899 kr"
+      "kidsworld": "1899 kr",
+      "elko": "1495 kr"
     },
     "lowest_price": "1326 kr",
     "lowest_price_isk": 1326,
@@ -1059,7 +1007,8 @@
       "hagkaup": "2199 kr",
       "coolshop": "2499 kr",
       "boozt": "1484 kr",
-      "kidsworld": "1899 kr"
+      "kidsworld": "1899 kr",
+      "elko": "1495 kr"
     },
     "lowest_price": "1484 kr",
     "lowest_price_isk": 1484,
@@ -1083,14 +1032,13 @@
     "name": "Police Car",
     "num_parts": "94",
     "prices": {
-      "hagkaup": "2399 kr",
       "coolshop": "2499 kr",
-      "boozt": "1484 kr",
-      "kidsworld": "2110 kr"
+      "kidsworld": "2110 kr",
+      "elko": "1495 kr"
     },
-    "lowest_price": "1484 kr",
-    "lowest_price_isk": 1484,
-    "lowest_price_store": "boozt"
+    "lowest_price": "1495 kr",
+    "lowest_price_isk": 1495,
+    "lowest_price_store": "elko"
   },
   {
     "lego_set_number": "31376",
@@ -1106,6 +1054,21 @@
     "lowest_price_store": "boozt"
   },
   {
+    "lego_set_number": "42197",
+    "name": "Backhoe Loader",
+    "num_parts": "104",
+    "prices": {
+      "hagkaup": "1999 kr",
+      "coolshop": "2499 kr",
+      "boozt": "1649 kr",
+      "kidsworld": "1899 kr",
+      "elko": "1595 kr"
+    },
+    "lowest_price": "1595 kr",
+    "lowest_price_isk": 1595,
+    "lowest_price_store": "elko"
+  },
+  {
     "lego_set_number": "41358",
     "name": "Mia's Heart Box",
     "num_parts": "83",
@@ -1115,20 +1078,6 @@
     "lowest_price": "1599 kr",
     "lowest_price_isk": 1599,
     "lowest_price_store": "coolshop"
-  },
-  {
-    "lego_set_number": "42197",
-    "name": "Backhoe Loader",
-    "num_parts": "104",
-    "prices": {
-      "hagkaup": "1999 kr",
-      "coolshop": "2499 kr",
-      "boozt": "1649 kr",
-      "kidsworld": "1899 kr"
-    },
-    "lowest_price": "1649 kr",
-    "lowest_price_isk": 1649,
-    "lowest_price_store": "boozt"
   },
   {
     "lego_set_number": "42690",
@@ -1169,16 +1118,16 @@
     "lowest_price_store": "kidsworld"
   },
   {
-    "lego_set_number": "40808",
-    "name": "Easter Bunny and Chick Egg Hunt",
-    "num_parts": "140",
+    "lego_set_number": "11026",
+    "name": "White Baseplate",
+    "num_parts": "1",
     "prices": {
-      "coolshop": "2999 kr",
-      "boozt": "1724 kr"
+      "coolshop": "1999 kr",
+      "kidsworld": "1688 kr"
     },
-    "lowest_price": "1724 kr",
-    "lowest_price_isk": 1724,
-    "lowest_price_store": "boozt"
+    "lowest_price": "1688 kr",
+    "lowest_price_isk": 1688,
+    "lowest_price_store": "kidsworld"
   },
   {
     "lego_set_number": "40709",
@@ -1204,32 +1153,6 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "76335",
-    "name": "Spider-Man vs. Ghost Rider Motorcycle",
-    "num_parts": "72",
-    "prices": {
-      "coolshop": "1999 kr",
-      "boozt": "1729 kr",
-      "kidsworld": "1899 kr"
-    },
-    "lowest_price": "1729 kr",
-    "lowest_price_isk": 1729,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "31159",
-    "name": "Wild Animals: Surprising Spider",
-    "num_parts": "153",
-    "prices": {
-      "hagkaup": "2699 kr",
-      "coolshop": "2999 kr",
-      "boozt": "1746 kr"
-    },
-    "lowest_price": "1746 kr",
-    "lowest_price_isk": 1746,
-    "lowest_price_store": "boozt"
-  },
-  {
     "lego_set_number": "60442",
     "name": "F1 Driver with McLaren Race Car",
     "num_parts": "86",
@@ -1237,7 +1160,20 @@
       "hagkaup": "2699 kr",
       "coolshop": "2999 kr",
       "boozt": "1746 kr",
-      "kidsworld": "2512 kr"
+      "kidsworld": "2512 kr",
+      "elko": "2195 kr"
+    },
+    "lowest_price": "1746 kr",
+    "lowest_price_isk": 1746,
+    "lowest_price_store": "boozt"
+  },
+  {
+    "lego_set_number": "31159",
+    "name": "Wild Animals: Surprising Spider",
+    "num_parts": "153",
+    "prices": {
+      "coolshop": "2999 kr",
+      "boozt": "1746 kr"
     },
     "lowest_price": "1746 kr",
     "lowest_price_isk": 1746,
@@ -1304,17 +1240,6 @@
     "lowest_price": "1784 kr",
     "lowest_price_isk": 1784,
     "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "40407",
-    "name": "Death Star II Battle",
-    "num_parts": "235",
-    "prices": {
-      "hagkaup": "11999 kr"
-    },
-    "lowest_price": "1799 kr",
-    "lowest_price_isk": 1799,
-    "lowest_price_store": "hagkaup"
   },
   {
     "lego_set_number": "40638",
@@ -1404,6 +1329,67 @@
     "lowest_price_store": "boozt"
   },
   {
+    "lego_set_number": "71780",
+    "name": "Kai's Ninja Race Car EVO",
+    "num_parts": "94",
+    "prices": {
+      "hagkaup": "2299 kr",
+      "coolshop": "2499 kr",
+      "kidsworld": "1899 kr"
+    },
+    "lowest_price": "1899 kr",
+    "lowest_price_isk": 1899,
+    "lowest_price_store": "kidsworld"
+  },
+  {
+    "lego_set_number": "31134",
+    "name": "Space Shuttle",
+    "num_parts": "144",
+    "prices": {
+      "coolshop": "2499 kr",
+      "kidsworld": "1899 kr"
+    },
+    "lowest_price": "1899 kr",
+    "lowest_price_isk": 1899,
+    "lowest_price_store": "kidsworld"
+  },
+  {
+    "lego_set_number": "76335",
+    "name": "Spider-Man vs. Ghost Rider Motorcycle",
+    "num_parts": "72",
+    "prices": {
+      "coolshop": "1999 kr",
+      "kidsworld": "1899 kr"
+    },
+    "lowest_price": "1899 kr",
+    "lowest_price_isk": 1899,
+    "lowest_price_store": "kidsworld"
+  },
+  {
+    "lego_set_number": "42675",
+    "name": "Unicorn Cake Delivery Car",
+    "num_parts": "67",
+    "prices": {
+      "coolshop": "2499 kr",
+      "kidsworld": "1899 kr"
+    },
+    "lowest_price": "1899 kr",
+    "lowest_price_isk": 1899,
+    "lowest_price_store": "kidsworld"
+  },
+  {
+    "lego_set_number": "43303",
+    "name": "Mini Jasmine & Rapunzel",
+    "num_parts": "59",
+    "prices": {
+      "coolshop": "2499 kr",
+      "kidsworld": "1899 kr"
+    },
+    "lowest_price": "1899 kr",
+    "lowest_price_isk": 1899,
+    "lowest_price_store": "kidsworld"
+  },
+  {
     "lego_set_number": "31173",
     "name": "Wild Animals: Tropical Toucan",
     "num_parts": "225",
@@ -1425,7 +1411,8 @@
       "hagkaup": "2899 kr",
       "coolshop": "3499 kr",
       "boozt": "1911 kr",
-      "kidsworld": "2744 kr"
+      "kidsworld": "2744 kr",
+      "elko": "2545 kr"
     },
     "lowest_price": "1911 kr",
     "lowest_price_isk": 1911,
@@ -1531,33 +1518,6 @@
     "lowest_price_store": "coolshop"
   },
   {
-    "lego_set_number": "40460",
-    "name": "Roses",
-    "num_parts": "120",
-    "prices": {
-      "hagkaup": "2799 kr",
-      "coolshop": "3499 kr",
-      "boozt": "1979 kr",
-      "kidsworld": "2744 kr"
-    },
-    "lowest_price": "1979 kr",
-    "lowest_price_isk": 1979,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "40725",
-    "name": "Cherry Blossoms",
-    "num_parts": "430",
-    "prices": {
-      "coolshop": "3499 kr",
-      "boozt": "1979 kr",
-      "kidsworld": "2744 kr"
-    },
-    "lowest_price": "1979 kr",
-    "lowest_price_isk": 1979,
-    "lowest_price_store": "boozt"
-  },
-  {
     "lego_set_number": "76168",
     "name": "Captain America Mech Armor",
     "num_parts": "121",
@@ -1567,19 +1527,6 @@
     "lowest_price": "1979 kr",
     "lowest_price_isk": 1979,
     "lowest_price_store": "coolshop"
-  },
-  {
-    "lego_set_number": "40524",
-    "name": "Sunflowers",
-    "num_parts": "191",
-    "prices": {
-      "hagkaup": "2899 kr",
-      "coolshop": "3499 kr",
-      "boozt": "1986 kr"
-    },
-    "lowest_price": "1986 kr",
-    "lowest_price_isk": 1986,
-    "lowest_price_store": "boozt"
   },
   {
     "lego_set_number": "76172",
@@ -1641,10 +1588,10 @@
     "name": "Mario Kart - Yoshi Bike",
     "num_parts": "133",
     "prices": {
-      "hagkaup": "2899 kr",
       "coolshop": "2999 kr",
       "boozt": "2001 kr",
-      "kidsworld": "2744 kr"
+      "kidsworld": "2744 kr",
+      "elko": "2795 kr"
     },
     "lowest_price": "2001 kr",
     "lowest_price_isk": 2001,
@@ -1665,13 +1612,14 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "11024",
-    "name": "Gray Baseplate",
-    "num_parts": "1",
+    "lego_set_number": "40460",
+    "name": "Roses",
+    "num_parts": "120",
     "prices": {
-      "coolshop": "2999 kr",
+      "coolshop": "3499 kr",
       "boozt": "2054 kr",
-      "kidsworld": "2744 kr"
+      "kidsworld": "2744 kr",
+      "elko": "2795 kr"
     },
     "lowest_price": "2054 kr",
     "lowest_price_isk": 2054,
@@ -1683,7 +1631,8 @@
     "num_parts": "165",
     "prices": {
       "coolshop": "3499 kr",
-      "boozt": "2144 kr"
+      "boozt": "2144 kr",
+      "elko": "2795 kr"
     },
     "lowest_price": "2144 kr",
     "lowest_price_isk": 2144,
@@ -1772,6 +1721,19 @@
     "lowest_price_store": "boozt"
   },
   {
+    "lego_set_number": "75391",
+    "name": "Captain Rex Y-Wing Microfighter",
+    "num_parts": "99",
+    "prices": {
+      "hagkaup": "2699 kr",
+      "coolshop": "2999 kr",
+      "elko": "2395 kr"
+    },
+    "lowest_price": "2395 kr",
+    "lowest_price_isk": 2395,
+    "lowest_price_store": "elko"
+  },
+  {
     "lego_set_number": "75970",
     "name": "Tracer vs. Widowmaker",
     "num_parts": "129",
@@ -1841,7 +1803,8 @@
     "prices": {
       "hagkaup": "3899 kr",
       "coolshop": "4499 kr",
-      "boozt": "2470 kr"
+      "boozt": "2470 kr",
+      "elko": "3495 kr"
     },
     "lowest_price": "2470 kr",
     "lowest_price_isk": 2470,
@@ -1876,19 +1839,8 @@
     "num_parts": "134",
     "prices": {
       "coolshop": "4499 kr",
-      "boozt": "2474 kr"
-    },
-    "lowest_price": "2474 kr",
-    "lowest_price_isk": 2474,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "10463",
-    "name": "Dinosaur Spidey-Rex vs. Green Goblin",
-    "num_parts": "25",
-    "prices": {
-      "coolshop": "4499 kr",
-      "boozt": "2474 kr"
+      "boozt": "2474 kr",
+      "elko": "3395 kr"
     },
     "lowest_price": "2474 kr",
     "lowest_price_isk": 2474,
@@ -1898,6 +1850,17 @@
     "lego_set_number": "42163",
     "name": "Heavy-Duty Bulldozer",
     "num_parts": "195",
+    "prices": {
+      "coolshop": "2499 kr"
+    },
+    "lowest_price": "2499 kr",
+    "lowest_price_isk": 2499,
+    "lowest_price_store": "coolshop"
+  },
+  {
+    "lego_set_number": "31140",
+    "name": "Magical Unicorn",
+    "num_parts": "145",
     "prices": {
       "coolshop": "2499 kr"
     },
@@ -1939,17 +1902,6 @@
     "lowest_price_store": "coolshop"
   },
   {
-    "lego_set_number": "10413",
-    "name": "Daily Routines: Bath Time",
-    "num_parts": "15",
-    "prices": {
-      "coolshop": "2499 kr"
-    },
-    "lowest_price": "2499 kr",
-    "lowest_price_isk": 2499,
-    "lowest_price_store": "coolshop"
-  },
-  {
     "lego_set_number": "10967",
     "name": "Police Motorcycle",
     "num_parts": "5",
@@ -1961,13 +1913,14 @@
     "lowest_price_store": "coolshop"
   },
   {
-    "lego_set_number": "72032",
-    "name": "Mario Kart - Standard Kart",
-    "num_parts": "174",
+    "lego_set_number": "31162",
+    "name": "Cute Bunny",
+    "num_parts": "326",
     "prices": {
-      "hagkaup": "3899 kr",
+      "hagkaup": "3799 kr",
+      "coolshop": "4499 kr",
       "boozt": "2589 kr",
-      "kidsworld": "3800 kr"
+      "kidsworld": "3778 kr"
     },
     "lowest_price": "2589 kr",
     "lowest_price_isk": 2589,
@@ -1979,7 +1932,8 @@
     "num_parts": "27",
     "prices": {
       "hagkaup": "3899 kr",
-      "boozt": "2589 kr"
+      "boozt": "2589 kr",
+      "elko": "3295 kr"
     },
     "lowest_price": "2589 kr",
     "lowest_price_isk": 2589,
@@ -2003,7 +1957,21 @@
     "num_parts": "121",
     "prices": {
       "coolshop": "4499 kr",
-      "boozt": "2589 kr"
+      "boozt": "2589 kr",
+      "elko": "3895 kr"
+    },
+    "lowest_price": "2589 kr",
+    "lowest_price_isk": 2589,
+    "lowest_price_store": "boozt"
+  },
+  {
+    "lego_set_number": "72032",
+    "name": "Mario Kart - Standard Kart",
+    "num_parts": "174",
+    "prices": {
+      "boozt": "2589 kr",
+      "kidsworld": "3800 kr",
+      "elko": "3595 kr"
     },
     "lowest_price": "2589 kr",
     "lowest_price_isk": 2589,
@@ -2040,7 +2008,8 @@
     "prices": {
       "coolshop": "4499 kr",
       "boozt": "2594 kr",
-      "kidsworld": "3800 kr"
+      "kidsworld": "3800 kr",
+      "elko": "3395 kr"
     },
     "lowest_price": "2594 kr",
     "lowest_price_isk": 2594,
@@ -2053,7 +2022,8 @@
     "prices": {
       "coolshop": "4499 kr",
       "boozt": "2594 kr",
-      "kidsworld": "3800 kr"
+      "kidsworld": "3800 kr",
+      "elko": "3395 kr"
     },
     "lowest_price": "2594 kr",
     "lowest_price_isk": 2594,
@@ -2159,43 +2129,17 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "10468",
-    "name": "Tractor and Market",
-    "num_parts": "18",
+    "lego_set_number": "40725",
+    "name": "Cherry Blossoms",
+    "num_parts": "430",
     "prices": {
-      "boozt": "2594 kr"
+      "coolshop": "3499 kr",
+      "kidsworld": "2744 kr",
+      "elko": "2595 kr"
     },
-    "lowest_price": "2594 kr",
-    "lowest_price_isk": 2594,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "77075",
-    "name": "Peely & Sparkplug's Camp",
-    "num_parts": "250",
-    "prices": {
-      "hagkaup": "3899 kr",
-      "coolshop": "4499 kr",
-      "boozt": "2646 kr",
-      "kidsworld": "3778 kr"
-    },
-    "lowest_price": "2646 kr",
-    "lowest_price_isk": 2646,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "21274",
-    "name": "The Warden Encounter",
-    "num_parts": "238",
-    "prices": {
-      "hagkaup": "3899 kr",
-      "coolshop": "4499 kr",
-      "boozt": "2646 kr",
-      "kidsworld": "3800 kr"
-    },
-    "lowest_price": "2646 kr",
-    "lowest_price_isk": 2646,
-    "lowest_price_store": "boozt"
+    "lowest_price": "2595 kr",
+    "lowest_price_isk": 2595,
+    "lowest_price_store": "elko"
   },
   {
     "lego_set_number": "71839",
@@ -2220,6 +2164,19 @@
       "coolshop": "4499 kr",
       "boozt": "2646 kr",
       "kidsworld": "3800 kr"
+    },
+    "lowest_price": "2646 kr",
+    "lowest_price_isk": 2646,
+    "lowest_price_store": "boozt"
+  },
+  {
+    "lego_set_number": "77075",
+    "name": "Peely & Sparkplug's Camp",
+    "num_parts": "250",
+    "prices": {
+      "coolshop": "4499 kr",
+      "boozt": "2646 kr",
+      "kidsworld": "3778 kr"
     },
     "lowest_price": "2646 kr",
     "lowest_price_isk": 2646,
@@ -2252,37 +2209,12 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "60238",
-    "name": "Switch Tracks",
-    "num_parts": "8",
-    "prices": {
-      "hagkaup": "4299 kr",
-      "coolshop": "4999 kr",
-      "boozt": "2676 kr",
-      "kidsworld": "3567 kr"
-    },
-    "lowest_price": "2676 kr",
-    "lowest_price_isk": 2676,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "75391",
-    "name": "Captain Rex Y-Wing Microfighter",
-    "num_parts": "99",
-    "prices": {
-      "hagkaup": "2699 kr",
-      "coolshop": "2999 kr"
-    },
-    "lowest_price": "2699 kr",
-    "lowest_price_isk": 2699,
-    "lowest_price_store": "hagkaup"
-  },
-  {
     "lego_set_number": "60402",
     "name": "Blue Monster Truck",
     "num_parts": "148",
     "prices": {
-      "boozt": "2739 kr"
+      "boozt": "2739 kr",
+      "elko": "2995 kr"
     },
     "lowest_price": "2739 kr",
     "lowest_price_isk": 2739,
@@ -2327,6 +2259,18 @@
     "lowest_price_store": "kidsworld"
   },
   {
+    "lego_set_number": "11024",
+    "name": "Gray Baseplate",
+    "num_parts": "1",
+    "prices": {
+      "coolshop": "2999 kr",
+      "kidsworld": "2744 kr"
+    },
+    "lowest_price": "2744 kr",
+    "lowest_price_isk": 2744,
+    "lowest_price_store": "kidsworld"
+  },
+  {
     "lego_set_number": "10454",
     "name": "Mickey Mouse Clubhouse & Car",
     "num_parts": "27",
@@ -2353,34 +2297,6 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "31147",
-    "name": "Retro Camera",
-    "num_parts": "261",
-    "prices": {
-      "hagkaup": "4199 kr",
-      "coolshop": "4499 kr",
-      "boozt": "2774 kr",
-      "kidsworld": "3800 kr"
-    },
-    "lowest_price": "2774 kr",
-    "lowest_price_isk": 2774,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "60447",
-    "name": "Off-Road 4x4 Mountain Truck",
-    "num_parts": "221",
-    "prices": {
-      "hagkaup": "3899 kr",
-      "coolshop": "4499 kr",
-      "boozt": "2774 kr",
-      "kidsworld": "3800 kr"
-    },
-    "lowest_price": "2774 kr",
-    "lowest_price_isk": 2774,
-    "lowest_price_store": "boozt"
-  },
-  {
     "lego_set_number": "76442",
     "name": "Hogwarts Castle: Charms Class",
     "num_parts": "203",
@@ -2388,7 +2304,8 @@
       "hagkaup": "3899 kr",
       "coolshop": "4999 kr",
       "boozt": "2774 kr",
-      "kidsworld": "3800 kr"
+      "kidsworld": "3800 kr",
+      "elko": "3895 kr"
     },
     "lowest_price": "2774 kr",
     "lowest_price_isk": 2774,
@@ -2433,9 +2350,9 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "10713",
-    "name": "Creative Suitcase",
-    "num_parts": "218",
+    "lego_set_number": "60447",
+    "name": "Off-Road 4x4 Mountain Truck",
+    "num_parts": "221",
     "prices": {
       "coolshop": "4499 kr",
       "boozt": "2774 kr",
@@ -2458,32 +2375,6 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "60373",
-    "name": "Fire Rescue Boat",
-    "num_parts": "147",
-    "prices": {
-      "coolshop": "4499 kr",
-      "boozt": "2774 kr",
-      "kidsworld": "3800 kr"
-    },
-    "lowest_price": "2774 kr",
-    "lowest_price_isk": 2774,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "60304",
-    "name": "Road Plates",
-    "num_parts": "112",
-    "prices": {
-      "coolshop": "4499 kr",
-      "boozt": "2774 kr",
-      "kidsworld": "3778 kr"
-    },
-    "lowest_price": "2774 kr",
-    "lowest_price_isk": 2774,
-    "lowest_price_store": "boozt"
-  },
-  {
     "lego_set_number": "10425",
     "name": "Train Tunnel and Tracks Expansion Set",
     "num_parts": "20",
@@ -2496,18 +2387,6 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "76308",
-    "name": "Spider-Man Mech vs. Anti-Venom",
-    "num_parts": "107",
-    "prices": {
-      "hagkaup": "2799 kr",
-      "coolshop": "3499 kr"
-    },
-    "lowest_price": "2799 kr",
-    "lowest_price_isk": 2799,
-    "lowest_price_store": "hagkaup"
-  },
-  {
     "lego_set_number": "10927",
     "name": "Pizza Stand",
     "num_parts": "18",
@@ -2517,33 +2396,6 @@
     "lowest_price": "2799 kr",
     "lowest_price_isk": 2799,
     "lowest_price_store": "coolshop"
-  },
-  {
-    "lego_set_number": "60205",
-    "name": "Tracks",
-    "num_parts": "20",
-    "prices": {
-      "coolshop": "3999 kr",
-      "boozt": "2804 kr",
-      "kidsworld": "3546 kr"
-    },
-    "lowest_price": "2804 kr",
-    "lowest_price_isk": 2804,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "10954",
-    "name": "Number Train - Learn To Count",
-    "num_parts": "23",
-    "prices": {
-      "hagkaup": "4299 kr",
-      "coolshop": "4499 kr",
-      "boozt": "2879 kr",
-      "kidsworld": "3800 kr"
-    },
-    "lowest_price": "2879 kr",
-    "lowest_price_isk": 2879,
-    "lowest_price_store": "boozt"
   },
   {
     "lego_set_number": "10412",
@@ -2574,7 +2426,8 @@
     "name": "Friends Advent Calendar 2025",
     "num_parts": "237",
     "prices": {
-      "boozt": "2939 kr"
+      "boozt": "2939 kr",
+      "elko": "4494 kr"
     },
     "lowest_price": "2939 kr",
     "lowest_price_isk": 2939,
@@ -2607,37 +2460,11 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "60415",
-    "name": "Police Car and Muscle Car Chase",
-    "num_parts": "220",
-    "prices": {
-      "hagkaup": "3999 kr",
-      "coolshop": "4499 kr",
-      "boozt": "2969 kr"
-    },
-    "lowest_price": "2969 kr",
-    "lowest_price_isk": 2969,
-    "lowest_price_store": "boozt"
-  },
-  {
     "lego_set_number": "60451",
     "name": "Emergency Ambulance",
     "num_parts": "184",
     "prices": {
       "hagkaup": "3899 kr",
-      "coolshop": "4499 kr",
-      "boozt": "2969 kr"
-    },
-    "lowest_price": "2969 kr",
-    "lowest_price_isk": 2969,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "60404",
-    "name": "Burger Truck",
-    "num_parts": "194",
-    "prices": {
-      "hagkaup": "4199 kr",
       "coolshop": "4499 kr",
       "boozt": "2969 kr"
     },
@@ -2665,7 +2492,8 @@
       "hagkaup": "3899 kr",
       "coolshop": "3999 kr",
       "boozt": "2969 kr",
-      "kidsworld": "3800 kr"
+      "kidsworld": "3800 kr",
+      "elko": "3495 kr"
     },
     "lowest_price": "2969 kr",
     "lowest_price_isk": 2969,
@@ -2711,6 +2539,17 @@
     "lego_set_number": "75891",
     "name": "Chevrolet Camaro ZL1 Race Car",
     "num_parts": "198",
+    "prices": {
+      "coolshop": "2999 kr"
+    },
+    "lowest_price": "2999 kr",
+    "lowest_price_isk": 2999,
+    "lowest_price_store": "coolshop"
+  },
+  {
+    "lego_set_number": "40808",
+    "name": "Easter Bunny and Chick Egg Hunt",
+    "num_parts": "140",
     "prices": {
       "coolshop": "2999 kr"
     },
@@ -2852,16 +2691,17 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "42164",
-    "name": "Off-Road Race Buggy",
-    "num_parts": "219",
+    "lego_set_number": "10954",
+    "name": "Number Train - Learn To Count",
+    "num_parts": "23",
     "prices": {
-      "hagkaup": "3199 kr",
-      "coolshop": "3499 kr"
+      "coolshop": "4499 kr",
+      "kidsworld": "3800 kr",
+      "elko": "3195 kr"
     },
-    "lowest_price": "3199 kr",
-    "lowest_price_isk": 3199,
-    "lowest_price_store": "hagkaup"
+    "lowest_price": "3195 kr",
+    "lowest_price_isk": 3195,
+    "lowest_price_store": "elko"
   },
   {
     "lego_set_number": "43271",
@@ -2870,19 +2710,6 @@
     "prices": {
       "hagkaup": "4899 kr",
       "coolshop": "4999 kr",
-      "boozt": "3224 kr",
-      "kidsworld": "4644 kr"
-    },
-    "lowest_price": "3224 kr",
-    "lowest_price_isk": 3224,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "76784",
-    "name": "Black Dahlia Flower",
-    "num_parts": "358",
-    "prices": {
-      "coolshop": "3499 kr",
       "boozt": "3224 kr",
       "kidsworld": "4644 kr"
     },
@@ -2927,6 +2754,54 @@
     "lowest_price": "3387 kr",
     "lowest_price_isk": 3387,
     "lowest_price_store": "boozt"
+  },
+  {
+    "lego_set_number": "31380",
+    "name": "Retro Gaming Console",
+    "num_parts": "268",
+    "prices": {
+      "coolshop": "4499 kr",
+      "boozt": "3459 kr",
+      "kidsworld": "3800 kr",
+      "elko": "3395 kr"
+    },
+    "lowest_price": "3395 kr",
+    "lowest_price_isk": 3395,
+    "lowest_price_store": "elko"
+  },
+  {
+    "lego_set_number": "10463",
+    "name": "Dinosaur Spidey-Rex vs. Green Goblin",
+    "num_parts": "25",
+    "prices": {
+      "coolshop": "4499 kr",
+      "elko": "3395 kr"
+    },
+    "lowest_price": "3395 kr",
+    "lowest_price_isk": 3395,
+    "lowest_price_store": "elko"
+  },
+  {
+    "lego_set_number": "71489",
+    "name": "Cooper's Gaming Controller Jet",
+    "num_parts": "266",
+    "prices": {
+      "elko": "3395 kr"
+    },
+    "lowest_price": "3395 kr",
+    "lowest_price_isk": 3395,
+    "lowest_price_store": "elko"
+  },
+  {
+    "lego_set_number": "10468",
+    "name": "Tractor and Market",
+    "num_parts": "18",
+    "prices": {
+      "elko": "3395 kr"
+    },
+    "lowest_price": "3395 kr",
+    "lowest_price_isk": 3395,
+    "lowest_price_store": "elko"
   },
   {
     "lego_set_number": "11506",
@@ -3032,19 +2907,6 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "31380",
-    "name": "Retro Gaming Console",
-    "num_parts": "268",
-    "prices": {
-      "coolshop": "4499 kr",
-      "boozt": "3459 kr",
-      "kidsworld": "3800 kr"
-    },
-    "lowest_price": "3459 kr",
-    "lowest_price_isk": 3459,
-    "lowest_price_store": "boozt"
-  },
-  {
     "lego_set_number": "42678",
     "name": "Pet Accessories Van",
     "num_parts": "237",
@@ -3061,18 +2923,6 @@
     "lego_set_number": "43285",
     "name": "Ariel's Magical Mini Palace",
     "num_parts": "180",
-    "prices": {
-      "coolshop": "4499 kr",
-      "boozt": "3459 kr"
-    },
-    "lowest_price": "3459 kr",
-    "lowest_price_isk": 3459,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "42680",
-    "name": "Heartlake City Convenience Store",
-    "num_parts": "176",
     "prices": {
       "coolshop": "4499 kr",
       "boozt": "3459 kr"
@@ -3104,6 +2954,33 @@
     "lowest_price_store": "kidsworld"
   },
   {
+    "lego_set_number": "11201",
+    "name": "Playground Fun with Bluey",
+    "num_parts": "104",
+    "prices": {
+      "hagkaup": "3899 kr",
+      "coolshop": "4499 kr",
+      "kidsworld": "3800 kr",
+      "elko": "3495 kr"
+    },
+    "lowest_price": "3495 kr",
+    "lowest_price_isk": 3495,
+    "lowest_price_store": "elko"
+  },
+  {
+    "lego_set_number": "10713",
+    "name": "Creative Suitcase",
+    "num_parts": "218",
+    "prices": {
+      "coolshop": "4499 kr",
+      "kidsworld": "3800 kr",
+      "elko": "3495 kr"
+    },
+    "lowest_price": "3495 kr",
+    "lowest_price_isk": 3495,
+    "lowest_price_store": "elko"
+  },
+  {
     "lego_set_number": "11509",
     "name": "Flowering Cactus",
     "num_parts": "482",
@@ -3111,7 +2988,20 @@
       "coolshop": "3499 kr",
       "kubbabudin": "5999 kr",
       "boozt": "5179 kr",
-      "kidsworld": "5700 kr"
+      "kidsworld": "5700 kr",
+      "elko": "4995 kr"
+    },
+    "lowest_price": "3499 kr",
+    "lowest_price_isk": 3499,
+    "lowest_price_store": "coolshop"
+  },
+  {
+    "lego_set_number": "76784",
+    "name": "Black Dahlia Flower",
+    "num_parts": "358",
+    "prices": {
+      "coolshop": "3499 kr",
+      "kidsworld": "4644 kr"
     },
     "lowest_price": "3499 kr",
     "lowest_price_isk": 3499,
@@ -3124,6 +3014,39 @@
     "prices": {
       "coolshop": "3499 kr",
       "boozt": "3521 kr"
+    },
+    "lowest_price": "3499 kr",
+    "lowest_price_isk": 3499,
+    "lowest_price_store": "coolshop"
+  },
+  {
+    "lego_set_number": "42164",
+    "name": "Off-Road Race Buggy",
+    "num_parts": "219",
+    "prices": {
+      "coolshop": "3499 kr"
+    },
+    "lowest_price": "3499 kr",
+    "lowest_price_isk": 3499,
+    "lowest_price_store": "coolshop"
+  },
+  {
+    "lego_set_number": "40524",
+    "name": "Sunflowers",
+    "num_parts": "191",
+    "prices": {
+      "coolshop": "3499 kr"
+    },
+    "lowest_price": "3499 kr",
+    "lowest_price_isk": 3499,
+    "lowest_price_store": "coolshop"
+  },
+  {
+    "lego_set_number": "76308",
+    "name": "Spider-Man Mech vs. Anti-Venom",
+    "num_parts": "107",
+    "prices": {
+      "coolshop": "3499 kr"
     },
     "lowest_price": "3499 kr",
     "lowest_price_isk": 3499,
@@ -3167,7 +3090,8 @@
     "name": "Disney Frozen Advent Calendar 2025",
     "num_parts": "231",
     "prices": {
-      "boozt": "3521 kr"
+      "boozt": "3521 kr",
+      "elko": "5994 kr"
     },
     "lowest_price": "3521 kr",
     "lowest_price_isk": 3521,
@@ -3187,18 +3111,28 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "11201",
-    "name": "Playground Fun with Bluey",
-    "num_parts": "104",
+    "lego_set_number": "60205",
+    "name": "Tracks",
+    "num_parts": "20",
     "prices": {
-      "hagkaup": "3899 kr",
-      "coolshop": "4499 kr",
-      "boozt": "3529 kr",
-      "kidsworld": "3800 kr"
+      "coolshop": "3999 kr",
+      "kidsworld": "3546 kr"
     },
-    "lowest_price": "3529 kr",
-    "lowest_price_isk": 3529,
-    "lowest_price_store": "boozt"
+    "lowest_price": "3546 kr",
+    "lowest_price_isk": 3546,
+    "lowest_price_store": "kidsworld"
+  },
+  {
+    "lego_set_number": "60238",
+    "name": "Switch Tracks",
+    "num_parts": "8",
+    "prices": {
+      "coolshop": "4999 kr",
+      "kidsworld": "3567 kr"
+    },
+    "lowest_price": "3567 kr",
+    "lowest_price_isk": 3567,
+    "lowest_price_store": "kidsworld"
   },
   {
     "lego_set_number": "42119",
@@ -3242,19 +3176,8 @@
     "prices": {
       "coolshop": "5999 kr",
       "boozt": "3599 kr",
-      "kidsworld": "5278 kr"
-    },
-    "lowest_price": "3599 kr",
-    "lowest_price_isk": 3599,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "77253",
-    "name": "Bugatti Vision GT Hyper Sports Car",
-    "num_parts": "284",
-    "prices": {
-      "coolshop": "5999 kr",
-      "boozt": "3599 kr"
+      "kidsworld": "5278 kr",
+      "elko": "4795 kr"
     },
     "lowest_price": "3599 kr",
     "lowest_price_isk": 3599,
@@ -3267,7 +3190,8 @@
     "prices": {
       "coolshop": "5999 kr",
       "boozt": "3599 kr",
-      "kidsworld": "5278 kr"
+      "kidsworld": "5278 kr",
+      "elko": "4995 kr"
     },
     "lowest_price": "3599 kr",
     "lowest_price_isk": 3599,
@@ -3319,20 +3243,8 @@
     "num_parts": "407",
     "prices": {
       "coolshop": "5999 kr",
-      "boozt": "3629 kr"
-    },
-    "lowest_price": "3629 kr",
-    "lowest_price_isk": 3629,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "31136",
-    "name": "Exotic Parrot",
-    "num_parts": "253",
-    "prices": {
-      "coolshop": "5499 kr",
       "boozt": "3629 kr",
-      "kidsworld": "4644 kr"
+      "elko": "4795 kr"
     },
     "lowest_price": "3629 kr",
     "lowest_price_isk": 3629,
@@ -3389,17 +3301,6 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "76434",
-    "name": "Aragog in the Forbidden Forest",
-    "num_parts": "195",
-    "prices": {
-      "hagkaup": "3699 kr"
-    },
-    "lowest_price": "3699 kr",
-    "lowest_price_isk": 3699,
-    "lowest_price_store": "hagkaup"
-  },
-  {
     "lego_set_number": "40807",
     "name": "Birthday Numbers",
     "num_parts": "281",
@@ -3433,7 +3334,8 @@
     "prices": {
       "coolshop": "4499 kr",
       "boozt": "3702 kr",
-      "kidsworld": "5383 kr"
+      "kidsworld": "5383 kr",
+      "elko": "4995 kr"
     },
     "lowest_price": "3702 kr",
     "lowest_price_isk": 3702,
@@ -3477,6 +3379,18 @@
     "lowest_price_store": "kidsworld"
   },
   {
+    "lego_set_number": "60304",
+    "name": "Road Plates",
+    "num_parts": "112",
+    "prices": {
+      "coolshop": "4499 kr",
+      "kidsworld": "3778 kr"
+    },
+    "lowest_price": "3778 kr",
+    "lowest_price_isk": 3778,
+    "lowest_price_store": "kidsworld"
+  },
+  {
     "lego_set_number": "11198",
     "name": "Spin and Electro Dinosaur Vehicle Chase",
     "num_parts": "124",
@@ -3506,6 +3420,33 @@
     "prices": {
       "hagkaup": "3899 kr",
       "coolshop": "4499 kr",
+      "kidsworld": "3800 kr",
+      "elko": "3895 kr"
+    },
+    "lowest_price": "3800 kr",
+    "lowest_price_isk": 3800,
+    "lowest_price_store": "kidsworld"
+  },
+  {
+    "lego_set_number": "31147",
+    "name": "Retro Camera",
+    "num_parts": "261",
+    "prices": {
+      "hagkaup": "4199 kr",
+      "coolshop": "4499 kr",
+      "kidsworld": "3800 kr"
+    },
+    "lowest_price": "3800 kr",
+    "lowest_price_isk": 3800,
+    "lowest_price_store": "kidsworld"
+  },
+  {
+    "lego_set_number": "21274",
+    "name": "The Warden Encounter",
+    "num_parts": "238",
+    "prices": {
+      "hagkaup": "3899 kr",
+      "coolshop": "4499 kr",
       "kidsworld": "3800 kr"
     },
     "lowest_price": "3800 kr",
@@ -3530,8 +3471,19 @@
     "name": "Paisley's Room",
     "num_parts": "199",
     "prices": {
-      "hagkaup": "3899 kr",
       "coolshop": "3999 kr",
+      "kidsworld": "3800 kr"
+    },
+    "lowest_price": "3800 kr",
+    "lowest_price_isk": 3800,
+    "lowest_price_store": "kidsworld"
+  },
+  {
+    "lego_set_number": "60373",
+    "name": "Fire Rescue Boat",
+    "num_parts": "147",
+    "prices": {
+      "coolshop": "4499 kr",
       "kidsworld": "3800 kr"
     },
     "lowest_price": "3800 kr",
@@ -3546,21 +3498,8 @@
       "hagkaup": "5399 kr",
       "coolshop": "5999 kr",
       "boozt": "3801 kr",
-      "kidsworld": "5066 kr"
-    },
-    "lowest_price": "3801 kr",
-    "lowest_price_isk": 3801,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "77242",
-    "name": "Ferrari SF-24 F1 Race Car",
-    "num_parts": "275",
-    "prices": {
-      "hagkaup": "5899 kr",
-      "coolshop": "5999 kr",
-      "boozt": "3801 kr",
-      "kidsworld": "4961 kr"
+      "kidsworld": "5066 kr",
+      "elko": "5495 kr"
     },
     "lowest_price": "3801 kr",
     "lowest_price_isk": 3801,
@@ -3574,7 +3513,8 @@
       "hagkaup": "5899 kr",
       "coolshop": "5999 kr",
       "boozt": "3801 kr",
-      "kidsworld": "4961 kr"
+      "kidsworld": "4961 kr",
+      "elko": "4995 kr"
     },
     "lowest_price": "3801 kr",
     "lowest_price_isk": 3801,
@@ -3588,7 +3528,8 @@
       "hagkaup": "5899 kr",
       "coolshop": "5999 kr",
       "boozt": "3801 kr",
-      "kidsworld": "5066 kr"
+      "kidsworld": "5066 kr",
+      "elko": "4995 kr"
     },
     "lowest_price": "3801 kr",
     "lowest_price_isk": 3801,
@@ -3602,7 +3543,8 @@
       "hagkaup": "5899 kr",
       "coolshop": "5999 kr",
       "boozt": "3801 kr",
-      "kidsworld": "5066 kr"
+      "kidsworld": "5066 kr",
+      "elko": "4995 kr"
     },
     "lowest_price": "3801 kr",
     "lowest_price_isk": 3801,
@@ -3616,7 +3558,8 @@
       "hagkaup": "5899 kr",
       "coolshop": "5999 kr",
       "boozt": "3801 kr",
-      "kidsworld": "4961 kr"
+      "kidsworld": "4961 kr",
+      "elko": "4995 kr"
     },
     "lowest_price": "3801 kr",
     "lowest_price_isk": 3801,
@@ -3630,7 +3573,8 @@
       "hagkaup": "5899 kr",
       "coolshop": "5999 kr",
       "boozt": "3801 kr",
-      "kidsworld": "5066 kr"
+      "kidsworld": "5066 kr",
+      "elko": "4995 kr"
     },
     "lowest_price": "3801 kr",
     "lowest_price_isk": 3801,
@@ -3665,12 +3609,27 @@
     "lowest_price_store": "boozt"
   },
   {
+    "lego_set_number": "77242",
+    "name": "Ferrari SF-24 F1 Race Car",
+    "num_parts": "275",
+    "prices": {
+      "coolshop": "5999 kr",
+      "boozt": "3801 kr",
+      "kidsworld": "4961 kr",
+      "elko": "4995 kr"
+    },
+    "lowest_price": "3801 kr",
+    "lowest_price_isk": 3801,
+    "lowest_price_store": "boozt"
+  },
+  {
     "lego_set_number": "77251",
     "name": "McLaren F1 Team MCL38 Race Car",
     "num_parts": "269",
     "prices": {
       "coolshop": "5999 kr",
-      "boozt": "3801 kr"
+      "boozt": "3801 kr",
+      "elko": "4995 kr"
     },
     "lowest_price": "3801 kr",
     "lowest_price_isk": 3801,
@@ -3684,7 +3643,8 @@
       "hagkaup": "5799 kr",
       "coolshop": "5999 kr",
       "boozt": "3842 kr",
-      "kidsworld": "5383 kr"
+      "kidsworld": "5383 kr",
+      "elko": "5895 kr"
     },
     "lowest_price": "3842 kr",
     "lowest_price_isk": 3842,
@@ -3697,7 +3657,8 @@
     "prices": {
       "coolshop": "3999 kr",
       "boozt": "3842 kr",
-      "kidsworld": "5594 kr"
+      "kidsworld": "5594 kr",
+      "elko": "4494 kr"
     },
     "lowest_price": "3842 kr",
     "lowest_price_isk": 3842,
@@ -3708,9 +3669,9 @@
     "name": "Ferrari F40 Supercar",
     "num_parts": "325",
     "prices": {
-      "hagkaup": "5799 kr",
       "coolshop": "5999 kr",
-      "boozt": "3849 kr"
+      "boozt": "3849 kr",
+      "elko": "4995 kr"
     },
     "lowest_price": "3849 kr",
     "lowest_price_isk": 3849,
@@ -3736,7 +3697,8 @@
     "prices": {
       "coolshop": "6499 kr",
       "boozt": "3884 kr",
-      "kidsworld": "5700 kr"
+      "kidsworld": "5700 kr",
+      "elko": "4995 kr"
     },
     "lowest_price": "3884 kr",
     "lowest_price_isk": 3884,
@@ -3749,7 +3711,8 @@
     "prices": {
       "coolshop": "6499 kr",
       "boozt": "3884 kr",
-      "kidsworld": "5383 kr"
+      "kidsworld": "5383 kr",
+      "elko": "4995 kr"
     },
     "lowest_price": "3884 kr",
     "lowest_price_isk": 3884,
@@ -3762,20 +3725,20 @@
     "prices": {
       "coolshop": "6499 kr",
       "boozt": "3884 kr",
-      "kidsworld": "5700 kr"
+      "kidsworld": "5700 kr",
+      "elko": "4995 kr"
     },
     "lowest_price": "3884 kr",
     "lowest_price_isk": 3884,
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "42695",
-    "name": "Horse & Baby Foal Trailer",
-    "num_parts": "279",
+    "lego_set_number": "40813",
+    "name": "Lucky Cat",
+    "num_parts": "280",
     "prices": {
-      "coolshop": "6499 kr",
-      "boozt": "3884 kr",
-      "kidsworld": "5700 kr"
+      "coolshop": "5999 kr",
+      "boozt": "3884 kr"
     },
     "lowest_price": "3884 kr",
     "lowest_price_isk": 3884,
@@ -3834,29 +3797,30 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "76331",
-    "name": "Batman v Superman Batmobile",
-    "num_parts": "220",
+    "lego_set_number": "42696",
+    "name": "Animal Vet Clinic",
+    "num_parts": "150",
     "prices": {
       "coolshop": "6499 kr",
       "boozt": "3884 kr",
-      "kidsworld": "5383 kr"
+      "elko": "4995 kr"
     },
     "lowest_price": "3884 kr",
     "lowest_price_isk": 3884,
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "42696",
-    "name": "Animal Vet Clinic",
-    "num_parts": "150",
+    "lego_set_number": "60415",
+    "name": "Police Car and Muscle Car Chase",
+    "num_parts": "220",
     "prices": {
-      "coolshop": "6499 kr",
-      "boozt": "3884 kr"
+      "hagkaup": "3999 kr",
+      "coolshop": "4499 kr",
+      "elko": "3895 kr"
     },
-    "lowest_price": "3884 kr",
-    "lowest_price_isk": 3884,
-    "lowest_price_store": "boozt"
+    "lowest_price": "3895 kr",
+    "lowest_price_isk": 3895,
+    "lowest_price_store": "elko"
   },
   {
     "lego_set_number": "60452",
@@ -3892,7 +3856,8 @@
       "hagkaup": "5799 kr",
       "coolshop": "6499 kr",
       "boozt": "3966 kr",
-      "kidsworld": "5700 kr"
+      "kidsworld": "5700 kr",
+      "elko": "4995 kr"
     },
     "lowest_price": "3966 kr",
     "lowest_price_isk": 3966,
@@ -3905,21 +3870,8 @@
     "prices": {
       "hagkaup": "5899 kr",
       "coolshop": "6499 kr",
-      "boozt": "3966 kr"
-    },
-    "lowest_price": "3966 kr",
-    "lowest_price_isk": 3966,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "10456",
-    "name": "McQueen's Visit to Doc's Garage",
-    "num_parts": "35",
-    "prices": {
-      "hagkaup": "5799 kr",
-      "coolshop": "6499 kr",
       "boozt": "3966 kr",
-      "kidsworld": "5700 kr"
+      "elko": "4995 kr"
     },
     "lowest_price": "3966 kr",
     "lowest_price_isk": 3966,
@@ -3940,25 +3892,14 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "10441",
-    "name": "Shape Sorter: Puppy House",
-    "num_parts": "18",
-    "prices": {
-      "hagkaup": "5799 kr",
-      "boozt": "3966 kr"
-    },
-    "lowest_price": "3966 kr",
-    "lowest_price_isk": 3966,
-    "lowest_price_store": "boozt"
-  },
-  {
     "lego_set_number": "75636",
     "name": "Windmill Village Hut",
     "num_parts": "298",
     "prices": {
       "coolshop": "5999 kr",
       "boozt": "3966 kr",
-      "kidsworld": "5278 kr"
+      "kidsworld": "5278 kr",
+      "elko": "5195 kr"
     },
     "lowest_price": "3966 kr",
     "lowest_price_isk": 3966,
@@ -4003,27 +3944,31 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "10458",
-    "name": "Ice Cream Trip with Bluey",
-    "num_parts": "22",
+    "lego_set_number": "10456",
+    "name": "McQueen's Visit to Doc's Garage",
+    "num_parts": "35",
     "prices": {
+      "coolshop": "6499 kr",
       "boozt": "3966 kr",
-      "kidsworld": "5700 kr"
+      "kidsworld": "5700 kr",
+      "elko": "4495 kr"
     },
     "lowest_price": "3966 kr",
     "lowest_price_isk": 3966,
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "60341",
-    "name": "The Knockdown Stunt Challenge",
-    "num_parts": "117",
+    "lego_set_number": "10458",
+    "name": "Ice Cream Trip with Bluey",
+    "num_parts": "22",
     "prices": {
-      "hagkaup": "3999 kr"
+      "boozt": "3966 kr",
+      "kidsworld": "5700 kr",
+      "elko": "4995 kr"
     },
-    "lowest_price": "3999 kr",
-    "lowest_price_isk": 3999,
-    "lowest_price_store": "hagkaup"
+    "lowest_price": "3966 kr",
+    "lowest_price_isk": 3966,
+    "lowest_price_store": "boozt"
   },
   {
     "lego_set_number": "75373",
@@ -4032,7 +3977,8 @@
     "prices": {
       "hagkaup": "4299 kr",
       "coolshop": "3999 kr",
-      "kidsworld": "4222 kr"
+      "kidsworld": "4222 kr",
+      "elko": "4395 kr"
     },
     "lowest_price": "3999 kr",
     "lowest_price_isk": 3999,
@@ -4045,7 +3991,8 @@
     "prices": {
       "coolshop": "3999 kr",
       "boozt": "6599 kr",
-      "kidsworld": "7917 kr"
+      "kidsworld": "7917 kr",
+      "elko": "8495 kr"
     },
     "lowest_price": "3999 kr",
     "lowest_price_isk": 3999,
@@ -4058,7 +4005,8 @@
     "prices": {
       "coolshop": "3999 kr",
       "boozt": "5088 kr",
-      "kidsworld": "7178 kr"
+      "kidsworld": "7178 kr",
+      "elko": "7264 kr"
     },
     "lowest_price": "3999 kr",
     "lowest_price_isk": 3999,
@@ -4131,7 +4079,8 @@
     "prices": {
       "coolshop": "6999 kr",
       "boozt": "4031 kr",
-      "kidsworld": "5256 kr"
+      "kidsworld": "5256 kr",
+      "elko": "5895 kr"
     },
     "lowest_price": "4031 kr",
     "lowest_price_isk": 4031,
@@ -4186,34 +4135,6 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "60443",
-    "name": "F1 Pit Stop & Pit Crew with Ferrari Car",
-    "num_parts": "322",
-    "prices": {
-      "hagkaup": "5999 kr",
-      "coolshop": "6499 kr",
-      "boozt": "4116 kr",
-      "kidsworld": "5700 kr"
-    },
-    "lowest_price": "4116 kr",
-    "lowest_price_isk": 4116,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "77002",
-    "name": "Cyclone vs. Metal Sonic",
-    "num_parts": "290",
-    "prices": {
-      "hagkaup": "5999 kr",
-      "coolshop": "6999 kr",
-      "boozt": "4116 kr",
-      "kidsworld": "5700 kr"
-    },
-    "lowest_price": "4116 kr",
-    "lowest_price_isk": 4116,
-    "lowest_price_store": "boozt"
-  },
-  {
     "lego_set_number": "76309",
     "name": "Spider-Man vs. Venom Muscle Car",
     "num_parts": "254",
@@ -4221,7 +4142,8 @@
       "hagkaup": "5799 kr",
       "coolshop": "6499 kr",
       "boozt": "4116 kr",
-      "kidsworld": "5658 kr"
+      "kidsworld": "5658 kr",
+      "elko": "5895 kr"
     },
     "lowest_price": "4116 kr",
     "lowest_price_isk": 4116,
@@ -4235,7 +4157,8 @@
       "hagkaup": "5999 kr",
       "coolshop": "6499 kr",
       "boozt": "4116 kr",
-      "kidsworld": "5658 kr"
+      "kidsworld": "5658 kr",
+      "elko": "5395 kr"
     },
     "lowest_price": "4116 kr",
     "lowest_price_isk": 4116,
@@ -4268,17 +4191,30 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "42200",
-    "name": "Monster Jam ThunderROARus Pull-Back",
-    "num_parts": "232",
+    "lego_set_number": "60443",
+    "name": "F1 Pit Stop & Pit Crew with Ferrari Car",
+    "num_parts": "322",
     "prices": {
-      "hagkaup": "5399 kr",
-      "coolshop": "5999 kr",
-      "boozt": "4124 kr",
-      "kidsworld": "5235 kr"
+      "coolshop": "6499 kr",
+      "boozt": "4116 kr",
+      "kidsworld": "5700 kr",
+      "elko": "5495 kr"
     },
-    "lowest_price": "4124 kr",
-    "lowest_price_isk": 4124,
+    "lowest_price": "4116 kr",
+    "lowest_price_isk": 4116,
+    "lowest_price_store": "boozt"
+  },
+  {
+    "lego_set_number": "77002",
+    "name": "Cyclone vs. Metal Sonic",
+    "num_parts": "290",
+    "prices": {
+      "coolshop": "6999 kr",
+      "boozt": "4116 kr",
+      "kidsworld": "5700 kr"
+    },
+    "lowest_price": "4116 kr",
+    "lowest_price_isk": 4116,
     "lowest_price_store": "boozt"
   },
   {
@@ -4289,7 +4225,22 @@
       "hagkaup": "5399 kr",
       "coolshop": "5999 kr",
       "boozt": "4124 kr",
-      "kidsworld": "5278 kr"
+      "kidsworld": "5278 kr",
+      "elko": "5495 kr"
+    },
+    "lowest_price": "4124 kr",
+    "lowest_price_isk": 4124,
+    "lowest_price_store": "boozt"
+  },
+  {
+    "lego_set_number": "42200",
+    "name": "Monster Jam ThunderROARus Pull-Back",
+    "num_parts": "232",
+    "prices": {
+      "coolshop": "5999 kr",
+      "boozt": "4124 kr",
+      "kidsworld": "5235 kr",
+      "elko": "5495 kr"
     },
     "lowest_price": "4124 kr",
     "lowest_price_isk": 4124,
@@ -4314,39 +4265,26 @@
     "name": "Mini Orchid",
     "num_parts": "274",
     "prices": {
-      "hagkaup": "5699 kr",
       "coolshop": "5999 kr",
       "boozt": "4157 kr",
-      "kidsworld": "5700 kr"
+      "kidsworld": "5700 kr",
+      "elko": "5495 kr"
     },
     "lowest_price": "4157 kr",
     "lowest_price_isk": 4157,
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "21178",
-    "name": "The Fox Lodge",
-    "num_parts": "193",
+    "lego_set_number": "60404",
+    "name": "Burger Truck",
+    "num_parts": "194",
     "prices": {
-      "hagkaup": "4199 kr"
+      "hagkaup": "4199 kr",
+      "coolshop": "4499 kr"
     },
     "lowest_price": "4199 kr",
     "lowest_price_isk": 4199,
     "lowest_price_store": "hagkaup"
-  },
-  {
-    "lego_set_number": "10913",
-    "name": "Brick Box",
-    "num_parts": "65",
-    "prices": {
-      "hagkaup": "5899 kr",
-      "coolshop": "6999 kr",
-      "boozt": "4214 kr",
-      "kidsworld": "5489 kr"
-    },
-    "lowest_price": "4214 kr",
-    "lowest_price_isk": 4214,
-    "lowest_price_store": "boozt"
   },
   {
     "lego_set_number": "40678",
@@ -4378,7 +4316,8 @@
     "num_parts": "201",
     "prices": {
       "coolshop": "4999 kr",
-      "boozt": "4229 kr"
+      "boozt": "4229 kr",
+      "elko": "4495 kr"
     },
     "lowest_price": "4229 kr",
     "lowest_price_isk": 4229,
@@ -4427,19 +4366,6 @@
     "lowest_price": "4249 kr",
     "lowest_price_isk": 4249,
     "lowest_price_store": "coolshop"
-  },
-  {
-    "lego_set_number": "10696",
-    "name": "Medium Creative Brick Box",
-    "num_parts": "484",
-    "prices": {
-      "coolshop": "6999 kr",
-      "boozt": "4289 kr",
-      "kidsworld": "5489 kr"
-    },
-    "lowest_price": "4289 kr",
-    "lowest_price_isk": 4289,
-    "lowest_price_store": "boozt"
   },
   {
     "lego_set_number": "60407",
@@ -4500,7 +4426,8 @@
     "prices": {
       "coolshop": "6999 kr",
       "boozt": "4319 kr",
-      "kidsworld": "5383 kr"
+      "kidsworld": "5383 kr",
+      "elko": "5895 kr"
     },
     "lowest_price": "4319 kr",
     "lowest_price_isk": 4319,
@@ -4511,14 +4438,27 @@
     "name": "Petite Sunny Bouquet",
     "num_parts": "373",
     "prices": {
-      "hagkaup": "5899 kr",
       "coolshop": "5999 kr",
       "boozt": "4371 kr",
-      "kidsworld": "5700 kr"
+      "kidsworld": "5700 kr",
+      "elko": "4995 kr"
     },
     "lowest_price": "4371 kr",
     "lowest_price_isk": 4371,
     "lowest_price_store": "boozt"
+  },
+  {
+    "lego_set_number": "76917",
+    "name": "2 Fast 2 Furious Nissan Skyline GT-R (R34)",
+    "num_parts": "319",
+    "prices": {
+      "hagkaup": "4999 kr",
+      "coolshop": "5499 kr",
+      "elko": "4395 kr"
+    },
+    "lowest_price": "4395 kr",
+    "lowest_price_isk": 4395,
+    "lowest_price_store": "elko"
   },
   {
     "lego_set_number": "76972",
@@ -4555,7 +4495,8 @@
       "hagkaup": "6599 kr",
       "coolshop": "6999 kr",
       "boozt": "4401 kr",
-      "kidsworld": "6017 kr"
+      "kidsworld": "6017 kr",
+      "elko": "5495 kr"
     },
     "lowest_price": "4401 kr",
     "lowest_price_isk": 4401,
@@ -4569,7 +4510,8 @@
       "hagkaup": "5799 kr",
       "coolshop": "6999 kr",
       "boozt": "4454 kr",
-      "kidsworld": "5700 kr"
+      "kidsworld": "5700 kr",
+      "elko": "5895 kr"
     },
     "lowest_price": "4454 kr",
     "lowest_price_isk": 4454,
@@ -4588,6 +4530,58 @@
     "lowest_price_store": "boozt"
   },
   {
+    "lego_set_number": "10369",
+    "name": "Plum Blossom",
+    "num_parts": "327",
+    "prices": {
+      "coolshop": "6999 kr",
+      "boozt": "4454 kr",
+      "kidsworld": "5172 kr",
+      "elko": "5895 kr"
+    },
+    "lowest_price": "4454 kr",
+    "lowest_price_isk": 4454,
+    "lowest_price_store": "boozt"
+  },
+  {
+    "lego_set_number": "10441",
+    "name": "Shape Sorter: Puppy House",
+    "num_parts": "18",
+    "prices": {
+      "hagkaup": "5799 kr",
+      "elko": "4495 kr"
+    },
+    "lowest_price": "4495 kr",
+    "lowest_price_isk": 4495,
+    "lowest_price_store": "elko"
+  },
+  {
+    "lego_set_number": "31136",
+    "name": "Exotic Parrot",
+    "num_parts": "253",
+    "prices": {
+      "coolshop": "5499 kr",
+      "kidsworld": "4644 kr",
+      "elko": "4495 kr"
+    },
+    "lowest_price": "4495 kr",
+    "lowest_price_isk": 4495,
+    "lowest_price_store": "elko"
+  },
+  {
+    "lego_set_number": "10913",
+    "name": "Brick Box",
+    "num_parts": "65",
+    "prices": {
+      "coolshop": "6999 kr",
+      "kidsworld": "5489 kr",
+      "elko": "4495 kr"
+    },
+    "lowest_price": "4495 kr",
+    "lowest_price_isk": 4495,
+    "lowest_price_store": "elko"
+  },
+  {
     "lego_set_number": "71807",
     "name": "Sora's Tech Mech",
     "num_parts": "209",
@@ -4602,6 +4596,17 @@
     "lego_set_number": "41754",
     "name": "Leo's Room",
     "num_parts": "203",
+    "prices": {
+      "coolshop": "4499 kr"
+    },
+    "lowest_price": "4499 kr",
+    "lowest_price_isk": 4499,
+    "lowest_price_store": "coolshop"
+  },
+  {
+    "lego_set_number": "42680",
+    "name": "Heartlake City Convenience Store",
+    "num_parts": "176",
     "prices": {
       "coolshop": "4499 kr"
     },
@@ -4805,18 +4810,6 @@
     "lowest_price_store": "coolshop"
   },
   {
-    "lego_set_number": "77256",
-    "name": "Time Machine from Back to the Future",
-    "num_parts": "357",
-    "prices": {
-      "coolshop": "5999 kr",
-      "boozt": "4799 kr"
-    },
-    "lowest_price": "4799 kr",
-    "lowest_price_isk": 4799,
-    "lowest_price_store": "boozt"
-  },
-  {
     "lego_set_number": "77258",
     "name": "F1 ACADEMY LEGO Race Car",
     "num_parts": "201",
@@ -4843,18 +4836,6 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "10941",
-    "name": "Mickey & Minnie Birthday Train",
-    "num_parts": "22",
-    "prices": {
-      "boozt": "4949 kr",
-      "kidsworld": "5953 kr"
-    },
-    "lowest_price": "4949 kr",
-    "lowest_price_isk": 4949,
-    "lowest_price_store": "boozt"
-  },
-  {
     "lego_set_number": "77051",
     "name": "Fly with Dodo Airlines",
     "num_parts": "292",
@@ -4866,16 +4847,56 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "76917",
-    "name": "2 Fast 2 Furious Nissan Skyline GT-R (R34)",
-    "num_parts": "319",
+    "lego_set_number": "10696",
+    "name": "Medium Creative Brick Box",
+    "num_parts": "484",
     "prices": {
-      "hagkaup": "4999 kr",
-      "coolshop": "5499 kr"
+      "coolshop": "6999 kr",
+      "kidsworld": "5489 kr",
+      "elko": "4995 kr"
     },
-    "lowest_price": "4999 kr",
-    "lowest_price_isk": 4999,
-    "lowest_price_store": "hagkaup"
+    "lowest_price": "4995 kr",
+    "lowest_price_isk": 4995,
+    "lowest_price_store": "elko"
+  },
+  {
+    "lego_set_number": "77256",
+    "name": "Time Machine from Back to the Future",
+    "num_parts": "357",
+    "prices": {
+      "coolshop": "5999 kr",
+      "elko": "4995 kr"
+    },
+    "lowest_price": "4995 kr",
+    "lowest_price_isk": 4995,
+    "lowest_price_store": "elko"
+  },
+  {
+    "lego_set_number": "76461",
+    "name": "Cornish Pixie",
+    "num_parts": "320",
+    "prices": {
+      "coolshop": "6499 kr",
+      "boozt": "5179 kr",
+      "kidsworld": "5700 kr",
+      "elko": "4995 kr"
+    },
+    "lowest_price": "4995 kr",
+    "lowest_price_isk": 4995,
+    "lowest_price_store": "elko"
+  },
+  {
+    "lego_set_number": "76331",
+    "name": "Batman v Superman Batmobile",
+    "num_parts": "220",
+    "prices": {
+      "coolshop": "6499 kr",
+      "kidsworld": "5383 kr",
+      "elko": "4995 kr"
+    },
+    "lowest_price": "4995 kr",
+    "lowest_price_isk": 4995,
+    "lowest_price_store": "elko"
   },
   {
     "lego_set_number": "10715",
@@ -5007,22 +5028,12 @@
       "hagkaup": "7699 kr",
       "coolshop": "5399 kr",
       "boozt": "5088 kr",
-      "kidsworld": "6544 kr"
+      "kidsworld": "6544 kr",
+      "elko": "6995 kr"
     },
     "lowest_price": "5088 kr",
     "lowest_price_isk": 5088,
     "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "75580",
-    "name": "Minions and Banana Car",
-    "num_parts": "136",
-    "prices": {
-      "hagkaup": "5099 kr"
-    },
-    "lowest_price": "5099 kr",
-    "lowest_price_isk": 5099,
-    "lowest_price_store": "hagkaup"
   },
   {
     "lego_set_number": "21276",
@@ -5046,7 +5057,8 @@
       "hagkaup": "7899 kr",
       "coolshop": "8999 kr",
       "boozt": "5136 kr",
-      "kidsworld": "7389 kr"
+      "kidsworld": "7389 kr",
+      "elko": "6845 kr"
     },
     "lowest_price": "5136 kr",
     "lowest_price_isk": 5136,
@@ -5059,20 +5071,6 @@
     "prices": {
       "hagkaup": "7899 kr",
       "boozt": "5136 kr"
-    },
-    "lowest_price": "5136 kr",
-    "lowest_price_isk": 5136,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "10450",
-    "name": "Hopsy's Castle Game",
-    "num_parts": "47",
-    "prices": {
-      "hagkaup": "7899 kr",
-      "coolshop": "8999 kr",
-      "boozt": "5136 kr",
-      "kidsworld": "6967 kr"
     },
     "lowest_price": "5136 kr",
     "lowest_price_isk": 5136,
@@ -5098,35 +5096,11 @@
     "prices": {
       "coolshop": "8999 kr",
       "boozt": "5136 kr",
-      "kidsworld": "6967 kr"
+      "kidsworld": "6967 kr",
+      "elko": "6845 kr"
     },
     "lowest_price": "5136 kr",
     "lowest_price_isk": 5136,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "10369",
-    "name": "Plum Blossom",
-    "num_parts": "327",
-    "prices": {
-      "coolshop": "6999 kr",
-      "kidsworld": "5172 kr"
-    },
-    "lowest_price": "5172 kr",
-    "lowest_price_isk": 5172,
-    "lowest_price_store": "kidsworld"
-  },
-  {
-    "lego_set_number": "76461",
-    "name": "Cornish Pixie",
-    "num_parts": "320",
-    "prices": {
-      "coolshop": "6499 kr",
-      "boozt": "5179 kr",
-      "kidsworld": "5700 kr"
-    },
-    "lowest_price": "5179 kr",
-    "lowest_price_isk": 5179,
     "lowest_price_store": "boozt"
   },
   {
@@ -5149,7 +5123,8 @@
     "prices": {
       "coolshop": "6499 kr",
       "boozt": "5179 kr",
-      "kidsworld": "5700 kr"
+      "kidsworld": "5700 kr",
+      "elko": "5195 kr"
     },
     "lowest_price": "5179 kr",
     "lowest_price_isk": 5179,
@@ -5161,24 +5136,12 @@
     "num_parts": "263",
     "prices": {
       "coolshop": "6499 kr",
-      "boozt": "5179 kr",
-      "kidsworld": "5700 kr"
+      "kidsworld": "5700 kr",
+      "elko": "5195 kr"
     },
-    "lowest_price": "5179 kr",
-    "lowest_price_isk": 5179,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "10473",
-    "name": "Fire Truck with Hose and Firefighter",
-    "num_parts": "28",
-    "prices": {
-      "coolshop": "6499 kr",
-      "boozt": "5179 kr"
-    },
-    "lowest_price": "5179 kr",
-    "lowest_price_isk": 5179,
-    "lowest_price_store": "boozt"
+    "lowest_price": "5195 kr",
+    "lowest_price_isk": 5195,
+    "lowest_price_store": "elko"
   },
   {
     "lego_set_number": "43027",
@@ -5407,11 +5370,26 @@
     "num_parts": "328",
     "prices": {
       "boozt": "5375 kr",
-      "kidsworld": "6228 kr"
+      "kidsworld": "6228 kr",
+      "elko": "7495 kr"
     },
     "lowest_price": "5375 kr",
     "lowest_price_isk": 5375,
     "lowest_price_store": "boozt"
+  },
+  {
+    "lego_set_number": "43265",
+    "name": "Arendelle Frozen Castle",
+    "num_parts": "177",
+    "prices": {
+      "hagkaup": "5899 kr",
+      "coolshop": "5999 kr",
+      "kidsworld": "5679 kr",
+      "elko": "5395 kr"
+    },
+    "lowest_price": "5395 kr",
+    "lowest_price_isk": 5395,
+    "lowest_price_store": "elko"
   },
   {
     "lego_set_number": "42684",
@@ -5437,20 +5415,6 @@
     "lowest_price_store": "coolshop"
   },
   {
-    "lego_set_number": "42201",
-    "name": "Deep-Sea Research Submarine",
-    "num_parts": "413",
-    "prices": {
-      "hagkaup": "7899 kr",
-      "coolshop": "8999 kr",
-      "boozt": "5451 kr",
-      "kidsworld": "6967 kr"
-    },
-    "lowest_price": "5451 kr",
-    "lowest_price_isk": 5451,
-    "lowest_price_store": "boozt"
-  },
-  {
     "lego_set_number": "71831",
     "name": "Ninja Spinjitzu Temple",
     "num_parts": "160",
@@ -5469,7 +5433,6 @@
     "name": "Train Bridge and Tracks Expansion Set",
     "num_parts": "42",
     "prices": {
-      "hagkaup": "7799 kr",
       "coolshop": "8999 kr",
       "boozt": "5451 kr",
       "kidsworld": "7389 kr"
@@ -5517,6 +5480,18 @@
     "lowest_price_store": "boozt"
   },
   {
+    "lego_set_number": "10941",
+    "name": "Mickey & Minnie Birthday Train",
+    "num_parts": "22",
+    "prices": {
+      "kidsworld": "5953 kr",
+      "elko": "5495 kr"
+    },
+    "lowest_price": "5495 kr",
+    "lowest_price_isk": 5495,
+    "lowest_price_store": "elko"
+  },
+  {
     "lego_set_number": "60453",
     "name": "Lifeguard Beach Rescue Truck",
     "num_parts": "214",
@@ -5551,19 +5526,6 @@
     "lowest_price_store": "coolshop"
   },
   {
-    "lego_set_number": "43265",
-    "name": "Arendelle Frozen Castle",
-    "num_parts": "177",
-    "prices": {
-      "hagkaup": "5899 kr",
-      "coolshop": "5999 kr",
-      "kidsworld": "5679 kr"
-    },
-    "lowest_price": "5679 kr",
-    "lowest_price_isk": 5679,
-    "lowest_price_store": "kidsworld"
-  },
-  {
     "lego_set_number": "71808",
     "name": "Kai's Elemental Fire Mech",
     "num_parts": "322",
@@ -5576,17 +5538,16 @@
     "lowest_price_store": "kidsworld"
   },
   {
-    "lego_set_number": "10421",
-    "name": "Alphabet Truck",
-    "num_parts": "36",
+    "lego_set_number": "42695",
+    "name": "Horse & Baby Foal Trailer",
+    "num_parts": "279",
     "prices": {
-      "hagkaup": "8399 kr",
-      "coolshop": "8999 kr",
-      "boozt": "5759 kr"
+      "coolshop": "6499 kr",
+      "kidsworld": "5700 kr"
     },
-    "lowest_price": "5759 kr",
-    "lowest_price_isk": 5759,
-    "lowest_price_store": "boozt"
+    "lowest_price": "5700 kr",
+    "lowest_price_isk": 5700,
+    "lowest_price_store": "kidsworld"
   },
   {
     "lego_set_number": "60493",
@@ -5595,19 +5556,8 @@
     "prices": {
       "coolshop": "9999 kr",
       "boozt": "5759 kr",
-      "kidsworld": "8445 kr"
-    },
-    "lowest_price": "5759 kr",
-    "lowest_price_isk": 5759,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "11207",
-    "name": "Spidey: Underwater Vehicles",
-    "num_parts": "154",
-    "prices": {
-      "coolshop": "6999 kr",
-      "boozt": "5759 kr"
+      "kidsworld": "8445 kr",
+      "elko": "7495 kr"
     },
     "lowest_price": "5759 kr",
     "lowest_price_isk": 5759,
@@ -5621,7 +5571,8 @@
       "hagkaup": "8399 kr",
       "coolshop": "9999 kr",
       "boozt": "5760 kr",
-      "kidsworld": "7811 kr"
+      "kidsworld": "7811 kr",
+      "elko": "8495 kr"
     },
     "lowest_price": "5760 kr",
     "lowest_price_isk": 5760,
@@ -5634,7 +5585,8 @@
     "prices": {
       "coolshop": "9999 kr",
       "boozt": "5760 kr",
-      "kidsworld": "8022 kr"
+      "kidsworld": "8022 kr",
+      "elko": "8195 kr"
     },
     "lowest_price": "5760 kr",
     "lowest_price_isk": 5760,
@@ -5647,7 +5599,8 @@
     "prices": {
       "hagkaup": "7699 kr",
       "boozt": "5774 kr",
-      "kidsworld": "7389 kr"
+      "kidsworld": "7389 kr",
+      "elko": "7595 kr"
     },
     "lowest_price": "5774 kr",
     "lowest_price_isk": 5774,
@@ -5667,17 +5620,6 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "31155",
-    "name": "Hamster Wheel",
-    "num_parts": "416",
-    "prices": {
-      "hagkaup": "5799 kr"
-    },
-    "lowest_price": "5799 kr",
-    "lowest_price_isk": 5799,
-    "lowest_price_store": "hagkaup"
-  },
-  {
     "lego_set_number": "43272",
     "name": "Heihei",
     "num_parts": "566",
@@ -5685,7 +5627,8 @@
       "hagkaup": "7999 kr",
       "coolshop": "7999 kr",
       "boozt": "5804 kr",
-      "kidsworld": "6861 kr"
+      "kidsworld": "6861 kr",
+      "elko": "6495 kr"
     },
     "lowest_price": "5804 kr",
     "lowest_price_isk": 5804,
@@ -5704,29 +5647,6 @@
     "lowest_price_store": "kidsworld"
   },
   {
-    "lego_set_number": "60426",
-    "name": "Jungle Explorer Off-Road Truck",
-    "num_parts": "314",
-    "prices": {
-      "hagkaup": "5899 kr",
-      "coolshop": "6399 kr"
-    },
-    "lowest_price": "5899 kr",
-    "lowest_price_isk": 5899,
-    "lowest_price_store": "hagkaup"
-  },
-  {
-    "lego_set_number": "21172",
-    "name": "The Ruined Portal",
-    "num_parts": "316",
-    "prices": {
-      "hagkaup": "5999 kr"
-    },
-    "lowest_price": "5999 kr",
-    "lowest_price_isk": 5999,
-    "lowest_price_store": "hagkaup"
-  },
-  {
     "lego_set_number": "72038",
     "name": "Mario Kart – Wario & King Boo",
     "num_parts": "512",
@@ -5734,7 +5654,8 @@
       "hagkaup": "9899 kr",
       "coolshop": "5999 kr",
       "boozt": "6159 kr",
-      "kidsworld": "8022 kr"
+      "kidsworld": "8022 kr",
+      "elko": "8495 kr"
     },
     "lowest_price": "5999 kr",
     "lowest_price_isk": 5999,
@@ -5763,9 +5684,9 @@
     "lowest_price_store": "coolshop"
   },
   {
-    "lego_set_number": "40813",
-    "name": "Lucky Cat",
-    "num_parts": "280",
+    "lego_set_number": "77253",
+    "name": "Bugatti Vision GT Hyper Sports Car",
+    "num_parts": "284",
     "prices": {
       "coolshop": "5999 kr"
     },
@@ -5860,7 +5781,8 @@
       "hagkaup": "9799 kr",
       "coolshop": "9999 kr",
       "boozt": "6159 kr",
-      "kidsworld": "8424 kr"
+      "kidsworld": "8424 kr",
+      "elko": "8995 kr"
     },
     "lowest_price": "6159 kr",
     "lowest_price_isk": 6159,
@@ -5899,7 +5821,8 @@
     "prices": {
       "coolshop": "7499 kr",
       "boozt": "6159 kr",
-      "kidsworld": "8339 kr"
+      "kidsworld": "8339 kr",
+      "elko": "8495 kr"
     },
     "lowest_price": "6159 kr",
     "lowest_price_isk": 6159,
@@ -5951,31 +5874,8 @@
     "prices": {
       "coolshop": "9999 kr",
       "boozt": "6171 kr",
-      "kidsworld": "7389 kr"
-    },
-    "lowest_price": "6171 kr",
-    "lowest_price_isk": 6171,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "10445",
-    "name": "F1 Team Race Cars & Drivers",
-    "num_parts": "70",
-    "prices": {
-      "coolshop": "9999 kr",
-      "boozt": "6171 kr",
-      "kidsworld": "7389 kr"
-    },
-    "lowest_price": "6171 kr",
-    "lowest_price_isk": 6171,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "77037",
-    "name": "Aloy & Varl vs. Shell-Walker & Sawtooth",
-    "num_parts": "768",
-    "prices": {
-      "boozt": "6171 kr"
+      "kidsworld": "7389 kr",
+      "elko": "8195 kr"
     },
     "lowest_price": "6171 kr",
     "lowest_price_isk": 6171,
@@ -6011,7 +5911,8 @@
     "prices": {
       "coolshop": "11999 kr",
       "boozt": "6334 kr",
-      "kidsworld": "8234 kr"
+      "kidsworld": "8234 kr",
+      "elko": "9895 kr"
     },
     "lowest_price": "6334 kr",
     "lowest_price_isk": 6334,
@@ -6029,13 +5930,25 @@
     "lowest_price_store": "coolshop"
   },
   {
+    "lego_set_number": "60426",
+    "name": "Jungle Explorer Off-Road Truck",
+    "num_parts": "314",
+    "prices": {
+      "coolshop": "6399 kr"
+    },
+    "lowest_price": "6399 kr",
+    "lowest_price_isk": 6399,
+    "lowest_price_store": "coolshop"
+  },
+  {
     "lego_set_number": "31385",
     "name": "Sea Animals: Beautiful Dolphins",
     "num_parts": "542",
     "prices": {
       "coolshop": "10999 kr",
       "boozt": "6479 kr",
-      "kidsworld": "9500 kr"
+      "kidsworld": "9500 kr",
+      "elko": "8495 kr"
     },
     "lowest_price": "6479 kr",
     "lowest_price_isk": 6479,
@@ -6055,19 +5968,6 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "43288",
-    "name": "Sally's Flowerpot",
-    "num_parts": "346",
-    "prices": {
-      "coolshop": "10999 kr",
-      "boozt": "6479 kr",
-      "kidsworld": "8867 kr"
-    },
-    "lowest_price": "6479 kr",
-    "lowest_price_isk": 6479,
-    "lowest_price_store": "boozt"
-  },
-  {
     "lego_set_number": "11215",
     "name": "Gabby's Brick-Built Cat Friends",
     "num_parts": "324",
@@ -6081,22 +5981,48 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "10465",
-    "name": "Mickey Mouse Clubhouse with Minnie & Pluto",
-    "num_parts": "87",
+    "lego_set_number": "10450",
+    "name": "Hopsy's Castle Game",
+    "num_parts": "47",
     "prices": {
-      "coolshop": "11999 kr",
-      "boozt": "6479 kr",
-      "kidsworld": "8867 kr"
+      "hagkaup": "7899 kr",
+      "coolshop": "8999 kr",
+      "kidsworld": "6967 kr",
+      "elko": "6495 kr"
     },
-    "lowest_price": "6479 kr",
-    "lowest_price_isk": 6479,
-    "lowest_price_store": "boozt"
+    "lowest_price": "6495 kr",
+    "lowest_price_isk": 6495,
+    "lowest_price_store": "elko"
+  },
+  {
+    "lego_set_number": "77118",
+    "name": "Silver's Car vs. Knuckles' Monster Truck",
+    "num_parts": "378",
+    "prices": {
+      "coolshop": "8999 kr",
+      "boozt": "6719 kr",
+      "kidsworld": "7389 kr",
+      "elko": "6495 kr"
+    },
+    "lowest_price": "6495 kr",
+    "lowest_price_isk": 6495,
+    "lowest_price_store": "elko"
   },
   {
     "lego_set_number": "42166",
     "name": "NEOM McLaren Extreme E Race Car",
     "num_parts": "252",
+    "prices": {
+      "coolshop": "6499 kr"
+    },
+    "lowest_price": "6499 kr",
+    "lowest_price_isk": 6499,
+    "lowest_price_store": "coolshop"
+  },
+  {
+    "lego_set_number": "10473",
+    "name": "Fire Truck with Hose and Firefighter",
+    "num_parts": "28",
     "prices": {
       "coolshop": "6499 kr"
     },
@@ -6184,27 +6110,14 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "76445",
-    "name": "Hogwarts Castle: Herbology Class",
-    "num_parts": "390",
-    "prices": {
-      "hagkaup": "9899 kr",
-      "coolshop": "9999 kr",
-      "boozt": "6599 kr",
-      "kidsworld": "7917 kr"
-    },
-    "lowest_price": "6599 kr",
-    "lowest_price_isk": 6599,
-    "lowest_price_store": "boozt"
-  },
-  {
     "lego_set_number": "76322",
     "name": "Avengers: Endgame Thor vs. Chitauri",
     "num_parts": "373",
     "prices": {
       "hagkaup": "9799 kr",
       "coolshop": "9999 kr",
-      "boozt": "6599 kr"
+      "boozt": "6599 kr",
+      "elko": "8695 kr"
     },
     "lowest_price": "6599 kr",
     "lowest_price_isk": 6599,
@@ -6231,7 +6144,8 @@
     "prices": {
       "coolshop": "9999 kr",
       "boozt": "6599 kr",
-      "kidsworld": "9500 kr"
+      "kidsworld": "9500 kr",
+      "elko": "8995 kr"
     },
     "lowest_price": "6599 kr",
     "lowest_price_isk": 6599,
@@ -6244,7 +6158,8 @@
     "prices": {
       "coolshop": "11999 kr",
       "boozt": "6599 kr",
-      "kidsworld": "8550 kr"
+      "kidsworld": "8550 kr",
+      "elko": "8995 kr"
     },
     "lowest_price": "6599 kr",
     "lowest_price_isk": 6599,
@@ -6262,66 +6177,18 @@
     "lowest_price_store": "coolshop"
   },
   {
-    "lego_set_number": "21034",
-    "name": "London",
-    "num_parts": "468",
-    "prices": {
-      "boozt": "6599 kr"
-    },
-    "lowest_price": "6599 kr",
-    "lowest_price_isk": 6599,
-    "lowest_price_store": "boozt"
-  },
-  {
     "lego_set_number": "77071",
     "name": "Supply Llama",
     "num_parts": "691",
     "prices": {
       "hagkaup": "7499 kr",
       "coolshop": "8999 kr",
-      "kidsworld": "6650 kr"
+      "kidsworld": "6650 kr",
+      "elko": "7595 kr"
     },
     "lowest_price": "6650 kr",
     "lowest_price_isk": 6650,
     "lowest_price_store": "kidsworld"
-  },
-  {
-    "lego_set_number": "71866",
-    "name": "Ninja Character Display 15th Anniversary",
-    "num_parts": "448",
-    "prices": {
-      "coolshop": "8999 kr",
-      "boozt": "6719 kr",
-      "kidsworld": "7389 kr"
-    },
-    "lowest_price": "6719 kr",
-    "lowest_price_isk": 6719,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "77118",
-    "name": "Silver's Car vs. Knuckles' Monster Truck",
-    "num_parts": "378",
-    "prices": {
-      "coolshop": "8999 kr",
-      "boozt": "6719 kr",
-      "kidsworld": "7389 kr"
-    },
-    "lowest_price": "6719 kr",
-    "lowest_price_isk": 6719,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "60478",
-    "name": "Cement Mixer",
-    "num_parts": "371",
-    "prices": {
-      "coolshop": "8999 kr",
-      "boozt": "6719 kr"
-    },
-    "lowest_price": "6719 kr",
-    "lowest_price_isk": 6719,
-    "lowest_price_store": "boozt"
   },
   {
     "lego_set_number": "43286",
@@ -6368,20 +6235,8 @@
     "prices": {
       "coolshop": "9999 kr",
       "boozt": "6859 kr",
-      "kidsworld": "7389 kr"
-    },
-    "lowest_price": "6859 kr",
-    "lowest_price_isk": 6859,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "42702",
-    "name": "Spinning Flower & Fairy Teacup Ride",
-    "num_parts": "321",
-    "prices": {
-      "coolshop": "8999 kr",
-      "boozt": "6859 kr",
-      "kidsworld": "7389 kr"
+      "kidsworld": "7389 kr",
+      "elko": "7495 kr"
     },
     "lowest_price": "6859 kr",
     "lowest_price_isk": 6859,
@@ -6446,7 +6301,8 @@
     "prices": {
       "coolshop": "7999 kr",
       "boozt": "6929 kr",
-      "kidsworld": "8445 kr"
+      "kidsworld": "8445 kr",
+      "elko": "9895 kr"
     },
     "lowest_price": "6929 kr",
     "lowest_price_isk": 6929,
@@ -6457,7 +6313,8 @@
     "name": "Kingfisher Bird",
     "num_parts": "834",
     "prices": {
-      "boozt": "6929 kr"
+      "boozt": "6929 kr",
+      "elko": "9495 kr"
     },
     "lowest_price": "6929 kr",
     "lowest_price_isk": 6929,
@@ -6474,6 +6331,19 @@
     "lowest_price": "6929 kr",
     "lowest_price_isk": 6929,
     "lowest_price_store": "boozt"
+  },
+  {
+    "lego_set_number": "42201",
+    "name": "Deep-Sea Research Submarine",
+    "num_parts": "413",
+    "prices": {
+      "hagkaup": "7899 kr",
+      "coolshop": "8999 kr",
+      "kidsworld": "6967 kr"
+    },
+    "lowest_price": "6967 kr",
+    "lowest_price_isk": 6967,
+    "lowest_price_store": "kidsworld"
   },
   {
     "lego_set_number": "75581",
@@ -6505,9 +6375,9 @@
     "name": "Funfair",
     "num_parts": "53",
     "prices": {
-      "hagkaup": "10799 kr",
       "boozt": "6989 kr",
-      "kidsworld": "9500 kr"
+      "kidsworld": "9500 kr",
+      "elko": "8495 kr"
     },
     "lowest_price": "6989 kr",
     "lowest_price_isk": 6989,
@@ -6523,6 +6393,32 @@
     "lowest_price": "6990 kr",
     "lowest_price_isk": 6990,
     "lowest_price_store": "coolshop"
+  },
+  {
+    "lego_set_number": "10421",
+    "name": "Alphabet Truck",
+    "num_parts": "36",
+    "prices": {
+      "hagkaup": "8399 kr",
+      "coolshop": "8999 kr",
+      "elko": "6995 kr"
+    },
+    "lowest_price": "6995 kr",
+    "lowest_price_isk": 6995,
+    "lowest_price_store": "elko"
+  },
+  {
+    "lego_set_number": "10445",
+    "name": "F1 Team Race Cars & Drivers",
+    "num_parts": "70",
+    "prices": {
+      "coolshop": "9999 kr",
+      "kidsworld": "7389 kr",
+      "elko": "6995 kr"
+    },
+    "lowest_price": "6995 kr",
+    "lowest_price_isk": 6995,
+    "lowest_price_store": "elko"
   },
   {
     "lego_set_number": "43221",
@@ -6597,6 +6493,17 @@
     "lowest_price_store": "coolshop"
   },
   {
+    "lego_set_number": "11207",
+    "name": "Spidey: Underwater Vehicles",
+    "num_parts": "154",
+    "prices": {
+      "coolshop": "6999 kr"
+    },
+    "lowest_price": "6999 kr",
+    "lowest_price_isk": 6999,
+    "lowest_price_store": "coolshop"
+  },
+  {
     "lego_set_number": "75384",
     "name": "The Crimson Firehawk",
     "num_parts": "136",
@@ -6627,7 +6534,8 @@
     "prices": {
       "hagkaup": "11499 kr",
       "coolshop": "12999 kr",
-      "boozt": "7251 kr"
+      "boozt": "7251 kr",
+      "elko": "8495 kr"
     },
     "lowest_price": "7251 kr",
     "lowest_price_isk": 7251,
@@ -6641,7 +6549,8 @@
       "hagkaup": "11599 kr",
       "coolshop": "13999 kr",
       "boozt": "7265 kr",
-      "kidsworld": "10113 kr"
+      "kidsworld": "10113 kr",
+      "elko": "9995 kr"
     },
     "lowest_price": "7265 kr",
     "lowest_price_isk": 7265,
@@ -6677,13 +6586,38 @@
     "name": "Tails' Adventure Boat",
     "num_parts": "393",
     "prices": {
-      "hagkaup": "11799 kr",
       "coolshop": "12999 kr",
       "boozt": "7293 kr",
       "kidsworld": "8360 kr"
     },
     "lowest_price": "7293 kr",
     "lowest_price_isk": 7293,
+    "lowest_price_store": "boozt"
+  },
+  {
+    "lego_set_number": "71441",
+    "name": "Adventures with Interactive LEGO Peach",
+    "num_parts": "208",
+    "prices": {
+      "hagkaup": "10599 kr",
+      "coolshop": "11999 kr",
+      "boozt": "7304 kr",
+      "elko": "9495 kr"
+    },
+    "lowest_price": "7304 kr",
+    "lowest_price_isk": 7304,
+    "lowest_price_store": "boozt"
+  },
+  {
+    "lego_set_number": "71440",
+    "name": "Adventures with Interactive LEGO Luigi",
+    "num_parts": "210",
+    "prices": {
+      "boozt": "7304 kr",
+      "elko": "9495 kr"
+    },
+    "lowest_price": "7304 kr",
+    "lowest_price_isk": 7304,
     "lowest_price_store": "boozt"
   },
   {
@@ -6701,29 +6635,41 @@
     "lowest_price_store": "boozt"
   },
   {
+    "lego_set_number": "71866",
+    "name": "Ninja Character Display 15th Anniversary",
+    "num_parts": "448",
+    "prices": {
+      "coolshop": "8999 kr",
+      "kidsworld": "7389 kr"
+    },
+    "lowest_price": "7389 kr",
+    "lowest_price_isk": 7389,
+    "lowest_price_store": "kidsworld"
+  },
+  {
+    "lego_set_number": "42702",
+    "name": "Spinning Flower & Fairy Teacup Ride",
+    "num_parts": "321",
+    "prices": {
+      "coolshop": "8999 kr",
+      "kidsworld": "7389 kr"
+    },
+    "lowest_price": "7389 kr",
+    "lowest_price_isk": 7389,
+    "lowest_price_store": "kidsworld"
+  },
+  {
     "lego_set_number": "75440",
     "name": "AT-AT",
     "num_parts": "525",
     "prices": {
       "coolshop": "13999 kr",
       "boozt": "7391 kr",
-      "kidsworld": "10978 kr"
+      "kidsworld": "10978 kr",
+      "elko": "10995 kr"
     },
     "lowest_price": "7391 kr",
     "lowest_price_isk": 7391,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "10311",
-    "name": "Orchid",
-    "num_parts": "608",
-    "prices": {
-      "coolshop": "12999 kr",
-      "boozt": "7401 kr",
-      "kidsworld": "9923 kr"
-    },
-    "lowest_price": "7401 kr",
-    "lowest_price_isk": 7401,
     "lowest_price_store": "boozt"
   },
   {
@@ -6734,33 +6680,8 @@
       "hagkaup": "9699 kr",
       "coolshop": "11999 kr",
       "boozt": "7424 kr",
-      "kidsworld": "9500 kr"
-    },
-    "lowest_price": "7424 kr",
-    "lowest_price_isk": 7424,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "10281",
-    "name": "Bonsai Tree",
-    "num_parts": "878",
-    "prices": {
-      "coolshop": "9999 kr",
-      "boozt": "7424 kr",
-      "kidsworld": "9500 kr"
-    },
-    "lowest_price": "7424 kr",
-    "lowest_price_isk": 7424,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "10329",
-    "name": "Tiny Plants",
-    "num_parts": "758",
-    "prices": {
-      "coolshop": "12999 kr",
-      "boozt": "7424 kr",
-      "kidsworld": "8719 kr"
+      "kidsworld": "9500 kr",
+      "elko": "9795 kr"
     },
     "lowest_price": "7424 kr",
     "lowest_price_isk": 7424,
@@ -6774,7 +6695,8 @@
       "hagkaup": "9799 kr",
       "coolshop": "11999 kr",
       "boozt": "7446 kr",
-      "kidsworld": "9500 kr"
+      "kidsworld": "9500 kr",
+      "elko": "9895 kr"
     },
     "lowest_price": "7446 kr",
     "lowest_price_isk": 7446,
@@ -6801,7 +6723,8 @@
     "prices": {
       "coolshop": "11999 kr",
       "boozt": "7446 kr",
-      "kidsworld": "9078 kr"
+      "kidsworld": "9078 kr",
+      "elko": "9995 kr"
     },
     "lowest_price": "7446 kr",
     "lowest_price_isk": 7446,
@@ -6819,15 +6742,18 @@
     "lowest_price_store": "coolshop"
   },
   {
-    "lego_set_number": "76996",
-    "name": "Knuckles' Guardian Mech",
-    "num_parts": "276",
+    "lego_set_number": "21588",
+    "name": "The Fox",
+    "num_parts": "497",
     "prices": {
-      "hagkaup": "7499 kr"
+      "coolshop": "9999 kr",
+      "boozt": "7679 kr",
+      "kidsworld": "7811 kr",
+      "elko": "7495 kr"
     },
-    "lowest_price": "7499 kr",
-    "lowest_price_isk": 7499,
-    "lowest_price_store": "hagkaup"
+    "lowest_price": "7495 kr",
+    "lowest_price_isk": 7495,
+    "lowest_price_store": "elko"
   },
   {
     "lego_set_number": "76315",
@@ -6851,7 +6777,8 @@
       "hagkaup": "10799 kr",
       "coolshop": "12999 kr",
       "boozt": "7499 kr",
-      "kidsworld": "10556 kr"
+      "kidsworld": "10556 kr",
+      "elko": "10995 kr"
     },
     "lowest_price": "7499 kr",
     "lowest_price_isk": 7499,
@@ -6915,7 +6842,8 @@
       "hagkaup": "11499 kr",
       "coolshop": "13999 kr",
       "boozt": "7678 kr",
-      "kidsworld": "9057 kr"
+      "kidsworld": "9057 kr",
+      "elko": "10995 kr"
     },
     "lowest_price": "7678 kr",
     "lowest_price_isk": 7678,
@@ -6929,24 +6857,23 @@
       "hagkaup": "11499 kr",
       "coolshop": "11999 kr",
       "boozt": "7678 kr",
-      "kidsworld": "9247 kr"
+      "kidsworld": "9247 kr",
+      "elko": "11595 kr"
     },
     "lowest_price": "7678 kr",
     "lowest_price_isk": 7678,
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "21588",
-    "name": "The Fox",
-    "num_parts": "497",
+    "lego_set_number": "76964",
+    "name": "Dinosaur Fossils: T. rex Skull",
+    "num_parts": "577",
     "prices": {
-      "coolshop": "9999 kr",
-      "boozt": "7679 kr",
-      "kidsworld": "7811 kr"
+      "elko": "7694 kr"
     },
-    "lowest_price": "7679 kr",
-    "lowest_price_isk": 7679,
-    "lowest_price_store": "boozt"
+    "lowest_price": "7694 kr",
+    "lowest_price_isk": 7694,
+    "lowest_price_store": "elko"
   },
   {
     "lego_set_number": "10449",
@@ -6958,6 +6885,19 @@
     "lowest_price": "7699 kr",
     "lowest_price_isk": 7699,
     "lowest_price_store": "hagkaup"
+  },
+  {
+    "lego_set_number": "42173",
+    "name": "Koenigsegg Jesko Absolut Grey Hypercar",
+    "num_parts": "801",
+    "prices": {
+      "coolshop": "11999 kr",
+      "boozt": "7754 kr",
+      "kidsworld": "9247 kr"
+    },
+    "lowest_price": "7754 kr",
+    "lowest_price_isk": 7754,
+    "lowest_price_store": "boozt"
   },
   {
     "lego_set_number": "42208",
@@ -6974,20 +6914,6 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "60466",
-    "name": "Yellow Bulldozer",
-    "num_parts": "682",
-    "prices": {
-      "hagkaup": "11599 kr",
-      "coolshop": "12999 kr",
-      "boozt": "7784 kr",
-      "kidsworld": "8867 kr"
-    },
-    "lowest_price": "7784 kr",
-    "lowest_price_isk": 7784,
-    "lowest_price_store": "boozt"
-  },
-  {
     "lego_set_number": "77076",
     "name": "Durrr Burger Restaurant",
     "num_parts": "546",
@@ -6995,21 +6921,8 @@
       "hagkaup": "11599 kr",
       "coolshop": "12999 kr",
       "boozt": "7784 kr",
-      "kidsworld": "10345 kr"
-    },
-    "lowest_price": "7784 kr",
-    "lowest_price_isk": 7784,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "76327",
-    "name": "Iron Man MK4 Bust",
-    "num_parts": "436",
-    "prices": {
-      "hagkaup": "411599 kr",
-      "coolshop": "12999 kr",
-      "boozt": "7784 kr",
-      "kidsworld": "9923 kr"
+      "kidsworld": "10345 kr",
+      "elko": "10295 kr"
     },
     "lowest_price": "7784 kr",
     "lowest_price_isk": 7784,
@@ -7068,28 +6981,44 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "10455",
-    "name": "Anna and Elsa's Frozen Castle Party",
-    "num_parts": "54",
+    "lego_set_number": "76327",
+    "name": "Iron Man MK4 Bust",
+    "num_parts": "436",
     "prices": {
       "coolshop": "12999 kr",
       "boozt": "7784 kr",
-      "kidsworld": "11190 kr"
+      "kidsworld": "9923 kr"
     },
     "lowest_price": "7784 kr",
     "lowest_price_isk": 7784,
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "76431",
-    "name": "Hogwarts Castle: Potions Class",
-    "num_parts": "396",
+    "lego_set_number": "10455",
+    "name": "Anna and Elsa's Frozen Castle Party",
+    "num_parts": "54",
     "prices": {
-      "hagkaup": "7799 kr"
+      "coolshop": "12999 kr",
+      "boozt": "7784 kr",
+      "kidsworld": "11190 kr",
+      "elko": "9495 kr"
     },
-    "lowest_price": "7799 kr",
-    "lowest_price_isk": 7799,
-    "lowest_price_store": "hagkaup"
+    "lowest_price": "7784 kr",
+    "lowest_price_isk": 7784,
+    "lowest_price_store": "boozt"
+  },
+  {
+    "lego_set_number": "76445",
+    "name": "Hogwarts Castle: Herbology Class",
+    "num_parts": "390",
+    "prices": {
+      "hagkaup": "9899 kr",
+      "coolshop": "9999 kr",
+      "kidsworld": "7917 kr"
+    },
+    "lowest_price": "7917 kr",
+    "lowest_price_isk": 7917,
+    "lowest_price_store": "kidsworld"
   },
   {
     "lego_set_number": "42226",
@@ -7098,7 +7027,8 @@
     "prices": {
       "coolshop": "12999 kr",
       "boozt": "7919 kr",
-      "kidsworld": "11612 kr"
+      "kidsworld": "11612 kr",
+      "elko": "10995 kr"
     },
     "lowest_price": "7919 kr",
     "lowest_price_isk": 7919,
@@ -7125,7 +7055,8 @@
       "coolshop": "12999 kr",
       "kubbabudin": "12990 kr",
       "boozt": "7919 kr",
-      "kidsworld": "11190 kr"
+      "kidsworld": "11190 kr",
+      "elko": "10495 kr"
     },
     "lowest_price": "7919 kr",
     "lowest_price_isk": 7919,
@@ -7162,14 +7093,39 @@
     "name": "Flower Bouquet",
     "num_parts": "756",
     "prices": {
-      "hagkaup": "12999 kr",
       "coolshop": "12999 kr",
       "boozt": "7965 kr",
-      "kidsworld": "9817 kr"
+      "kidsworld": "9817 kr",
+      "elko": "10995 kr"
     },
     "lowest_price": "7965 kr",
     "lowest_price_isk": 7965,
     "lowest_price_store": "boozt"
+  },
+  {
+    "lego_set_number": "42168",
+    "name": "John Deere 9700 Forage Harvester",
+    "num_parts": "559",
+    "prices": {
+      "coolshop": "9999 kr",
+      "elko": "7995 kr"
+    },
+    "lowest_price": "7995 kr",
+    "lowest_price_isk": 7995,
+    "lowest_price_store": "elko"
+  },
+  {
+    "lego_set_number": "10914",
+    "name": "Deluxe Brick Box",
+    "num_parts": "85",
+    "prices": {
+      "coolshop": "12999 kr",
+      "boozt": "9899 kr",
+      "elko": "7995 kr"
+    },
+    "lowest_price": "7995 kr",
+    "lowest_price_isk": 7995,
+    "lowest_price_store": "elko"
   },
   {
     "lego_set_number": "71499",
@@ -7178,7 +7134,8 @@
     "prices": {
       "coolshop": "7999 kr",
       "boozt": "13214 kr",
-      "kidsworld": "15096 kr"
+      "kidsworld": "15096 kr",
+      "elko": "16995 kr"
     },
     "lowest_price": "7999 kr",
     "lowest_price_isk": 7999,
@@ -7226,7 +7183,8 @@
       "hagkaup": "12799 kr",
       "coolshop": "14999 kr",
       "boozt": "8076 kr",
-      "kidsworld": "11612 kr"
+      "kidsworld": "11612 kr",
+      "elko": "11995 kr"
     },
     "lowest_price": "8076 kr",
     "lowest_price_isk": 8076,
@@ -7237,10 +7195,10 @@
     "name": "V-19 Torrent Starfighter",
     "num_parts": "567",
     "prices": {
-      "hagkaup": "12599 kr",
       "coolshop": "11999 kr",
       "boozt": "8076 kr",
-      "kidsworld": "10978 kr"
+      "kidsworld": "10978 kr",
+      "elko": "10745 kr"
     },
     "lowest_price": "8076 kr",
     "lowest_price_isk": 8076,
@@ -7350,7 +7308,8 @@
       "hagkaup": "11299 kr",
       "coolshop": "13999 kr",
       "boozt": "8226 kr",
-      "kidsworld": "9775 kr"
+      "kidsworld": "9775 kr",
+      "elko": "11495 kr"
     },
     "lowest_price": "8226 kr",
     "lowest_price_isk": 8226,
@@ -7388,7 +7347,7 @@
     "name": "Mercedes-AMG G 63 & Mercedes-AMG SL 63",
     "num_parts": "811",
     "prices": {
-      "hagkaup": "639899 kr",
+      "hagkaup": "9899 kr",
       "coolshop": "11999 kr",
       "kidsworld": "8234 kr"
     },
@@ -7402,8 +7361,8 @@
     "num_parts": "478",
     "prices": {
       "coolshop": "11999 kr",
-      "boozt": "8639 kr",
-      "kidsworld": "8339 kr"
+      "kidsworld": "8339 kr",
+      "elko": "8495 kr"
     },
     "lowest_price": "8339 kr",
     "lowest_price_isk": 8339,
@@ -7415,12 +7374,24 @@
     "num_parts": "413",
     "prices": {
       "coolshop": "11999 kr",
-      "boozt": "8639 kr",
-      "kidsworld": "8445 kr"
+      "kidsworld": "8445 kr",
+      "elko": "8995 kr"
     },
     "lowest_price": "8445 kr",
     "lowest_price_isk": 8445,
     "lowest_price_store": "kidsworld"
+  },
+  {
+    "lego_set_number": "76922",
+    "name": "BMW M4 GT3 & BMW M Hybrid V8 Race Cars",
+    "num_parts": "676",
+    "prices": {
+      "coolshop": "12999 kr",
+      "elko": "8495 kr"
+    },
+    "lowest_price": "8495 kr",
+    "lowest_price_isk": 8495,
+    "lowest_price_store": "elko"
   },
   {
     "lego_set_number": "77050",
@@ -7436,20 +7407,6 @@
     "lowest_price_store": "coolshop"
   },
   {
-    "lego_set_number": "10313",
-    "name": "Wildflower Bouquet",
-    "num_parts": "939",
-    "prices": {
-      "hagkaup": "12599 kr",
-      "coolshop": "11999 kr",
-      "boozt": "8534 kr",
-      "kidsworld": "9036 kr"
-    },
-    "lowest_price": "8534 kr",
-    "lowest_price_isk": 8534,
-    "lowest_price_store": "boozt"
-  },
-  {
     "lego_set_number": "43249",
     "name": "Stitch",
     "num_parts": "730",
@@ -7457,7 +7414,8 @@
       "hagkaup": "12899 kr",
       "coolshop": "14999 kr",
       "boozt": "8539 kr",
-      "kidsworld": "10345 kr"
+      "kidsworld": "10345 kr",
+      "elko": "12895 kr"
     },
     "lowest_price": "8539 kr",
     "lowest_price_isk": 8539,
@@ -7468,7 +7426,6 @@
     "name": "Wild Safari Animals",
     "num_parts": "780",
     "prices": {
-      "hagkaup": "14399 kr",
       "coolshop": "11999 kr",
       "boozt": "8539 kr",
       "kidsworld": "9754 kr"
@@ -7476,6 +7433,19 @@
     "lowest_price": "8539 kr",
     "lowest_price_isk": 8539,
     "lowest_price_store": "boozt"
+  },
+  {
+    "lego_set_number": "10465",
+    "name": "Mickey Mouse Clubhouse with Minnie & Pluto",
+    "num_parts": "87",
+    "prices": {
+      "coolshop": "11999 kr",
+      "kidsworld": "8867 kr",
+      "elko": "8595 kr"
+    },
+    "lowest_price": "8595 kr",
+    "lowest_price_isk": 8595,
+    "lowest_price_store": "elko"
   },
   {
     "lego_set_number": "11208",
@@ -7490,37 +7460,25 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "60505",
-    "name": "Airplane, Service Truck & Hovercraft Remix",
-    "num_parts": "991",
-    "prices": {
-      "coolshop": "13999 kr",
-      "boozt": "8639 kr",
-      "kidsworld": "10873 kr"
-    },
-    "lowest_price": "8639 kr",
-    "lowest_price_isk": 8639,
-    "lowest_price_store": "boozt"
-  },
-  {
     "lego_set_number": "10328",
     "name": "Bouquet of Roses",
     "num_parts": "822",
     "prices": {
       "coolshop": "12999 kr",
       "boozt": "8639 kr",
-      "kidsworld": "9669 kr"
+      "kidsworld": "9669 kr",
+      "elko": "11495 kr"
     },
     "lowest_price": "8639 kr",
     "lowest_price_isk": 8639,
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "42699",
-    "name": "Beach House with Seals",
-    "num_parts": "400",
+    "lego_set_number": "43281",
+    "name": "Elsa's Ice Castle & Snow Ride Adventure",
+    "num_parts": "216",
     "prices": {
-      "coolshop": "9999 kr",
+      "coolshop": "11999 kr",
       "boozt": "8639 kr"
     },
     "lowest_price": "8639 kr",
@@ -7528,28 +7486,41 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "71856",
-    "name": "Jay's Transforming Car",
-    "num_parts": "387",
-    "prices": {
-      "coolshop": "9999 kr",
-      "boozt": "8639 kr"
-    },
-    "lowest_price": "8639 kr",
-    "lowest_price_isk": 8639,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "42685",
-    "name": "Heartlake City Fashion Show",
-    "num_parts": "410",
+    "lego_set_number": "10698",
+    "name": "Large Creative Brick Box",
+    "num_parts": "790",
     "prices": {
       "coolshop": "10999 kr",
-      "boozt": "8639 kr",
-      "kidsworld": "8867 kr"
+      "elko": "8695 kr"
     },
-    "lowest_price": "8639 kr",
-    "lowest_price_isk": 8639,
+    "lowest_price": "8695 kr",
+    "lowest_price_isk": 8695,
+    "lowest_price_store": "elko"
+  },
+  {
+    "lego_set_number": "10329",
+    "name": "Tiny Plants",
+    "num_parts": "758",
+    "prices": {
+      "coolshop": "12999 kr",
+      "kidsworld": "8719 kr",
+      "elko": "9895 kr"
+    },
+    "lowest_price": "8719 kr",
+    "lowest_price_isk": 8719,
+    "lowest_price_store": "kidsworld"
+  },
+  {
+    "lego_set_number": "42204",
+    "name": "Fast and Furious Toyota Supra MK4",
+    "num_parts": "810",
+    "prices": {
+      "hagkaup": "12899 kr",
+      "coolshop": "12999 kr",
+      "boozt": "8744 kr"
+    },
+    "lowest_price": "8744 kr",
+    "lowest_price_isk": 8744,
     "lowest_price_store": "boozt"
   },
   {
@@ -7561,19 +7532,6 @@
       "coolshop": "12999 kr",
       "boozt": "8744 kr",
       "kidsworld": "9880 kr"
-    },
-    "lowest_price": "8744 kr",
-    "lowest_price_isk": 8744,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "42204",
-    "name": "Fast and Furious Toyota Supra MK4",
-    "num_parts": "810",
-    "prices": {
-      "hagkaup": "412899 kr",
-      "coolshop": "12999 kr",
-      "boozt": "8744 kr"
     },
     "lowest_price": "8744 kr",
     "lowest_price_isk": 8744,
@@ -7633,7 +7591,8 @@
       "hagkaup": "13599 kr",
       "coolshop": "14999 kr",
       "boozt": "8804 kr",
-      "kidsworld": "12668 kr"
+      "kidsworld": "12668 kr",
+      "elko": "12995 kr"
     },
     "lowest_price": "8804 kr",
     "lowest_price_isk": 8804,
@@ -7672,7 +7631,8 @@
     "prices": {
       "coolshop": "14999 kr",
       "boozt": "8804 kr",
-      "kidsworld": "11823 kr"
+      "kidsworld": "11823 kr",
+      "elko": "11495 kr"
     },
     "lowest_price": "8804 kr",
     "lowest_price_isk": 8804,
@@ -7690,6 +7650,19 @@
     "lowest_price": "8804 kr",
     "lowest_price_isk": 8804,
     "lowest_price_store": "boozt"
+  },
+  {
+    "lego_set_number": "60466",
+    "name": "Yellow Bulldozer",
+    "num_parts": "682",
+    "prices": {
+      "hagkaup": "11599 kr",
+      "coolshop": "12999 kr",
+      "kidsworld": "8867 kr"
+    },
+    "lowest_price": "8867 kr",
+    "lowest_price_isk": 8867,
+    "lowest_price_store": "kidsworld"
   },
   {
     "lego_set_number": "11045",
@@ -7712,6 +7685,30 @@
       "coolshop": "10999 kr",
       "kubbabudin": "10490 kr",
       "boozt": "8899 kr",
+      "kidsworld": "8867 kr"
+    },
+    "lowest_price": "8867 kr",
+    "lowest_price_isk": 8867,
+    "lowest_price_store": "kidsworld"
+  },
+  {
+    "lego_set_number": "42685",
+    "name": "Heartlake City Fashion Show",
+    "num_parts": "410",
+    "prices": {
+      "coolshop": "10999 kr",
+      "kidsworld": "8867 kr"
+    },
+    "lowest_price": "8867 kr",
+    "lowest_price_isk": 8867,
+    "lowest_price_store": "kidsworld"
+  },
+  {
+    "lego_set_number": "43288",
+    "name": "Sally's Flowerpot",
+    "num_parts": "346",
+    "prices": {
+      "coolshop": "10999 kr",
       "kidsworld": "8867 kr"
     },
     "lowest_price": "8867 kr",
@@ -7836,6 +7833,17 @@
     "lowest_price_store": "boozt"
   },
   {
+    "lego_set_number": "71491",
+    "name": "Mateo and the Z-Blob Action Race Car",
+    "num_parts": "485",
+    "prices": {
+      "elko": "8995 kr"
+    },
+    "lowest_price": "8995 kr",
+    "lowest_price_isk": 8995,
+    "lowest_price_store": "elko"
+  },
+  {
     "lego_set_number": "40573",
     "name": "Christmas Tree",
     "num_parts": "784",
@@ -7882,6 +7890,17 @@
     "lowest_price_store": "coolshop"
   },
   {
+    "lego_set_number": "60478",
+    "name": "Cement Mixer",
+    "num_parts": "371",
+    "prices": {
+      "coolshop": "8999 kr"
+    },
+    "lowest_price": "8999 kr",
+    "lowest_price_isk": 8999,
+    "lowest_price_store": "coolshop"
+  },
+  {
     "lego_set_number": "76278",
     "name": "Rocket's Warbird vs. Ronan",
     "num_parts": "290",
@@ -7911,7 +7930,8 @@
       "hagkaup": "13999 kr",
       "coolshop": "13599 kr",
       "boozt": "9022 kr",
-      "kidsworld": "11612 kr"
+      "kidsworld": "11612 kr",
+      "elko": "14295 kr"
     },
     "lowest_price": "9022 kr",
     "lowest_price_isk": 9022,
@@ -7931,28 +7951,17 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "60316",
-    "name": "Police Station",
-    "num_parts": "668",
+    "lego_set_number": "10313",
+    "name": "Wildflower Bouquet",
+    "num_parts": "939",
     "prices": {
-      "hagkaup": "12999 kr",
-      "coolshop": "13999 kr",
-      "boozt": "9074 kr"
-    },
-    "lowest_price": "9074 kr",
-    "lowest_price_isk": 9074,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "42173",
-    "name": "Koenigsegg Jesko Absolut Grey Hypercar",
-    "num_parts": "801",
-    "prices": {
+      "hagkaup": "12599 kr",
       "coolshop": "11999 kr",
-      "kidsworld": "9247 kr"
+      "kidsworld": "9036 kr",
+      "elko": "10995 kr"
     },
-    "lowest_price": "9247 kr",
-    "lowest_price_isk": 9247,
+    "lowest_price": "9036 kr",
+    "lowest_price_isk": 9036,
     "lowest_price_store": "kidsworld"
   },
   {
@@ -7967,6 +7976,30 @@
     "lowest_price_store": "kidsworld"
   },
   {
+    "lego_set_number": "71439",
+    "name": "Adventures with Interactive LEGO Mario",
+    "num_parts": "218",
+    "prices": {
+      "elko": "9495 kr"
+    },
+    "lowest_price": "9495 kr",
+    "lowest_price_isk": 9495,
+    "lowest_price_store": "elko"
+  },
+  {
+    "lego_set_number": "10281",
+    "name": "Bonsai Tree",
+    "num_parts": "878",
+    "prices": {
+      "coolshop": "9999 kr",
+      "kidsworld": "9500 kr",
+      "elko": "9595 kr"
+    },
+    "lowest_price": "9500 kr",
+    "lowest_price_isk": 9500,
+    "lowest_price_store": "kidsworld"
+  },
+  {
     "lego_set_number": "42664",
     "name": "Travel Boat Adventure",
     "num_parts": "686",
@@ -7974,7 +8007,8 @@
       "hagkaup": "14799 kr",
       "coolshop": "14999 kr",
       "boozt": "9539 kr",
-      "kidsworld": "12034 kr"
+      "kidsworld": "12034 kr",
+      "elko": "12995 kr"
     },
     "lowest_price": "9539 kr",
     "lowest_price_isk": 9539,
@@ -7995,27 +8029,14 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "43262",
-    "name": "Maleficent's and Cruella de Vil's Dresses",
-    "num_parts": "524",
-    "prices": {
-      "hagkaup": "12999 kr",
-      "coolshop": "12999 kr",
-      "boozt": "9561 kr",
-      "kidsworld": "10451 kr"
-    },
-    "lowest_price": "9561 kr",
-    "lowest_price_isk": 9561,
-    "lowest_price_store": "boozt"
-  },
-  {
     "lego_set_number": "75402",
     "name": "ARC-170 Starfighter",
     "num_parts": "497",
     "prices": {
       "hagkaup": "12999 kr",
       "coolshop": "14999 kr",
-      "boozt": "9561 kr"
+      "boozt": "9561 kr",
+      "elko": "13195 kr"
     },
     "lowest_price": "9561 kr",
     "lowest_price_isk": 9561,
@@ -8041,7 +8062,8 @@
     "prices": {
       "coolshop": "11899 kr",
       "boozt": "9589 kr",
-      "kidsworld": "12456 kr"
+      "kidsworld": "12456 kr",
+      "elko": "14995 kr"
     },
     "lowest_price": "9589 kr",
     "lowest_price_isk": 9589,
@@ -8077,25 +8099,25 @@
     "num_parts": "604",
     "prices": {
       "coolshop": "13999 kr",
-      "boozt": "10169 kr",
-      "kidsworld": "9712 kr"
+      "kidsworld": "9712 kr",
+      "elko": "9995 kr"
     },
     "lowest_price": "9712 kr",
     "lowest_price_isk": 9712,
     "lowest_price_store": "kidsworld"
   },
   {
-    "lego_set_number": "10914",
-    "name": "Deluxe Brick Box",
-    "num_parts": "85",
+    "lego_set_number": "10311",
+    "name": "Orchid",
+    "num_parts": "608",
     "prices": {
-      "hagkaup": "12499 kr",
       "coolshop": "12999 kr",
-      "boozt": "9899 kr"
+      "kidsworld": "9923 kr",
+      "elko": "9895 kr"
     },
-    "lowest_price": "9899 kr",
-    "lowest_price_isk": 9899,
-    "lowest_price_store": "boozt"
+    "lowest_price": "9895 kr",
+    "lowest_price_isk": 9895,
+    "lowest_price_store": "elko"
   },
   {
     "lego_set_number": "42652",
@@ -8125,18 +8147,6 @@
     "lowest_price_store": "kidsworld"
   },
   {
-    "lego_set_number": "10698",
-    "name": "Large Creative Brick Box",
-    "num_parts": "790",
-    "prices": {
-      "hagkaup": "9999 kr",
-      "coolshop": "10999 kr"
-    },
-    "lowest_price": "9999 kr",
-    "lowest_price_isk": 9999,
-    "lowest_price_store": "hagkaup"
-  },
-  {
     "lego_set_number": "60460",
     "name": "No Limits: Race Car Ramp Track",
     "num_parts": "436",
@@ -8154,7 +8164,8 @@
     "prices": {
       "coolshop": "9999 kr",
       "boozt": "17616 kr",
-      "kidsworld": "20839 kr"
+      "kidsworld": "20839 kr",
+      "elko": "23995 kr"
     },
     "lowest_price": "9999 kr",
     "lowest_price_isk": 9999,
@@ -8166,7 +8177,6 @@
     "num_parts": "1107",
     "prices": {
       "coolshop": "9999 kr",
-      "boozt": "11519 kr",
       "kidsworld": "11612 kr"
     },
     "lowest_price": "9999 kr",
@@ -8187,9 +8197,20 @@
     "lowest_price_store": "coolshop"
   },
   {
-    "lego_set_number": "42168",
-    "name": "John Deere 9700 Forage Harvester",
-    "num_parts": "559",
+    "lego_set_number": "42699",
+    "name": "Beach House with Seals",
+    "num_parts": "400",
+    "prices": {
+      "coolshop": "9999 kr"
+    },
+    "lowest_price": "9999 kr",
+    "lowest_price_isk": 9999,
+    "lowest_price_store": "coolshop"
+  },
+  {
+    "lego_set_number": "71856",
+    "name": "Jay's Transforming Car",
+    "num_parts": "387",
     "prices": {
       "coolshop": "9999 kr"
     },
@@ -8222,19 +8243,6 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "21589",
-    "name": "Mini Biomes",
-    "num_parts": "797",
-    "prices": {
-      "coolshop": "12999 kr",
-      "boozt": "10169 kr",
-      "kidsworld": "10451 kr"
-    },
-    "lowest_price": "10169 kr",
-    "lowest_price_isk": 10169,
-    "lowest_price_store": "boozt"
-  },
-  {
     "lego_set_number": "42686",
     "name": "Fun Indoor Playground",
     "num_parts": "668",
@@ -8261,31 +8269,6 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "42221",
-    "name": "NASA Artemis Space Launch System Rocket",
-    "num_parts": "632",
-    "prices": {
-      "coolshop": "12999 kr",
-      "boozt": "10169 kr"
-    },
-    "lowest_price": "10169 kr",
-    "lowest_price_isk": 10169,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "43290",
-    "name": "Kevin & Dug",
-    "num_parts": "628",
-    "prices": {
-      "coolshop": "12999 kr",
-      "boozt": "10169 kr",
-      "kidsworld": "10556 kr"
-    },
-    "lowest_price": "10169 kr",
-    "lowest_price_isk": 10169,
-    "lowest_price_store": "boozt"
-  },
-  {
     "lego_set_number": "21273",
     "name": "The Ghast Balloon Village Attack",
     "num_parts": "555",
@@ -8293,7 +8276,8 @@
       "hagkaup": "12499 kr",
       "coolshop": "14999 kr",
       "boozt": "10184 kr",
-      "kidsworld": "12034 kr"
+      "kidsworld": "12034 kr",
+      "elko": "12995 kr"
     },
     "lowest_price": "10184 kr",
     "lowest_price_isk": 10184,
@@ -8306,7 +8290,8 @@
     "prices": {
       "hagkaup": "15499 kr",
       "coolshop": "10199 kr",
-      "boozt": "10555 kr"
+      "boozt": "10555 kr",
+      "elko": "14995 kr"
     },
     "lowest_price": "10199 kr",
     "lowest_price_isk": 10199,
@@ -8328,7 +8313,8 @@
     "name": "Ariel's Magical Underwater Palace",
     "num_parts": "116",
     "prices": {
-      "coolshop": "10199 kr"
+      "coolshop": "10199 kr",
+      "elko": "14995 kr"
     },
     "lowest_price": "10199 kr",
     "lowest_price_isk": 10199,
@@ -8349,32 +8335,6 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "21278",
-    "name": "The Pillager Outpost and Ravager",
-    "num_parts": "665",
-    "prices": {
-      "hagkaup": "15499 kr",
-      "coolshop": "17999 kr",
-      "boozt": "10274 kr",
-      "kidsworld": "11823 kr"
-    },
-    "lowest_price": "10274 kr",
-    "lowest_price_isk": 10274,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "75689",
-    "name": "Emerald City & Kiamo Ko Castle",
-    "num_parts": "860",
-    "prices": {
-      "coolshop": "16999 kr",
-      "boozt": "10274 kr"
-    },
-    "lowest_price": "10274 kr",
-    "lowest_price_isk": 10274,
-    "lowest_price_store": "boozt"
-  },
-  {
     "lego_set_number": "77056",
     "name": "Blathers's Museum Collection",
     "num_parts": "543",
@@ -8382,6 +8342,19 @@
       "coolshop": "12999 kr",
       "boozt": "10274 kr",
       "kidsworld": "11380 kr"
+    },
+    "lowest_price": "10274 kr",
+    "lowest_price_isk": 10274,
+    "lowest_price_store": "boozt"
+  },
+  {
+    "lego_set_number": "21278",
+    "name": "The Pillager Outpost and Ravager",
+    "num_parts": "665",
+    "prices": {
+      "coolshop": "17999 kr",
+      "boozt": "10274 kr",
+      "kidsworld": "11823 kr"
     },
     "lowest_price": "10274 kr",
     "lowest_price_isk": 10274,
@@ -8407,7 +8380,8 @@
     "prices": {
       "coolshop": "11999 kr",
       "boozt": "10279 kr",
-      "kidsworld": "11190 kr"
+      "kidsworld": "11190 kr",
+      "elko": "10495 kr"
     },
     "lowest_price": "10279 kr",
     "lowest_price_isk": 10279,
@@ -8445,7 +8419,8 @@
     "prices": {
       "coolshop": "12999 kr",
       "boozt": "10559 kr",
-      "kidsworld": "10345 kr"
+      "kidsworld": "10345 kr",
+      "elko": "10995 kr"
     },
     "lowest_price": "10345 kr",
     "lowest_price_isk": 10345,
@@ -8462,6 +8437,58 @@
     "lowest_price": "10345 kr",
     "lowest_price_isk": 10345,
     "lowest_price_store": "kidsworld"
+  },
+  {
+    "lego_set_number": "43262",
+    "name": "Maleficent's and Cruella de Vil's Dresses",
+    "num_parts": "524",
+    "prices": {
+      "hagkaup": "12999 kr",
+      "coolshop": "12999 kr",
+      "kidsworld": "10451 kr"
+    },
+    "lowest_price": "10451 kr",
+    "lowest_price_isk": 10451,
+    "lowest_price_store": "kidsworld"
+  },
+  {
+    "lego_set_number": "21589",
+    "name": "Mini Biomes",
+    "num_parts": "797",
+    "prices": {
+      "coolshop": "12999 kr",
+      "kidsworld": "10451 kr"
+    },
+    "lowest_price": "10451 kr",
+    "lowest_price_isk": 10451,
+    "lowest_price_store": "kidsworld"
+  },
+  {
+    "lego_set_number": "43290",
+    "name": "Kevin & Dug",
+    "num_parts": "628",
+    "prices": {
+      "coolshop": "12999 kr",
+      "kidsworld": "10556 kr",
+      "elko": "10495 kr"
+    },
+    "lowest_price": "10495 kr",
+    "lowest_price_isk": 10495,
+    "lowest_price_store": "elko"
+  },
+  {
+    "lego_set_number": "11501",
+    "name": "Tulip Bouquet",
+    "num_parts": "576",
+    "prices": {
+      "coolshop": "12999 kr",
+      "kubbabudin": "12990 kr",
+      "kidsworld": "10978 kr",
+      "elko": "10495 kr"
+    },
+    "lowest_price": "10495 kr",
+    "lowest_price_isk": 10495,
+    "lowest_price_store": "elko"
   },
   {
     "lego_set_number": "10362",
@@ -8487,78 +8514,31 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "42222",
-    "name": "Bugatti Chiron Pur Sport Hypercar",
-    "num_parts": "771",
-    "prices": {
-      "coolshop": "12999 kr",
-      "boozt": "10559 kr",
-      "kidsworld": "11612 kr"
-    },
-    "lowest_price": "10559 kr",
-    "lowest_price_isk": 10559,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "11501",
-    "name": "Tulip Bouquet",
-    "num_parts": "576",
-    "prices": {
-      "coolshop": "12999 kr",
-      "kubbabudin": "12990 kr",
-      "boozt": "10559 kr",
-      "kidsworld": "10978 kr"
-    },
-    "lowest_price": "10559 kr",
-    "lowest_price_isk": 10559,
-    "lowest_price_store": "boozt"
-  },
-  {
     "lego_set_number": "21590",
     "name": "Wither Battle",
     "num_parts": "494",
     "prices": {
       "coolshop": "13999 kr",
       "boozt": "10559 kr",
-      "kidsworld": "11084 kr"
+      "kidsworld": "11084 kr",
+      "elko": "10995 kr"
     },
     "lowest_price": "10559 kr",
     "lowest_price_isk": 10559,
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "71439",
-    "name": "Adventures with Interactive LEGO Mario",
-    "num_parts": "218",
+    "lego_set_number": "60505",
+    "name": "Airplane, Service Truck & Hovercraft Remix",
+    "num_parts": "991",
     "prices": {
-      "hagkaup": "10599 kr"
+      "coolshop": "13999 kr",
+      "kidsworld": "10873 kr",
+      "elko": "11495 kr"
     },
-    "lowest_price": "10599 kr",
-    "lowest_price_isk": 10599,
-    "lowest_price_store": "hagkaup"
-  },
-  {
-    "lego_set_number": "71440",
-    "name": "Adventures with Interactive LEGO Luigi",
-    "num_parts": "210",
-    "prices": {
-      "hagkaup": "10599 kr"
-    },
-    "lowest_price": "10599 kr",
-    "lowest_price_isk": 10599,
-    "lowest_price_store": "hagkaup"
-  },
-  {
-    "lego_set_number": "71441",
-    "name": "Adventures with Interactive LEGO Peach",
-    "num_parts": "208",
-    "prices": {
-      "hagkaup": "10599 kr",
-      "coolshop": "11999 kr"
-    },
-    "lowest_price": "10599 kr",
-    "lowest_price_isk": 10599,
-    "lowest_price_store": "hagkaup"
+    "lowest_price": "10873 kr",
+    "lowest_price_isk": 10873,
+    "lowest_price_store": "kidsworld"
   },
   {
     "lego_set_number": "11375",
@@ -8567,7 +8547,8 @@
     "prices": {
       "coolshop": "19999 kr",
       "boozt": "10934 kr",
-      "kidsworld": "16890 kr"
+      "kidsworld": "16890 kr",
+      "elko": "14995 kr"
     },
     "lowest_price": "10934 kr",
     "lowest_price_isk": 10934,
@@ -8581,7 +8562,8 @@
       "hagkaup": "17499 kr",
       "coolshop": "16999 kr",
       "boozt": "10961 kr",
-      "kidsworld": "14040 kr"
+      "kidsworld": "14040 kr",
+      "elko": "15495 kr"
     },
     "lowest_price": "10961 kr",
     "lowest_price_isk": 10961,
@@ -8614,12 +8596,24 @@
     "lowest_price_store": "kidsworld"
   },
   {
+    "lego_set_number": "42222",
+    "name": "Bugatti Chiron Pur Sport Hypercar",
+    "num_parts": "771",
+    "prices": {
+      "coolshop": "12999 kr",
+      "kidsworld": "11612 kr",
+      "elko": "10995 kr"
+    },
+    "lowest_price": "10995 kr",
+    "lowest_price_isk": 10995,
+    "lowest_price_store": "elko"
+  },
+  {
     "lego_set_number": "71508",
     "name": "Fox Guardian Mech",
     "num_parts": "883",
     "prices": {
       "coolshop": "10999 kr",
-      "boozt": "13439 kr",
       "kidsworld": "12456 kr"
     },
     "lowest_price": "10999 kr",
@@ -8687,7 +8681,9 @@
     "num_parts": "584",
     "prices": {
       "coolshop": "16999 kr",
-      "kidsworld": "11000 kr"
+      "boozt": "14299 kr",
+      "kidsworld": "11000 kr",
+      "elko": "14295 kr"
     },
     "lowest_price": "11000 kr",
     "lowest_price_isk": 11000,
@@ -8712,7 +8708,8 @@
       "hagkaup": "15499 kr",
       "coolshop": "16999 kr",
       "boozt": "11309 kr",
-      "kidsworld": "11380 kr"
+      "kidsworld": "11380 kr",
+      "elko": "15895 kr"
     },
     "lowest_price": "11309 kr",
     "lowest_price_isk": 11309,
@@ -8725,7 +8722,8 @@
     "prices": {
       "hagkaup": "15499 kr",
       "boozt": "11309 kr",
-      "kidsworld": "12182 kr"
+      "kidsworld": "12182 kr",
+      "elko": "12995 kr"
     },
     "lowest_price": "11309 kr",
     "lowest_price_isk": 11309,
@@ -8770,19 +8768,6 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "21345",
-    "name": "Polaroid OneStep SX-70",
-    "num_parts": "516",
-    "prices": {
-      "coolshop": "19999 kr",
-      "boozt": "11309 kr",
-      "kidsworld": "13301 kr"
-    },
-    "lowest_price": "11309 kr",
-    "lowest_price_isk": 11309,
-    "lowest_price_store": "boozt"
-  },
-  {
     "lego_set_number": "10446",
     "name": "3in1 Wild Animal Families",
     "num_parts": "92",
@@ -8807,15 +8792,16 @@
     "lowest_price_store": "kidsworld"
   },
   {
-    "lego_set_number": "10416",
-    "name": "Caring for Animals at the Farm",
-    "num_parts": "74",
+    "lego_set_number": "10467",
+    "name": "Family House",
+    "num_parts": "84",
     "prices": {
-      "hagkaup": "11499 kr"
+      "coolshop": "14999 kr",
+      "elko": "11495 kr"
     },
-    "lowest_price": "11499 kr",
-    "lowest_price_isk": 11499,
-    "lowest_price_store": "hagkaup"
+    "lowest_price": "11495 kr",
+    "lowest_price_isk": 11495,
+    "lowest_price_store": "elko"
   },
   {
     "lego_set_number": "76281",
@@ -8844,30 +8830,6 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "60499",
-    "name": "Airport Fire Truck",
-    "num_parts": "691",
-    "prices": {
-      "coolshop": "14999 kr",
-      "boozt": "11519 kr"
-    },
-    "lowest_price": "11519 kr",
-    "lowest_price_isk": 11519,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "10467",
-    "name": "Family House",
-    "num_parts": "84",
-    "prices": {
-      "coolshop": "14999 kr",
-      "boozt": "11519 kr"
-    },
-    "lowest_price": "11519 kr",
-    "lowest_price_isk": 11519,
-    "lowest_price_store": "boozt"
-  },
-  {
     "lego_set_number": "60414",
     "name": "Fire Station with Fire Truck",
     "num_parts": "844",
@@ -8875,7 +8837,8 @@
       "hagkaup": "15499 kr",
       "coolshop": "18999 kr",
       "boozt": "11549 kr",
-      "kidsworld": "13069 kr"
+      "kidsworld": "13069 kr",
+      "elko": "15295 kr"
     },
     "lowest_price": "11549 kr",
     "lowest_price_isk": 11549,
@@ -8888,7 +8851,8 @@
     "prices": {
       "coolshop": "16999 kr",
       "boozt": "11549 kr",
-      "kidsworld": "11591 kr"
+      "kidsworld": "11591 kr",
+      "elko": "14995 kr"
     },
     "lowest_price": "11549 kr",
     "lowest_price_isk": 11549,
@@ -8922,14 +8886,14 @@
     "lowest_price_store": "kidsworld"
   },
   {
-    "lego_set_number": "42671",
-    "name": "Plant Café & Flower Shop",
-    "num_parts": "1138",
+    "lego_set_number": "76451",
+    "name": "Privet Drive: Aunt Marge's Visit",
+    "num_parts": "640",
     "prices": {
-      "hagkaup": "17599 kr",
-      "coolshop": "18999 kr",
+      "hagkaup": "17399 kr",
+      "coolshop": "17499 kr",
       "boozt": "11744 kr",
-      "kidsworld": "14610 kr"
+      "kidsworld": "14631 kr"
     },
     "lowest_price": "11744 kr",
     "lowest_price_isk": 11744,
@@ -8940,22 +8904,7 @@
     "name": "Central Train Station",
     "num_parts": "752",
     "prices": {
-      "hagkaup": "17499 kr",
       "coolshop": "18999 kr",
-      "boozt": "11744 kr",
-      "kidsworld": "14631 kr"
-    },
-    "lowest_price": "11744 kr",
-    "lowest_price_isk": 11744,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "76451",
-    "name": "Privet Drive: Aunt Marge's Visit",
-    "num_parts": "640",
-    "prices": {
-      "hagkaup": "17399 kr",
-      "coolshop": "17499 kr",
       "boozt": "11744 kr",
       "kidsworld": "14631 kr"
     },
@@ -9009,6 +8958,42 @@
     "lowest_price": "11899 kr",
     "lowest_price_isk": 11899,
     "lowest_price_store": "coolshop"
+  },
+  {
+    "lego_set_number": "60316",
+    "name": "Police Station",
+    "num_parts": "668",
+    "prices": {
+      "coolshop": "13999 kr",
+      "elko": "11995 kr"
+    },
+    "lowest_price": "11995 kr",
+    "lowest_price_isk": 11995,
+    "lowest_price_store": "elko"
+  },
+  {
+    "lego_set_number": "60499",
+    "name": "Airport Fire Truck",
+    "num_parts": "691",
+    "prices": {
+      "coolshop": "14999 kr",
+      "elko": "11995 kr"
+    },
+    "lowest_price": "11995 kr",
+    "lowest_price_isk": 11995,
+    "lowest_price_store": "elko"
+  },
+  {
+    "lego_set_number": "75347",
+    "name": "TIE Bomber",
+    "num_parts": "625",
+    "prices": {
+      "coolshop": "13999 kr",
+      "elko": "11995 kr"
+    },
+    "lowest_price": "11995 kr",
+    "lowest_price_isk": 11995,
+    "lowest_price_store": "elko"
   },
   {
     "lego_set_number": "10338",
@@ -9090,31 +9075,6 @@
     "lowest_price_store": "coolshop"
   },
   {
-    "lego_set_number": "43281",
-    "name": "Elsa's Ice Castle & Snow Ride Adventure",
-    "num_parts": "216",
-    "prices": {
-      "coolshop": "11999 kr"
-    },
-    "lowest_price": "11999 kr",
-    "lowest_price_isk": 11999,
-    "lowest_price_store": "coolshop"
-  },
-  {
-    "lego_set_number": "72042",
-    "name": "Prince Florian & Castle Bowser",
-    "num_parts": "1251",
-    "prices": {
-      "hagkaup": "20499 kr",
-      "coolshop": "22999 kr",
-      "boozt": "12333 kr",
-      "kidsworld": "14673 kr"
-    },
-    "lowest_price": "12333 kr",
-    "lowest_price_isk": 12333,
-    "lowest_price_store": "boozt"
-  },
-  {
     "lego_set_number": "71845",
     "name": "Lloyd’s Jet Mech",
     "num_parts": "1112",
@@ -9161,7 +9121,21 @@
     "prices": {
       "coolshop": "13799 kr",
       "boozt": "12333 kr",
-      "kidsworld": "15054 kr"
+      "kidsworld": "15054 kr",
+      "elko": "17495 kr"
+    },
+    "lowest_price": "12333 kr",
+    "lowest_price_isk": 12333,
+    "lowest_price_store": "boozt"
+  },
+  {
+    "lego_set_number": "72042",
+    "name": "Prince Florian & Castle Bowser",
+    "num_parts": "1251",
+    "prices": {
+      "coolshop": "22999 kr",
+      "boozt": "12333 kr",
+      "kidsworld": "14673 kr"
     },
     "lowest_price": "12333 kr",
     "lowest_price_isk": 12333,
@@ -9172,7 +9146,6 @@
     "name": "Lilo and Stitch Beach House",
     "num_parts": "834",
     "prices": {
-      "hagkaup": "16999 kr",
       "coolshop": "19999 kr",
       "boozt": "12336 kr",
       "kidsworld": "13512 kr"
@@ -9224,8 +9197,7 @@
     "name": "3 in 1 Creative Ramps with Vehicles",
     "num_parts": "111",
     "prices": {
-      "boozt": "12339 kr",
-      "kidsworld": "12668 kr"
+      "boozt": "12339 kr"
     },
     "lowest_price": "12339 kr",
     "lowest_price_isk": 12339,
@@ -9237,25 +9209,11 @@
     "num_parts": "538",
     "prices": {
       "coolshop": "14999 kr",
-      "boozt": "12479 kr",
       "kidsworld": "12351 kr"
     },
     "lowest_price": "12351 kr",
     "lowest_price_isk": 12351,
     "lowest_price_store": "kidsworld"
-  },
-  {
-    "lego_set_number": "10788",
-    "name": "Gabby's Dollhouse",
-    "num_parts": "499",
-    "prices": {
-      "coolshop": "18999 kr",
-      "boozt": "12374 kr",
-      "kidsworld": "12562 kr"
-    },
-    "lowest_price": "12374 kr",
-    "lowest_price_isk": 12374,
-    "lowest_price_store": "boozt"
   },
   {
     "lego_set_number": "75362",
@@ -9276,7 +9234,8 @@
     "prices": {
       "coolshop": "14999 kr",
       "boozt": "13029 kr",
-      "kidsworld": "12456 kr"
+      "kidsworld": "12456 kr",
+      "elko": "12995 kr"
     },
     "lowest_price": "12456 kr",
     "lowest_price_isk": 12456,
@@ -9288,8 +9247,8 @@
     "num_parts": "793",
     "prices": {
       "coolshop": "16999 kr",
-      "boozt": "12479 kr",
-      "kidsworld": "12456 kr"
+      "kidsworld": "12456 kr",
+      "elko": "12495 kr"
     },
     "lowest_price": "12456 kr",
     "lowest_price_isk": 12456,
@@ -9302,10 +9261,23 @@
     "prices": {
       "coolshop": "16999 kr",
       "boozt": "13439 kr",
-      "kidsworld": "12456 kr"
+      "kidsworld": "12456 kr",
+      "elko": "13995 kr"
     },
     "lowest_price": "12456 kr",
     "lowest_price_isk": 12456,
+    "lowest_price_store": "kidsworld"
+  },
+  {
+    "lego_set_number": "10788",
+    "name": "Gabby's Dollhouse",
+    "num_parts": "499",
+    "prices": {
+      "coolshop": "18999 kr",
+      "kidsworld": "12562 kr"
+    },
+    "lowest_price": "12562 kr",
+    "lowest_price_isk": 12562,
     "lowest_price_store": "kidsworld"
   },
   {
@@ -9313,10 +9285,10 @@
     "name": "NASA Mars Rover Perseverance",
     "num_parts": "1132",
     "prices": {
-      "hagkaup": "18799 kr",
       "coolshop": "15399 kr",
       "boozt": "12669 kr",
-      "kidsworld": "14420 kr"
+      "kidsworld": "14420 kr",
+      "elko": "17995 kr"
     },
     "lowest_price": "12669 kr",
     "lowest_price_isk": 12669,
@@ -9334,13 +9306,28 @@
     "lowest_price_store": "hagkaup"
   },
   {
+    "lego_set_number": "60423",
+    "name": "Downtown Streetcar and Station",
+    "num_parts": "811",
+    "prices": {
+      "hagkaup": "18599 kr",
+      "coolshop": "19999 kr",
+      "boozt": "12854 kr",
+      "kidsworld": "13090 kr"
+    },
+    "lowest_price": "12854 kr",
+    "lowest_price_isk": 12854,
+    "lowest_price_store": "boozt"
+  },
+  {
     "lego_set_number": "10359",
     "name": "Fountain Garden",
     "num_parts": "1302",
     "prices": {
       "coolshop": "17249 kr",
       "boozt": "12949 kr",
-      "kidsworld": "16257 kr"
+      "kidsworld": "16257 kr",
+      "elko": "17995 kr"
     },
     "lowest_price": "12949 kr",
     "lowest_price_isk": 12949,
@@ -9353,7 +9340,8 @@
     "prices": {
       "coolshop": "17249 kr",
       "boozt": "12949 kr",
-      "kidsworld": "16046 kr"
+      "kidsworld": "16046 kr",
+      "elko": "19495 kr"
     },
     "lowest_price": "12949 kr",
     "lowest_price_isk": 12949,
@@ -9372,6 +9360,17 @@
     "lowest_price_store": "boozt"
   },
   {
+    "lego_set_number": "71484",
+    "name": "Cooper's C-Rex Robot Dinosaur",
+    "num_parts": "917",
+    "prices": {
+      "elko": "12995 kr"
+    },
+    "lowest_price": "12995 kr",
+    "lowest_price_isk": 12995,
+    "lowest_price_store": "elko"
+  },
+  {
     "lego_set_number": "21355",
     "name": "The Evolution of STEM",
     "num_parts": "879",
@@ -9383,9 +9382,9 @@
     "lowest_price_store": "coolshop"
   },
   {
-    "lego_set_number": "76922",
-    "name": "BMW M4 GT3 & BMW M Hybrid V8 Race Cars",
-    "num_parts": "676",
+    "lego_set_number": "60420",
+    "name": "Yellow Construction Excavator",
+    "num_parts": "633",
     "prices": {
       "coolshop": "12999 kr"
     },
@@ -9394,9 +9393,9 @@
     "lowest_price_store": "coolshop"
   },
   {
-    "lego_set_number": "60420",
-    "name": "Yellow Construction Excavator",
-    "num_parts": "633",
+    "lego_set_number": "42221",
+    "name": "NASA Artemis Space Launch System Rocket",
+    "num_parts": "632",
     "prices": {
       "coolshop": "12999 kr"
     },
@@ -9496,25 +9495,11 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "60423",
-    "name": "Downtown Streetcar and Station",
-    "num_parts": "811",
-    "prices": {
-      "hagkaup": "18599 kr",
-      "coolshop": "19999 kr",
-      "kidsworld": "13090 kr"
-    },
-    "lowest_price": "13090 kr",
-    "lowest_price_isk": 13090,
-    "lowest_price_store": "kidsworld"
-  },
-  {
     "lego_set_number": "76330",
     "name": "Batman Logo",
     "num_parts": "678",
     "prices": {
       "coolshop": "16999 kr",
-      "boozt": "13439 kr",
       "kidsworld": "13090 kr"
     },
     "lowest_price": "13090 kr",
@@ -9540,20 +9525,8 @@
       "hagkaup": "20499 kr",
       "coolshop": "22999 kr",
       "boozt": "13214 kr",
-      "kidsworld": "14547 kr"
-    },
-    "lowest_price": "13214 kr",
-    "lowest_price_isk": 13214,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "21279",
-    "name": "The Enderman Tower",
-    "num_parts": "867",
-    "prices": {
-      "hagkaup": "20499 kr",
-      "coolshop": "22999 kr",
-      "boozt": "13214 kr"
+      "kidsworld": "14547 kr",
+      "elko": "18995 kr"
     },
     "lowest_price": "13214 kr",
     "lowest_price_isk": 13214,
@@ -9568,20 +9541,6 @@
       "coolshop": "19999 kr",
       "boozt": "13214 kr",
       "kidsworld": "15940 kr"
-    },
-    "lowest_price": "13214 kr",
-    "lowest_price_isk": 13214,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "43258",
-    "name": "Kakamora Barge",
-    "num_parts": "579",
-    "prices": {
-      "hagkaup": "19999 kr",
-      "coolshop": "19999 kr",
-      "boozt": "13214 kr",
-      "kidsworld": "15814 kr"
     },
     "lowest_price": "13214 kr",
     "lowest_price_isk": 13214,
@@ -9621,6 +9580,18 @@
       "coolshop": "19999 kr",
       "boozt": "13214 kr",
       "kidsworld": "16658 kr"
+    },
+    "lowest_price": "13214 kr",
+    "lowest_price_isk": 13214,
+    "lowest_price_store": "boozt"
+  },
+  {
+    "lego_set_number": "21279",
+    "name": "The Enderman Tower",
+    "num_parts": "867",
+    "prices": {
+      "coolshop": "22999 kr",
+      "boozt": "13214 kr"
     },
     "lowest_price": "13214 kr",
     "lowest_price_isk": 13214,
@@ -9667,6 +9638,19 @@
     "lowest_price_store": "kidsworld"
   },
   {
+    "lego_set_number": "21345",
+    "name": "Polaroid OneStep SX-70",
+    "num_parts": "516",
+    "prices": {
+      "coolshop": "19999 kr",
+      "kidsworld": "13301 kr",
+      "elko": "14995 kr"
+    },
+    "lowest_price": "13301 kr",
+    "lowest_price_isk": 13301,
+    "lowest_price_store": "kidsworld"
+  },
+  {
     "lego_set_number": "10480",
     "name": "Discovery Forest with Wild Animals",
     "num_parts": "131",
@@ -9679,19 +9663,6 @@
     "lowest_price_store": "kidsworld"
   },
   {
-    "lego_set_number": "21064",
-    "name": "Paris - City of Love",
-    "num_parts": "958",
-    "prices": {
-      "coolshop": "16999 kr",
-      "boozt": "13439 kr",
-      "kidsworld": "14779 kr"
-    },
-    "lowest_price": "13439 kr",
-    "lowest_price_isk": 13439,
-    "lowest_price_store": "boozt"
-  },
-  {
     "lego_set_number": "76470",
     "name": "Enchanted Flying Ford Anglia",
     "num_parts": "868",
@@ -9699,32 +9670,6 @@
       "coolshop": "16999 kr",
       "boozt": "13439 kr",
       "kidsworld": "14040 kr"
-    },
-    "lowest_price": "13439 kr",
-    "lowest_price_isk": 13439,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "42688",
-    "name": "Horse Stable and Riding Academy",
-    "num_parts": "750",
-    "prices": {
-      "coolshop": "16999 kr",
-      "boozt": "13439 kr",
-      "kidsworld": "13512 kr"
-    },
-    "lowest_price": "13439 kr",
-    "lowest_price_isk": 13439,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "71857",
-    "name": "Ninja Vehicle Tree House Battle",
-    "num_parts": "647",
-    "prices": {
-      "coolshop": "16999 kr",
-      "boozt": "13439 kr",
-      "kidsworld": "14146 kr"
     },
     "lowest_price": "13439 kr",
     "lowest_price_isk": 13439,
@@ -9752,6 +9697,18 @@
     "lowest_price": "13499 kr",
     "lowest_price_isk": 13499,
     "lowest_price_store": "hagkaup"
+  },
+  {
+    "lego_set_number": "42688",
+    "name": "Horse Stable and Riding Academy",
+    "num_parts": "750",
+    "prices": {
+      "coolshop": "16999 kr",
+      "kidsworld": "13512 kr"
+    },
+    "lowest_price": "13512 kr",
+    "lowest_price_isk": 13512,
+    "lowest_price_store": "kidsworld"
   },
   {
     "lego_set_number": "31213",
@@ -9813,6 +9770,17 @@
     "lowest_price_store": "boozt"
   },
   {
+    "lego_set_number": "31208",
+    "name": "Hokusai - The Great Wave",
+    "num_parts": "1810",
+    "prices": {
+      "boozt": "13859 kr"
+    },
+    "lowest_price": "13859 kr",
+    "lowest_price_isk": 13859,
+    "lowest_price_store": "boozt"
+  },
+  {
     "lego_set_number": "75403",
     "name": "Grogu with Hover Pram",
     "num_parts": "1048",
@@ -9820,7 +9788,8 @@
       "hagkaup": "19599 kr",
       "coolshop": "19999 kr",
       "boozt": "13874 kr",
-      "kidsworld": "16785 kr"
+      "kidsworld": "16785 kr",
+      "elko": "19695 kr"
     },
     "lowest_price": "13874 kr",
     "lowest_price_isk": 13874,
@@ -9872,7 +9841,8 @@
     "num_parts": "931",
     "prices": {
       "coolshop": "22999 kr",
-      "boozt": "13874 kr"
+      "boozt": "13874 kr",
+      "elko": "17995 kr"
     },
     "lowest_price": "13874 kr",
     "lowest_price_isk": 13874,
@@ -9918,32 +9888,20 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "60419",
-    "name": "Police Prison Island",
-    "num_parts": "980",
+    "lego_set_number": "75683",
+    "name": "Glinda & Elphaba's Dormitory",
+    "num_parts": "742",
     "prices": {
-      "coolshop": "24999 kr",
-      "boozt": "13979 kr"
+      "elko": "13994 kr"
     },
-    "lowest_price": "13979 kr",
-    "lowest_price_isk": 13979,
-    "lowest_price_store": "boozt"
+    "lowest_price": "13994 kr",
+    "lowest_price_isk": 13994,
+    "lowest_price_store": "elko"
   },
   {
     "lego_set_number": "76427",
     "name": "Buckbeak",
     "num_parts": "723",
-    "prices": {
-      "coolshop": "13999 kr"
-    },
-    "lowest_price": "13999 kr",
-    "lowest_price_isk": 13999,
-    "lowest_price_store": "coolshop"
-  },
-  {
-    "lego_set_number": "75347",
-    "name": "TIE Bomber",
-    "num_parts": "625",
     "prices": {
       "coolshop": "13999 kr"
     },
@@ -9974,6 +9932,18 @@
     "lowest_price_store": "coolshop"
   },
   {
+    "lego_set_number": "71857",
+    "name": "Ninja Vehicle Tree House Battle",
+    "num_parts": "647",
+    "prices": {
+      "coolshop": "16999 kr",
+      "kidsworld": "14146 kr"
+    },
+    "lowest_price": "14146 kr",
+    "lowest_price_isk": 14146,
+    "lowest_price_store": "kidsworld"
+  },
+  {
     "lego_set_number": "75273",
     "name": "Poe Dameron's X-wing Fighter",
     "num_parts": "761",
@@ -9996,13 +9966,28 @@
     "lowest_price_store": "kidsworld"
   },
   {
+    "lego_set_number": "42671",
+    "name": "Plant Café & Flower Shop",
+    "num_parts": "1138",
+    "prices": {
+      "hagkaup": "17599 kr",
+      "coolshop": "18999 kr",
+      "kidsworld": "14610 kr",
+      "elko": "15995 kr"
+    },
+    "lowest_price": "14610 kr",
+    "lowest_price_isk": 14610,
+    "lowest_price_store": "kidsworld"
+  },
+  {
     "lego_set_number": "77073",
     "name": "Battle Bus",
     "num_parts": "954",
     "prices": {
       "coolshop": "22999 kr",
       "boozt": "14886 kr",
-      "kidsworld": "14673 kr"
+      "kidsworld": "14673 kr",
+      "elko": "19495 kr"
     },
     "lowest_price": "14673 kr",
     "lowest_price_isk": 14673,
@@ -10041,7 +10026,8 @@
     "prices": {
       "coolshop": "22999 kr",
       "boozt": "14676 kr",
-      "kidsworld": "16869 kr"
+      "kidsworld": "16869 kr",
+      "elko": "19495 kr"
     },
     "lowest_price": "14676 kr",
     "lowest_price_isk": 14676,
@@ -10065,7 +10051,7 @@
     "name": "F1 Truck with RB20 & AMR24 F1 Cars",
     "num_parts": "1086",
     "prices": {
-      "hagkaup": "2419999 kr",
+      "hagkaup": "19999 kr",
       "coolshop": "19999 kr",
       "kidsworld": "14758 kr"
     },
@@ -10074,15 +10060,30 @@
     "lowest_price_store": "kidsworld"
   },
   {
-    "lego_set_number": "65810",
-    "name": "LEGO - Minifigures - Series 28 (36 bags) (71051/6581056)",
-    "num_parts": "-1",
+    "lego_set_number": "21064",
+    "name": "Paris - City of Love",
+    "num_parts": "958",
     "prices": {
-      "coolshop": "14999 kr"
+      "coolshop": "16999 kr",
+      "kidsworld": "14779 kr"
     },
-    "lowest_price": "14999 kr",
-    "lowest_price_isk": 14999,
-    "lowest_price_store": "coolshop"
+    "lowest_price": "14779 kr",
+    "lowest_price_isk": 14779,
+    "lowest_price_store": "kidsworld"
+  },
+  {
+    "lego_set_number": "75452",
+    "name": "BB-8 Astromech Droid",
+    "num_parts": "569",
+    "prices": {
+      "coolshop": "19999 kr",
+      "boozt": "15349 kr",
+      "kidsworld": "15835 kr",
+      "elko": "14995 kr"
+    },
+    "lowest_price": "14995 kr",
+    "lowest_price_isk": 14995,
+    "lowest_price_store": "elko"
   },
   {
     "lego_set_number": "11503",
@@ -10184,7 +10185,8 @@
     "num_parts": "886",
     "prices": {
       "coolshop": "19999 kr",
-      "boozt": "15079 kr"
+      "boozt": "15079 kr",
+      "elko": "16995 kr"
     },
     "lowest_price": "15079 kr",
     "lowest_price_isk": 15079,
@@ -10197,7 +10199,8 @@
     "prices": {
       "coolshop": "19999 kr",
       "boozt": "15079 kr",
-      "kidsworld": "15835 kr"
+      "kidsworld": "15835 kr",
+      "elko": "16995 kr"
     },
     "lowest_price": "15079 kr",
     "lowest_price_isk": 15079,
@@ -10307,31 +10310,6 @@
     "lowest_price_store": "kidsworld"
   },
   {
-    "lego_set_number": "42689",
-    "name": "Heartlake City Friends Club House",
-    "num_parts": "794",
-    "prices": {
-      "coolshop": "19999 kr",
-      "boozt": "15349 kr"
-    },
-    "lowest_price": "15349 kr",
-    "lowest_price_isk": 15349,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "75452",
-    "name": "BB-8 Astromech Droid",
-    "num_parts": "569",
-    "prices": {
-      "coolshop": "19999 kr",
-      "boozt": "15349 kr",
-      "kidsworld": "15835 kr"
-    },
-    "lowest_price": "15349 kr",
-    "lowest_price_isk": 15349,
-    "lowest_price_store": "boozt"
-  },
-  {
     "lego_set_number": "10476",
     "name": "3 in 1 Construction Site and Vehicles",
     "num_parts": "84",
@@ -10358,18 +10336,18 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "60367",
-    "name": "Passenger Airplane",
-    "num_parts": "913",
+    "lego_set_number": "43258",
+    "name": "Kakamora Barge",
+    "num_parts": "579",
     "prices": {
-      "hagkaup": "21499 kr",
-      "coolshop": "22999 kr",
-      "boozt": "15674 kr",
-      "kidsworld": "16574 kr"
+      "hagkaup": "19999 kr",
+      "coolshop": "19999 kr",
+      "kidsworld": "15814 kr",
+      "elko": "17495 kr"
     },
-    "lowest_price": "15674 kr",
-    "lowest_price_isk": 15674,
-    "lowest_price_store": "boozt"
+    "lowest_price": "15814 kr",
+    "lowest_price_isk": 15814,
+    "lowest_price_store": "kidsworld"
   },
   {
     "lego_set_number": "75392",
@@ -10418,20 +10396,6 @@
     "lowest_price_store": "coolshop"
   },
   {
-    "lego_set_number": "42673",
-    "name": "Family Vacation Beach Resort",
-    "num_parts": "1140",
-    "prices": {
-      "hagkaup": "24599 kr",
-      "coolshop": "24999 kr",
-      "boozt": "16146 kr",
-      "kidsworld": "20058 kr"
-    },
-    "lowest_price": "16146 kr",
-    "lowest_price_isk": 16146,
-    "lowest_price_store": "boozt"
-  },
-  {
     "lego_set_number": "76324",
     "name": "Spider-Man vs. Oscorp",
     "num_parts": "808",
@@ -10457,6 +10421,19 @@
     "lowest_price_store": "boozt"
   },
   {
+    "lego_set_number": "42673",
+    "name": "Family Vacation Beach Resort",
+    "num_parts": "1140",
+    "prices": {
+      "coolshop": "24999 kr",
+      "boozt": "16146 kr",
+      "kidsworld": "20058 kr"
+    },
+    "lowest_price": "16146 kr",
+    "lowest_price_isk": 16146,
+    "lowest_price_store": "boozt"
+  },
+  {
     "lego_set_number": "31197",
     "name": "Andy Warhol's Marilyn Monroe",
     "num_parts": "3341",
@@ -10468,15 +10445,17 @@
     "lowest_price_store": "coolshop"
   },
   {
-    "lego_set_number": "75304",
-    "name": "Darth Vader",
-    "num_parts": "834",
+    "lego_set_number": "60367",
+    "name": "Passenger Airplane",
+    "num_parts": "913",
     "prices": {
-      "hagkaup": "16499 kr"
+      "coolshop": "22999 kr",
+      "kidsworld": "16574 kr",
+      "elko": "18995 kr"
     },
-    "lowest_price": "16499 kr",
-    "lowest_price_isk": 16499,
-    "lowest_price_store": "hagkaup"
+    "lowest_price": "16574 kr",
+    "lowest_price_isk": 16574,
+    "lowest_price_store": "kidsworld"
   },
   {
     "lego_set_number": "71858",
@@ -10484,7 +10463,6 @@
     "num_parts": "1259",
     "prices": {
       "coolshop": "19999 kr",
-      "boozt": "17269 kr",
       "kidsworld": "16679 kr"
     },
     "lowest_price": "16679 kr",
@@ -10617,7 +10595,6 @@
     "name": "Elsa's Ice Palace",
     "num_parts": "630",
     "prices": {
-      "hagkaup": "19999 kr",
       "coolshop": "16799 kr"
     },
     "lowest_price": "16799 kr",
@@ -10644,7 +10621,8 @@
     "prices": {
       "coolshop": "23099 kr",
       "boozt": "16981 kr",
-      "kidsworld": "18791 kr"
+      "kidsworld": "18791 kr",
+      "elko": "24995 kr"
     },
     "lowest_price": "16981 kr",
     "lowest_price_isk": 16981,
@@ -10696,6 +10674,17 @@
     "lowest_price_store": "coolshop"
   },
   {
+    "lego_set_number": "75689",
+    "name": "Emerald City & Kiamo Ko Castle",
+    "num_parts": "860",
+    "prices": {
+      "coolshop": "16999 kr"
+    },
+    "lowest_price": "16999 kr",
+    "lowest_price_isk": 16999,
+    "lowest_price_store": "coolshop"
+  },
+  {
     "lego_set_number": "76266",
     "name": "Endgame Final Battle",
     "num_parts": "795",
@@ -10723,7 +10712,8 @@
     "num_parts": "887",
     "prices": {
       "coolshop": "19999 kr",
-      "boozt": "17269 kr"
+      "boozt": "17269 kr",
+      "elko": "17495 kr"
     },
     "lowest_price": "17269 kr",
     "lowest_price_isk": 17269,
@@ -10735,7 +10725,8 @@
     "num_parts": "909",
     "prices": {
       "coolshop": "22999 kr",
-      "boozt": "17269 kr"
+      "boozt": "17269 kr",
+      "elko": "17495 kr"
     },
     "lowest_price": "17269 kr",
     "lowest_price_isk": 17269,
@@ -10766,13 +10757,25 @@
     "lowest_price_store": "kidsworld"
   },
   {
+    "lego_set_number": "76439",
+    "name": "Ollivanders & Madam Malkin’s Robes",
+    "num_parts": "766",
+    "prices": {
+      "elko": "17494 kr"
+    },
+    "lowest_price": "17494 kr",
+    "lowest_price_isk": 17494,
+    "lowest_price_store": "elko"
+  },
+  {
     "lego_set_number": "43269",
     "name": "101 Dalmatians Puppy",
     "num_parts": "1722",
     "prices": {
       "coolshop": "29999 kr",
       "boozt": "17616 kr",
-      "kidsworld": "20987 kr"
+      "kidsworld": "20987 kr",
+      "elko": "23395 kr"
     },
     "lowest_price": "17616 kr",
     "lowest_price_isk": 17616,
@@ -10785,7 +10788,8 @@
     "prices": {
       "coolshop": "29999 kr",
       "boozt": "17616 kr",
-      "kidsworld": "22169 kr"
+      "kidsworld": "22169 kr",
+      "elko": "23395 kr"
     },
     "lowest_price": "17616 kr",
     "lowest_price_isk": 17616,
@@ -10893,33 +10897,8 @@
     "prices": {
       "coolshop": "22999 kr",
       "boozt": "18229 kr",
-      "kidsworld": "18791 kr"
-    },
-    "lowest_price": "18229 kr",
-    "lowest_price_isk": 18229,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "11372",
-    "name": "Autumn Cottage Garden",
-    "num_parts": "1102",
-    "prices": {
-      "coolshop": "24999 kr",
-      "boozt": "18229 kr",
-      "kidsworld": "19530 kr"
-    },
-    "lowest_price": "18229 kr",
-    "lowest_price_isk": 18229,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "76342",
-    "name": "Spider-Man vs. Mysterio: The Daily Bugle",
-    "num_parts": "789",
-    "prices": {
-      "coolshop": "22999 kr",
-      "boozt": "18229 kr",
-      "kidsworld": "19530 kr"
+      "kidsworld": "18791 kr",
+      "elko": "19995 kr"
     },
     "lowest_price": "18229 kr",
     "lowest_price_isk": 18229,
@@ -10931,7 +10910,8 @@
     "num_parts": "743",
     "prices": {
       "coolshop": "22999 kr",
-      "boozt": "18229 kr"
+      "boozt": "18229 kr",
+      "elko": "18995 kr"
     },
     "lowest_price": "18229 kr",
     "lowest_price_isk": 18229,
@@ -10950,22 +10930,10 @@
     "lowest_price_store": "kidsworld"
   },
   {
-    "lego_set_number": "10529",
-    "name": "Truck",
-    "num_parts": "16",
-    "prices": {
-      "boozt": "18499 kr"
-    },
-    "lowest_price": "18499 kr",
-    "lowest_price_isk": 18499,
-    "lowest_price_store": "boozt"
-  },
-  {
     "lego_set_number": "75374",
     "name": "The Onyx Cinder",
     "num_parts": "1325",
     "prices": {
-      "hagkaup": "29999 kr",
       "boozt": "18521 kr",
       "kidsworld": "21641 kr"
     },
@@ -10974,13 +10942,26 @@
     "lowest_price_store": "boozt"
   },
   {
+    "lego_set_number": "11372",
+    "name": "Autumn Cottage Garden",
+    "num_parts": "1102",
+    "prices": {
+      "coolshop": "24999 kr",
+      "kidsworld": "19530 kr",
+      "elko": "18995 kr"
+    },
+    "lowest_price": "18995 kr",
+    "lowest_price_isk": 18995,
+    "lowest_price_store": "elko"
+  },
+  {
     "lego_set_number": "42154",
     "name": "2022 Ford GT",
     "num_parts": "1466",
     "prices": {
       "coolshop": "28999 kr",
-      "boozt": "24199 kr",
-      "kidsworld": "19002 kr"
+      "kidsworld": "19002 kr",
+      "elko": "23995 kr"
     },
     "lowest_price": "19002 kr",
     "lowest_price_isk": 19002,
@@ -11001,20 +10982,6 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "75435",
-    "name": "Battle of Felucia Separatist MTT",
-    "num_parts": "976",
-    "prices": {
-      "hagkaup": "28999 kr",
-      "coolshop": "34999 kr",
-      "boozt": "19079 kr",
-      "kidsworld": "24386 kr"
-    },
-    "lowest_price": "19079 kr",
-    "lowest_price_isk": 19079,
-    "lowest_price_store": "boozt"
-  },
-  {
     "lego_set_number": "75685",
     "name": "Emerald City Wall Art",
     "num_parts": "1518",
@@ -11028,13 +10995,27 @@
     "lowest_price_store": "boozt"
   },
   {
+    "lego_set_number": "75435",
+    "name": "Battle of Felucia Separatist MTT",
+    "num_parts": "976",
+    "prices": {
+      "coolshop": "34999 kr",
+      "boozt": "19079 kr",
+      "kidsworld": "24386 kr"
+    },
+    "lowest_price": "19079 kr",
+    "lowest_price_isk": 19079,
+    "lowest_price_store": "boozt"
+  },
+  {
     "lego_set_number": "75413",
     "name": "Republic Juggernaut",
     "num_parts": "816",
     "prices": {
       "coolshop": "34999 kr",
       "boozt": "19079 kr",
-      "kidsworld": "23542 kr"
+      "kidsworld": "23542 kr",
+      "elko": "25395 kr"
     },
     "lowest_price": "19079 kr",
     "lowest_price_isk": 19079,
@@ -11053,29 +11034,28 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "31218",
-    "name": "Japanese Cherry Blossom Landscape",
-    "num_parts": "1892",
+    "lego_set_number": "77072",
+    "name": "Peely Bone",
+    "num_parts": "1414",
     "prices": {
-      "coolshop": "24999 kr",
-      "boozt": "19189 kr",
-      "kidsworld": "23225 kr"
+      "elko": "19494 kr"
     },
-    "lowest_price": "19189 kr",
-    "lowest_price_isk": 19189,
-    "lowest_price_store": "boozt"
+    "lowest_price": "19494 kr",
+    "lowest_price_isk": 19494,
+    "lowest_price_store": "elko"
   },
   {
-    "lego_set_number": "43019",
-    "name": "Football",
-    "num_parts": "1498",
+    "lego_set_number": "76342",
+    "name": "Spider-Man vs. Mysterio: The Daily Bugle",
+    "num_parts": "789",
     "prices": {
-      "coolshop": "26999 kr",
-      "boozt": "19189 kr"
+      "coolshop": "22999 kr",
+      "kidsworld": "19530 kr",
+      "elko": "19995 kr"
     },
-    "lowest_price": "19189 kr",
-    "lowest_price_isk": 19189,
-    "lowest_price_store": "boozt"
+    "lowest_price": "19530 kr",
+    "lowest_price_isk": 19530,
+    "lowest_price_store": "kidsworld"
   },
   {
     "lego_set_number": "71847",
@@ -11089,6 +11069,29 @@
     "lowest_price": "19784 kr",
     "lowest_price_isk": 19784,
     "lowest_price_store": "boozt"
+  },
+  {
+    "lego_set_number": "60419",
+    "name": "Police Prison Island",
+    "num_parts": "980",
+    "prices": {
+      "coolshop": "24999 kr",
+      "elko": "19795 kr"
+    },
+    "lowest_price": "19795 kr",
+    "lowest_price_isk": 19795,
+    "lowest_price_store": "elko"
+  },
+  {
+    "lego_set_number": "43230",
+    "name": "Walt Disney Tribute Camera",
+    "num_parts": "811",
+    "prices": {
+      "elko": "19995 kr"
+    },
+    "lowest_price": "19995 kr",
+    "lowest_price_isk": 19995,
+    "lowest_price_store": "elko"
   },
   {
     "lego_set_number": "21376",
@@ -11107,7 +11110,6 @@
     "num_parts": "1548",
     "prices": {
       "coolshop": "19999 kr",
-      "boozt": "23029 kr",
       "kidsworld": "22697 kr"
     },
     "lowest_price": "19999 kr",
@@ -11162,6 +11164,17 @@
     "lego_set_number": "60368",
     "name": "Arctic Explorer Ship",
     "num_parts": "817",
+    "prices": {
+      "coolshop": "19999 kr"
+    },
+    "lowest_price": "19999 kr",
+    "lowest_price_isk": 19999,
+    "lowest_price_store": "coolshop"
+  },
+  {
+    "lego_set_number": "42689",
+    "name": "Heartlake City Friends Club House",
+    "num_parts": "794",
     "prices": {
       "coolshop": "19999 kr"
     },
@@ -11225,22 +11238,37 @@
       "hagkaup": "27499 kr",
       "coolshop": "29999 kr",
       "boozt": "20624 kr",
-      "kidsworld": "23119 kr"
+      "kidsworld": "23119 kr",
+      "elko": "22395 kr"
     },
     "lowest_price": "20624 kr",
     "lowest_price_isk": 20624,
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "21060",
-    "name": "Himeji Castle",
-    "num_parts": "2125",
+    "lego_set_number": "75398",
+    "name": "C-3PO",
+    "num_parts": "1140",
     "prices": {
-      "coolshop": "34999 kr",
-      "boozt": "20624 kr"
+      "coolshop": "28999 kr",
+      "boozt": "20624 kr",
+      "kidsworld": "21937 kr",
+      "elko": "27495 kr"
     },
     "lowest_price": "20624 kr",
     "lowest_price_isk": 20624,
+    "lowest_price_store": "boozt"
+  },
+  {
+    "lego_set_number": "10315",
+    "name": "Tranquil Garden",
+    "num_parts": "1363",
+    "prices": {
+      "coolshop": "24999 kr",
+      "boozt": "20839 kr"
+    },
+    "lowest_price": "20839 kr",
+    "lowest_price_isk": 20839,
     "lowest_price_store": "boozt"
   },
   {
@@ -11250,37 +11278,12 @@
     "prices": {
       "coolshop": "26999 kr",
       "boozt": "23299 kr",
-      "kidsworld": "21029 kr"
+      "kidsworld": "21029 kr",
+      "elko": "23995 kr"
     },
     "lowest_price": "21029 kr",
     "lowest_price_isk": 21029,
     "lowest_price_store": "kidsworld"
-  },
-  {
-    "lego_set_number": "71860",
-    "name": "Lloyd's Titan Mech 15th Anniversary",
-    "num_parts": "1293",
-    "prices": {
-      "coolshop": "26999 kr",
-      "boozt": "21099 kr",
-      "kidsworld": "22169 kr"
-    },
-    "lowest_price": "21099 kr",
-    "lowest_price_isk": 21099,
-    "lowest_price_store": "boozt"
-  },
-  {
-    "lego_set_number": "11376",
-    "name": "Ford Model T",
-    "num_parts": "1060",
-    "prices": {
-      "coolshop": "26999 kr",
-      "boozt": "21099 kr",
-      "kidsworld": "22169 kr"
-    },
-    "lowest_price": "21099 kr",
-    "lowest_price_isk": 21099,
-    "lowest_price_store": "boozt"
   },
   {
     "lego_set_number": "72037",
@@ -11289,7 +11292,8 @@
     "prices": {
       "coolshop": "36999 kr",
       "boozt": "21374 kr",
-      "kidsworld": "24238 kr"
+      "kidsworld": "24238 kr",
+      "elko": "29495 kr"
     },
     "lowest_price": "21374 kr",
     "lowest_price_isk": 21374,
@@ -11301,23 +11305,25 @@
     "num_parts": "1880",
     "prices": {
       "coolshop": "29999 kr",
-      "boozt": "21884 kr"
+      "boozt": "21884 kr",
+      "elko": "27495 kr"
     },
     "lowest_price": "21884 kr",
     "lowest_price_isk": 21884,
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "75398",
-    "name": "C-3PO",
-    "num_parts": "1140",
+    "lego_set_number": "42176",
+    "name": "Porsche GT4 e-Performance",
+    "num_parts": "834",
     "prices": {
-      "coolshop": "28999 kr",
-      "kidsworld": "21937 kr"
+      "coolshop": "34999 kr",
+      "boozt": "21944 kr",
+      "kidsworld": "25315 kr"
     },
-    "lowest_price": "21937 kr",
-    "lowest_price_isk": 21937,
-    "lowest_price_store": "kidsworld"
+    "lowest_price": "21944 kr",
+    "lowest_price_isk": 21944,
+    "lowest_price_store": "boozt"
   },
   {
     "lego_set_number": "71870",
@@ -11334,17 +11340,29 @@
     "lowest_price_store": "kidsworld"
   },
   {
-    "lego_set_number": "76344",
-    "name": "Iron Man Mark 3 Collectors' Edition",
-    "num_parts": "1297",
+    "lego_set_number": "71860",
+    "name": "Lloyd's Titan Mech 15th Anniversary",
+    "num_parts": "1293",
     "prices": {
       "coolshop": "26999 kr",
-      "boozt": "22539 kr",
-      "kidsworld": "23119 kr"
+      "kidsworld": "22169 kr"
     },
-    "lowest_price": "22539 kr",
-    "lowest_price_isk": 22539,
-    "lowest_price_store": "boozt"
+    "lowest_price": "22169 kr",
+    "lowest_price_isk": 22169,
+    "lowest_price_store": "kidsworld"
+  },
+  {
+    "lego_set_number": "11376",
+    "name": "Ford Model T",
+    "num_parts": "1060",
+    "prices": {
+      "coolshop": "26999 kr",
+      "kidsworld": "22169 kr",
+      "elko": "22995 kr"
+    },
+    "lowest_price": "22169 kr",
+    "lowest_price_isk": 22169,
+    "lowest_price_store": "kidsworld"
   },
   {
     "lego_set_number": "75417",
@@ -11353,7 +11371,8 @@
     "prices": {
       "coolshop": "33999 kr",
       "boozt": "22746 kr",
-      "kidsworld": "27342 kr"
+      "kidsworld": "27342 kr",
+      "elko": "33995 kr"
     },
     "lowest_price": "22746 kr",
     "lowest_price_isk": 22746,
@@ -11365,7 +11384,8 @@
     "num_parts": "1525",
     "prices": {
       "coolshop": "34999 kr",
-      "boozt": "22746 kr"
+      "boozt": "22746 kr",
+      "elko": "34495 kr"
     },
     "lowest_price": "22746 kr",
     "lowest_price_isk": 22746,
@@ -11480,11 +11500,25 @@
     "prices": {
       "coolshop": "29999 kr",
       "boozt": "23029 kr",
-      "kidsworld": "24703 kr"
+      "kidsworld": "24703 kr",
+      "elko": "24995 kr"
     },
     "lowest_price": "23029 kr",
     "lowest_price_isk": 23029,
     "lowest_price_store": "boozt"
+  },
+  {
+    "lego_set_number": "76344",
+    "name": "Iron Man Mark 3 Collectors' Edition",
+    "num_parts": "1297",
+    "prices": {
+      "coolshop": "26999 kr",
+      "kidsworld": "23119 kr",
+      "elko": "23995 kr"
+    },
+    "lowest_price": "23119 kr",
+    "lowest_price_isk": 23119,
+    "lowest_price_store": "kidsworld"
   },
   {
     "lego_set_number": "21066",
@@ -11497,6 +11531,18 @@
     },
     "lowest_price": "23119 kr",
     "lowest_price_isk": 23119,
+    "lowest_price_store": "kidsworld"
+  },
+  {
+    "lego_set_number": "31218",
+    "name": "Japanese Cherry Blossom Landscape",
+    "num_parts": "1892",
+    "prices": {
+      "coolshop": "24999 kr",
+      "kidsworld": "23225 kr"
+    },
+    "lowest_price": "23225 kr",
+    "lowest_price_isk": 23225,
     "lowest_price_store": "kidsworld"
   },
   {
@@ -11514,13 +11560,26 @@
     "lowest_price_store": "kidsworld"
   },
   {
+    "lego_set_number": "43019",
+    "name": "Football",
+    "num_parts": "1498",
+    "prices": {
+      "coolshop": "26999 kr",
+      "elko": "23995 kr"
+    },
+    "lowest_price": "23995 kr",
+    "lowest_price_isk": 23995,
+    "lowest_price_store": "elko"
+  },
+  {
     "lego_set_number": "60508",
     "name": "Police Train Heist",
     "num_parts": "1313",
     "prices": {
       "coolshop": "39999 kr",
       "boozt": "24861 kr",
-      "kidsworld": "30615 kr"
+      "kidsworld": "30615 kr",
+      "elko": "35995 kr"
     },
     "lowest_price": "24861 kr",
     "lowest_price_isk": 24861,
@@ -11533,7 +11592,8 @@
     "prices": {
       "coolshop": "32999 kr",
       "boozt": "24949 kr",
-      "kidsworld": "27342 kr"
+      "kidsworld": "27342 kr",
+      "elko": "28995 kr"
     },
     "lowest_price": "24949 kr",
     "lowest_price_isk": 24949,
@@ -11546,7 +11606,8 @@
     "prices": {
       "coolshop": "32999 kr",
       "boozt": "24949 kr",
-      "kidsworld": "25231 kr"
+      "kidsworld": "25231 kr",
+      "elko": "25995 kr"
     },
     "lowest_price": "24949 kr",
     "lowest_price_isk": 24949,
@@ -11556,17 +11617,6 @@
     "lego_set_number": "72423",
     "name": "Shrek, Donkey & Puss in Boots",
     "num_parts": "1403",
-    "prices": {
-      "coolshop": "24999 kr"
-    },
-    "lowest_price": "24999 kr",
-    "lowest_price_isk": 24999,
-    "lowest_price_store": "coolshop"
-  },
-  {
-    "lego_set_number": "10315",
-    "name": "Tranquil Garden",
-    "num_parts": "1363",
     "prices": {
       "coolshop": "24999 kr"
     },
@@ -11632,16 +11682,16 @@
     "lowest_price_store": "kidsworld"
   },
   {
-    "lego_set_number": "42176",
-    "name": "Porsche GT4 e-Performance",
-    "num_parts": "834",
+    "lego_set_number": "42175",
+    "name": "Volvo FMX Truck & EC230 Electric Excavator",
+    "num_parts": "2274",
     "prices": {
-      "coolshop": "34999 kr",
-      "kidsworld": "25315 kr"
+      "coolshop": "39999 kr",
+      "boozt": "25574 kr"
     },
-    "lowest_price": "25315 kr",
-    "lowest_price_isk": 25315,
-    "lowest_price_store": "kidsworld"
+    "lowest_price": "25574 kr",
+    "lowest_price_isk": 25574,
+    "lowest_price_store": "boozt"
   },
   {
     "lego_set_number": "42231",
@@ -11663,7 +11713,8 @@
     "prices": {
       "coolshop": "34999 kr",
       "boozt": "26049 kr",
-      "kidsworld": "26392 kr"
+      "kidsworld": "26392 kr",
+      "elko": "29995 kr"
     },
     "lowest_price": "26049 kr",
     "lowest_price_isk": 26049,
@@ -11676,7 +11727,8 @@
     "prices": {
       "coolshop": "29999 kr",
       "boozt": "26049 kr",
-      "kidsworld": "26392 kr"
+      "kidsworld": "26392 kr",
+      "elko": "27995 kr"
     },
     "lowest_price": "26049 kr",
     "lowest_price_isk": 26049,
@@ -11702,7 +11754,8 @@
     "prices": {
       "coolshop": "29999 kr",
       "boozt": "27399 kr",
-      "kidsworld": "26814 kr"
+      "kidsworld": "26814 kr",
+      "elko": "29995 kr"
     },
     "lowest_price": "26814 kr",
     "lowest_price_isk": 26814,
@@ -11757,22 +11810,12 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "71048",
-    "name": "Cupid",
-    "num_parts": "9",
-    "prices": {
-      "hagkaup": "27799 kr"
-    },
-    "lowest_price": "27799 kr",
-    "lowest_price_isk": 27799,
-    "lowest_price_store": "hagkaup"
-  },
-  {
     "lego_set_number": "10327",
     "name": "Dune Atreides Royal Ornithopter",
     "num_parts": "1370",
     "prices": {
-      "coolshop": "27999 kr"
+      "coolshop": "27999 kr",
+      "elko": "28495 kr"
     },
     "lowest_price": "27999 kr",
     "lowest_price_isk": 27999,
@@ -11797,7 +11840,8 @@
     "num_parts": "2842",
     "prices": {
       "coolshop": "39999 kr",
-      "boozt": "28789 kr"
+      "boozt": "28789 kr",
+      "elko": "33995 kr"
     },
     "lowest_price": "28789 kr",
     "lowest_price_isk": 28789,
@@ -11816,12 +11860,26 @@
     "lowest_price_store": "boozt"
   },
   {
+    "lego_set_number": "76419",
+    "name": "Hogwarts Castle and Grounds",
+    "num_parts": "2660",
+    "prices": {
+      "coolshop": "39999 kr",
+      "boozt": "29699 kr",
+      "elko": "29595 kr"
+    },
+    "lowest_price": "29595 kr",
+    "lowest_price_isk": 29595,
+    "lowest_price_store": "elko"
+  },
+  {
     "lego_set_number": "42207",
     "name": "Ferrari SF-24 F1 Car",
     "num_parts": "1361",
     "prices": {
       "coolshop": "39999 kr",
-      "boozt": "29811 kr"
+      "boozt": "29811 kr",
+      "elko": "39995 kr"
     },
     "lowest_price": "29811 kr",
     "lowest_price_isk": 29811,
@@ -11837,6 +11895,17 @@
     "lowest_price": "29981 kr",
     "lowest_price_isk": 29981,
     "lowest_price_store": "kidsworld"
+  },
+  {
+    "lego_set_number": "10302",
+    "name": "Optimus Prime",
+    "num_parts": "1508",
+    "prices": {
+      "elko": "29995 kr"
+    },
+    "lowest_price": "29995 kr",
+    "lowest_price_isk": 29995,
+    "lowest_price_store": "elko"
   },
   {
     "lego_set_number": "10351",
@@ -11972,28 +12041,50 @@
     "prices": {
       "coolshop": "39999 kr",
       "boozt": "34269 kr",
-      "kidsworld": "33782 kr"
+      "kidsworld": "33782 kr",
+      "elko": "36995 kr"
     },
     "lowest_price": "33782 kr",
     "lowest_price_isk": 33782,
     "lowest_price_store": "kidsworld"
   },
   {
+    "lego_set_number": "76435",
+    "name": "Hogwarts Castle: The Great Hall",
+    "num_parts": "1727",
+    "prices": {
+      "elko": "33995 kr"
+    },
+    "lowest_price": "33995 kr",
+    "lowest_price_isk": 33995,
+    "lowest_price_store": "elko"
+  },
+  {
     "lego_set_number": "76444",
     "name": "Diagon Alley Wizarding Shops",
     "num_parts": "2750",
     "prices": {
-      "coolshop": "34999 kr",
-      "boozt": "34269 kr"
+      "coolshop": "34999 kr"
     },
-    "lowest_price": "34269 kr",
-    "lowest_price_isk": 34269,
-    "lowest_price_store": "boozt"
+    "lowest_price": "34999 kr",
+    "lowest_price_isk": 34999,
+    "lowest_price_store": "coolshop"
   },
   {
     "lego_set_number": "75371",
     "name": "Chewbacca",
     "num_parts": "2319",
+    "prices": {
+      "coolshop": "34999 kr"
+    },
+    "lowest_price": "34999 kr",
+    "lowest_price_isk": 34999,
+    "lowest_price_store": "coolshop"
+  },
+  {
+    "lego_set_number": "21060",
+    "name": "Himeji Castle",
+    "num_parts": "2125",
     "prices": {
       "coolshop": "34999 kr"
     },
@@ -12051,7 +12142,6 @@
     "num_parts": "2131",
     "prices": {
       "coolshop": "44999 kr",
-      "boozt": "38159 kr",
       "kidsworld": "35176 kr"
     },
     "lowest_price": "35176 kr",
@@ -12065,11 +12155,25 @@
     "prices": {
       "coolshop": "44999 kr",
       "boozt": "39749 kr",
-      "kidsworld": "35260 kr"
+      "kidsworld": "35260 kr",
+      "elko": "37995 kr"
     },
     "lowest_price": "35260 kr",
     "lowest_price_isk": 35260,
     "lowest_price_store": "kidsworld"
+  },
+  {
+    "lego_set_number": "42171",
+    "name": "Mercedes-AMG F1 W14 E Performance",
+    "num_parts": "1642",
+    "prices": {
+      "hagkaup": "41999 kr",
+      "coolshop": "44999 kr",
+      "boozt": "35639 kr"
+    },
+    "lowest_price": "35639 kr",
+    "lowest_price_isk": 35639,
+    "lowest_price_store": "boozt"
   },
   {
     "lego_set_number": "42228",
@@ -12078,7 +12182,8 @@
     "prices": {
       "coolshop": "49999 kr",
       "boozt": "36459 kr",
-      "kidsworld": "36949 kr"
+      "kidsworld": "36949 kr",
+      "elko": "42995 kr"
     },
     "lowest_price": "36459 kr",
     "lowest_price_isk": 36459,
@@ -12107,17 +12212,6 @@
     "lowest_price_store": "boozt"
   },
   {
-    "lego_set_number": "60198",
-    "name": "Cargo Train",
-    "num_parts": "1226",
-    "prices": {
-      "hagkaup": "37999 kr"
-    },
-    "lowest_price": "37999 kr",
-    "lowest_price_isk": 37999,
-    "lowest_price_store": "hagkaup"
-  },
-  {
     "lego_set_number": "76473",
     "name": "Hogwarts Castle: East Wing",
     "num_parts": "2164",
@@ -12143,31 +12237,9 @@
     "lowest_price_store": "coolshop"
   },
   {
-    "lego_set_number": "76419",
-    "name": "Hogwarts Castle and Grounds",
-    "num_parts": "2660",
-    "prices": {
-      "coolshop": "39999 kr"
-    },
-    "lowest_price": "39999 kr",
-    "lowest_price_isk": 39999,
-    "lowest_price_store": "coolshop"
-  },
-  {
     "lego_set_number": "10323",
     "name": "PAC-MAN Arcade",
     "num_parts": "2651",
-    "prices": {
-      "coolshop": "39999 kr"
-    },
-    "lowest_price": "39999 kr",
-    "lowest_price_isk": 39999,
-    "lowest_price_store": "coolshop"
-  },
-  {
-    "lego_set_number": "42175",
-    "name": "Volvo FMX Truck & EC230 Electric Excavator",
-    "num_parts": "2274",
     "prices": {
       "coolshop": "39999 kr"
     },
@@ -12225,34 +12297,12 @@
     "num_parts": "3398",
     "prices": {
       "coolshop": "49999 kr",
-      "kidsworld": "41700 kr"
+      "kidsworld": "41700 kr",
+      "elko": "49495 kr"
     },
     "lowest_price": "41700 kr",
     "lowest_price_isk": 41700,
     "lowest_price_store": "kidsworld"
-  },
-  {
-    "lego_set_number": "42171",
-    "name": "Mercedes-AMG F1 W14 E Performance",
-    "num_parts": "1642",
-    "prices": {
-      "hagkaup": "41999 kr",
-      "coolshop": "44999 kr"
-    },
-    "lowest_price": "41999 kr",
-    "lowest_price_isk": 41999,
-    "lowest_price_store": "hagkaup"
-  },
-  {
-    "lego_set_number": "10273",
-    "name": "Haunted House",
-    "num_parts": "3232",
-    "prices": {
-      "coolshop": "41999 kr"
-    },
-    "lowest_price": "41999 kr",
-    "lowest_price_isk": 41999,
-    "lowest_price_store": "coolshop"
   },
   {
     "lego_set_number": "10306",
@@ -12407,7 +12457,6 @@
     "num_parts": "3893",
     "prices": {
       "coolshop": "77999 kr",
-      "boozt": "76999 kr",
       "kidsworld": "58887 kr"
     },
     "lowest_price": "58887 kr",
@@ -12468,6 +12517,17 @@
     "lowest_price": "64999 kr",
     "lowest_price_isk": 64999,
     "lowest_price_store": "coolshop"
+  },
+  {
+    "lego_set_number": "42143",
+    "name": "Ferrari Daytona SP3",
+    "num_parts": "3778",
+    "prices": {
+      "elko": "69995 kr"
+    },
+    "lowest_price": "69995 kr",
+    "lowest_price_isk": 69995,
+    "lowest_price_store": "elko"
   },
   {
     "lego_set_number": "21348",

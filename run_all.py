@@ -20,9 +20,10 @@ STORE_MODULES = {
     "boozt": "scrapers.legoprice_boozt",
     "hagkaup": "scrapers.legoprice_hagkaup",
     "kidsworld": "scrapers.legoprice_kidsworld",
+    "elko": "scrapers.legoprice_elko",
 }
 
-DEFAULT_STORES = ["coolshop", "kubbabudin", "boozt", "hagkaup", "kidsworld"]
+DEFAULT_STORES = ["coolshop", "kubbabudin", "boozt", "hagkaup", "kidsworld", "elko"]
 SETS_PATH = Path("data/sets.csv")
 
 

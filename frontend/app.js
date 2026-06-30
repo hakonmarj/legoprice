@@ -24,32 +24,50 @@ function toNumber(value) {
 
 function cardTemplate(item) {
   const imageUrl = item.display_image_url || item.bricklink_image_url || item.img_url || '';
+  const STORES = [
+    { key: 'coolshop_price',   label: 'Coolshop' },
+    { key: 'kubbabudin_price', label: 'Kubbabudin' },
+    { key: 'boozt_price',      label: 'Boozt' },
+    { key: 'hagkaup_price',    label: 'Hagkaup' },
+    { key: 'kidsworld_price',  label: 'Kidsworld' },
+    { key: 'elko_price',       label: 'Elko' },
+  ];
+  const storeUrlKey = `${item.lowest_price_store || ''}_url`;
+  const fallbackSearchByStore = {
+    coolshop: `https://www.coolshop.is/search?query=${encodeURIComponent(item.lego_set_number || item.name || '')}`,
+    kubbabudin: `https://kubbabudin.is/leita/?q=${encodeURIComponent(item.lego_set_number || item.name || '')}`,
+    boozt: `https://www.boozt.com/is/is/search?q=${encodeURIComponent(item.lego_set_number || item.name || '')}`,
+    hagkaup: `https://www.hagkaup.is/search?q=${encodeURIComponent(item.lego_set_number || item.name || '')}`,
+    kidsworld: `https://www.kids-world.com/is-is/search?q=${encodeURIComponent(item.lego_set_number || item.name || '')}`,
+    elko: `https://elko.is/leit?q=${encodeURIComponent(item.lego_set_number || item.name || '')}`,
+  };
+  const productUrl = item[storeUrlKey] || fallbackSearchByStore[item.lowest_price_store] || null;
+  const storeRows = STORES
+    .filter(s => item[s.key])
+    .map(s => `<div class="store-row"><span class="label">${s.label}:</span> <span class="value">${item[s.key]}</span></div>`)
+    .join('');
   return `
     <article class="card">
       ${imageUrl ? `<img class="thumb" src="${imageUrl}" alt="${item.lego_set_number} image" loading="lazy" />` : ''}
       <h3>${item.lego_set_number} — ${item.name || 'Unknown'}</h3>
+      ${productUrl ? `<a class="product-link" href="${productUrl}" target="_blank" rel="noopener noreferrer">View product ↗</a>` : ''}
       <div class="meta">
         <div><span class="label">Theme:</span> <span class="value">${decodeHtmlEntities(item.theme || '-')}</span></div>
         <div><span class="label">Pieces:</span> <span class="value">${item.num_parts || '-'}</span></div>
-        <div><span class="label">Lowest price:</span> <span class="value">${item.lowest_price || '-'}</span></div>
-        <div><span class="label">Store:</span> <span class="value">${item.lowest_price_store || '-'}</span></div>
+        <div class="best-price"><span class="label">Best price:</span> <span class="value">${item.lowest_price || '-'} @ ${item.lowest_price_store || '-'}</span></div>
         <div><span class="label">Pieces/ISK:</span> <span class="value">${(item.pieces_per_kr || 0).toFixed ? item.pieces_per_kr.toFixed(4) : '-'}</span></div>
         <div><span class="label">BrickLink avg (USD):</span> <span class="value">${item.bricklink_6m_avg_price_new_usd ?? '-'}</span></div>
         <div><span class="label">BrickLink avg (ISK):</span> <span class="value">${toNumber(item.bricklink_6m_avg_price_new_isk)?.toFixed(0) ?? '-'}</span></div>
         <div><span class="label">Price vs BL avg ratio:</span> <span class="value">${toNumber(item.lowest_price_vs_bricklink_avg_ratio)?.toFixed(3) ?? '-'}</span></div>
         <div><span class="label">BrickLink sales:</span> <span class="value">${item.bricklink_6m_sales_count_new ?? '-'}</span></div>
-        <div><span class="label">Coolshop:</span> <span class="value">${item.coolshop_price || '-'}</span></div>
-        <div><span class="label">Kubbabudin:</span> <span class="value">${item.kubbabudin_price || '-'}</span></div>
-        <div><span class="label">Boozt:</span> <span class="value">${item.boozt_price || '-'}</span></div>
-        <div><span class="label">Hagkaup:</span> <span class="value">${item.hagkaup_price || '-'}</span></div>
-        <div><span class="label">Kidsworld:</span> <span class="value">${item.kidsworld_price || '-'}</span></div>
       </div>
+      ${storeRows ? `<details class="store-prices"><summary>Store prices (${STORES.filter(s => item[s.key]).length})</summary><div class="store-grid">${storeRows}</div></details>` : ''}
     </article>
   `;
 }
 
 function countStorePrices(item) {
-  return ['coolshop_price', 'kubbabudin_price', 'boozt_price', 'hagkaup_price', 'kidsworld_price']
+  return ['coolshop_price', 'kubbabudin_price', 'boozt_price', 'hagkaup_price', 'kidsworld_price', 'elko_price']
     .filter((key) => Boolean(item[key])).length;
 }
 

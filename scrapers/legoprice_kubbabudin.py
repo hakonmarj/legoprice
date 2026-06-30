@@ -17,6 +17,13 @@ from utils.price_utils import (
     extract_set_number,
 )
 
+
+def log_unresolved_products(products):
+    missing = [p for p in products if not p.get('lego_set_number')]
+    print(f"Unresolved set numbers: {len(missing)}/{len(products)}")
+    for product in missing:
+        print(f"  - {product.get('name', '')} | {product.get('kubbabudin_url') or 'no-url'}")
+
 def extract_products_from_soup(soup, lego_data):
     """Extract product details from the BeautifulSoup object."""
     product_cards = soup.select("div.product__BaseProductCardViewWrapper-sc-18rnnrl-0")
@@ -26,10 +33,20 @@ def extract_products_from_soup(soup, lego_data):
         card_text = card.get_text(" ", strip=True)
         title_tag = card.select_one("h3, h2, .product-title, a")
         title_text = title_tag.get_text(" ", strip=True) if title_tag else card_text
+        href_tag = card.select_one('a[href]')
+        href = href_tag.get('href', '').strip() if href_tag else ''
+        if href and href.startswith('/'):
+            href = f"https://kubbabudin.is{href}"
 
         # ✅ Extract current (discounted or regular) price
         price_tag = card.select_one("strong.typopgraphy__DisplayBold24-sc-1qfpj1g-17.gXvSFa.price.rz-tg-display-bold-24")
-        price = format_price_isk(price_tag.get_text(strip=True)) if price_tag else format_price_isk(card_text)
+        price = format_price_isk(price_tag.get_text(strip=True)) if price_tag else None
+
+        # Skip items with no price or out-of-stock
+        if not price:
+            continue
+        if 'uppselt' in card_text.lower() or 'out of stock' in card_text.lower():
+            continue
 
         # ✅ Extract original price if discounted
         original_price_tag = card.select_one("span.regular-price strike")
@@ -47,6 +64,8 @@ def extract_products_from_soup(soup, lego_data):
                 lego_set_number = sku_text[4:].replace('ST', '')
         if not lego_set_number:
             lego_set_number = extract_set_number(card_text)
+        if lego_set_number and lego_set_number not in lego_data:
+            lego_set_number = None
 
         product = {
             "kubbabudin_price": price,
@@ -54,6 +73,7 @@ def extract_products_from_soup(soup, lego_data):
             "original_kubbabudin_price": original_price,
             "lego_set_number": lego_set_number,
             "name": title_text,
+            "kubbabudin_url": href or None,
         }
 
         products.append(product)
@@ -142,6 +162,7 @@ def fetch_all_pages(csv_filename):
 
     all_products = [enrich_with_lego_data(product, lego_data, title_fallback=product.get('name')) for product in all_products]
     all_products = dedupe_products(all_products, ['lego_set_number', 'kubbabudin_price', 'name'])
+    log_unresolved_products(all_products)
 
     driver.quit()
     return all_products

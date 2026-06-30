@@ -21,6 +21,13 @@ def extract_lego_set_number(title):
     """Extract the LEGO set number from the product title."""
     return extract_set_number(title)
 
+
+def log_unresolved_products(products):
+    missing = [p for p in products if not p.get('lego_set_number')]
+    print(f"Unresolved set numbers: {len(missing)}/{len(products)}")
+    for product in missing:
+        print(f"  - {product.get('name', '')} | {product.get('kidsworld_url') or 'no-url'}")
+
 def extract_products_from_soup(soup, lego_data):
     """Extract product details from the BeautifulSoup object."""
     product_cards = soup.select("div.product")
@@ -32,12 +39,27 @@ def extract_products_from_soup(soup, lego_data):
         
         if not title or not price:
             continue
+        # Skip out-of-stock cards (Kids World marks them with 'out-of-stock' class or similar text)
+        card_classes = ' '.join(card.get('class', []))
+        card_text = card.get_text(' ', strip=True)
+        if 'out-of-stock' in card_classes.lower() or 'uppselt' in card_text.lower() or 'out of stock' in card_text.lower():
+            continue
             
         title_text = title.get_text(strip=True)
         price_text = price.get_text(strip=True)
+        href = title.get('href', '').strip()
+        if href and href.startswith('/'):
+            href = f"https://www.kids-world.com{href}"
+
+        # Skip if price is missing or invalid
+        formatted_price = format_price_isk(price_text)
+        if not formatted_price or parse_price_isk(formatted_price) is None:
+            continue
         
         # Extract LEGO set number from the title
         lego_set_number = extract_lego_set_number(title_text)
+        if lego_set_number and lego_set_number not in lego_data:
+            lego_set_number = None
         
         # Clean up the title by removing the set number and extra spaces
         if lego_set_number:
@@ -45,10 +67,11 @@ def extract_products_from_soup(soup, lego_data):
         title_text = re.sub(r'\s+', ' ', title_text).strip()
         
         product = {
-            "kidsworld_price": format_price_isk(price_text),
-            "lowest_price": format_price_isk(price_text),
+            "kidsworld_price": formatted_price,
+            "lowest_price": formatted_price,
             "lego_set_number": lego_set_number,
-            "name": title_text
+            "name": title_text,
+            "kidsworld_url": href or None,
         }
 
         enrich_with_lego_data(product, lego_data, title_fallback=title_text)
@@ -174,6 +197,7 @@ def fetch_all_pages(csv_filename):
         driver.quit()
     
     all_products = dedupe_products(all_products, ['lego_set_number', 'kidsworld_price', 'name'])
+    log_unresolved_products(all_products)
     return all_products
 
 def sort_by_pieces_per_kr(products):

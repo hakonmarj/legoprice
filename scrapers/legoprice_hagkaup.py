@@ -55,34 +55,47 @@ def normalize_text(value):
     return text
 
 
-def match_set_by_name(title, lego_data):
-    title_text = normalize_text(title)
-    if not title_text:
+def log_unresolved_products(products):
+    missing = [p for p in products if not p.get('lego_set_number')]
+    print(f"Unresolved set numbers: {len(missing)}/{len(products)}")
+    for product in missing:
+        print(f"  - {product.get('name', '')} | {product.get('hagkaup_url') or product.get('url') or 'no-url'}")
+
+
+def extract_hagkaup_price(text):
+    matches = re.findall(r"(\d{1,3}(?:[\.\s]\d{3})*)\s*kr\.?", str(text or ''), flags=re.IGNORECASE)
+    if not matches:
         return None
 
-    title_tokens = [token for token in title_text.split() if len(token) > 2 and token != 'lego']
-    if not title_tokens:
+    amounts = []
+    for match in matches:
+        digits = re.sub(r"\D", "", match)
+        if digits:
+            amounts.append(int(digits))
+
+    if not amounts:
         return None
 
-    best_set = None
-    best_score = 0.0
-    second_best = 0.0
+    if len(amounts) > 1 and any(amount >= 100 for amount in amounts):
+        filtered = [amount for amount in amounts if amount > 1]
+        if filtered:
+            amounts = filtered
 
-    for set_num, set_info in lego_data.items():
-        name_tokens = [token for token in normalize_text(set_info.get('name')).split() if len(token) > 2]
-        if not name_tokens:
-            continue
-        overlap = len(set(title_tokens) & set(name_tokens))
-        score = overlap / max(1, len(set(name_tokens)))
-        if score > best_score:
-            second_best = best_score
-            best_score = score
-            best_set = set_num
-        elif score > second_best:
-            second_best = score
+    amount = min(amount for amount in amounts if amount > 0)
+    return f"{amount} kr"
 
-    if best_score >= 0.55 and (best_score - second_best) >= 0.15:
-        return best_set
+
+def extract_set_number_from_visible_text(text):
+    """Extract LEGO set number only from LEGO-prefixed visible text to avoid false positives."""
+    value = str(text or '')
+    patterns = [
+        r"(?i)\bLEGO[\s#:\-]*(\d{5,7})\b",
+        r"(?i)\b(?:set(?:\s*(?:nr|no|number|númer))?|vörunúmer)\s*[:#]?\s*(\d{5,7})\b",
+    ]
+    for pattern in patterns:
+        match = re.search(pattern, value)
+        if match:
+            return match.group(1)
     return None
 
 
@@ -123,6 +136,9 @@ def click_load_more_until_done(driver, max_clicks=60):
 
 
 def fetch_set_number_from_url(full_url, user_agent):
+    """Fetch a product page and extract LEGO set number from semantic elements only.
+    Avoids scanning full HTML which may contain unrelated 5-digit numbers (e.g. Typekit font IDs).
+    """
     if not requests:
         return full_url, None, "requests_not_available"
     try:
@@ -135,7 +151,36 @@ def fetch_set_number_from_url(full_url, user_agent):
             },
         )
         response.raise_for_status()
-        return full_url, extract_set_number(response.text), None
+        soup = BeautifulSoup(response.text, 'html.parser')
+
+        # 1. Try JSON-LD structured data (most reliable)
+        for script in soup.find_all('script', type='application/ld+json'):
+            try:
+                data = json.loads(script.string or '')
+                for obj in (data if isinstance(data, list) else [data]):
+                    for key in ('name', 'description', 'sku', 'mpn', 'productID'):
+                        val = obj.get(key, '')
+                        num = extract_set_number_from_visible_text(str(val))
+                        if num:
+                            return full_url, num, None
+            except Exception:
+                pass
+
+        # 2. <title> and <h1> — where the product name lives
+        for selector in ('title', 'h1'):
+            tag = soup.find(selector)
+            if tag:
+                num = extract_set_number_from_visible_text(tag.get_text(' ', strip=True))
+                if num:
+                    return full_url, num, None
+
+        # 3. Open Graph / meta description
+        for meta in soup.find_all('meta', attrs={'property': re.compile(r'og:(title|description)'), 'content': True}):
+            num = extract_set_number_from_visible_text(meta['content'])
+            if num:
+                return full_url, num, None
+
+        return full_url, None, None
     except Exception as error:
         return full_url, None, str(error)
 
@@ -157,22 +202,33 @@ def extract_products_from_soup(soup, lego_data):
     for card in product_cards:
         title = clean_title_from_card(card)
         card_text = card.get_text(" ", strip=True)
-        price = format_price_isk(card_text)
-        # Try to find the best matching LEGO set
+        price = extract_hagkaup_price(card_text)
+        # Skip out-of-stock products
+        card_text_upper = card_text.upper()
+        if 'UPPSELT' in card_text_upper or 'ÚTSELDAN' in card_text_upper:
+            continue
+        # Require a real parsable KR price
+        parsed_price = parse_price_isk(price)
+        if parsed_price is None:
+            continue
+        # Try to find the LEGO set number from the title or URL only (no fuzzy name matching)
         lego_set_number = find_best_set_match(title, lego_data)
-        if not lego_set_number:
-            lego_set_number = match_set_by_name(title, lego_data)
         # Extract product link (relative href) to open later for exact set number
         href = card.get('href') or (card.select_one('a') and card.select_one('a').get('href'))
         product_url = href
+        if product_url and product_url.startswith('/'):
+            product_url = urljoin('https://www.hagkaup.is', product_url)
         if not lego_set_number and product_url:
             lego_set_number = extract_set_number(product_url)
+        if lego_set_number and lego_set_number not in lego_data:
+            lego_set_number = None
         product = {
             "hagkaup_price": price,
             "lowest_price": price,
             "lego_set_number": lego_set_number,
             "name": title,
-            "url": product_url
+            "url": product_url,
+            "hagkaup_url": product_url,
         }
         # If we found a matching set, add its details
         enrich_with_lego_data(product, lego_data, title_fallback=title)
@@ -351,61 +407,86 @@ def fetch_all_pages(csv_filename):
         all_products = extract_products_from_soup(soup, lego_data)
         print(f"Found {len(all_products)} products after all scrolling and loading.")
 
-        base = 'https://www.hagkaup.is'
-        user_agent = driver.execute_script("return navigator.userAgent;")
-        indexed_jobs = []
-        for index, product in enumerate(all_products, start=1):
-            url = product.get('url')
-            if not url:
-                continue
-            indexed_jobs.append((index, product, urljoin(base, url)))
+        # For products that still lack a set number, fetch their individual pages
+        # and search only semantic elements (title / h1 / JSON-LD) to avoid false
+        # positives from unrelated 5-digit numbers (e.g. Typekit font IDs in CSS URLs).
+        resolved_count = sum(1 for product in all_products if product.get('lego_set_number'))
+        print(f"Set numbers from listing cards: {resolved_count}/{len(all_products)}")
 
-        success_count = 0
-        failure_count = 0
-        futures = {}
-        if requests and indexed_jobs:
-            worker_count = min(10, len(indexed_jobs))
-            with ThreadPoolExecutor(max_workers=worker_count) as executor:
-                for index, product, full_url in indexed_jobs:
-                    future = executor.submit(fetch_set_number_from_url, full_url, user_agent)
-                    futures[future] = (index, product, full_url)
-
-                processed = 0
+        urls_to_fetch = [
+            (i, p['url'])
+            for i, p in enumerate(all_products)
+            if not p.get('lego_set_number') and p.get('url')
+        ]
+        if urls_to_fetch:
+            user_agent = (
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+            )
+            print(f"Fetching {len(urls_to_fetch)} product pages for set numbers…")
+            with ThreadPoolExecutor(max_workers=6) as pool:
+                futures = {
+                    pool.submit(fetch_set_number_from_url, url, user_agent): idx
+                    for idx, url in urls_to_fetch
+                }
                 for future in as_completed(futures):
-                    index, product, full_url = futures[future]
-                    _, extracted_set, error = future.result()
-                    if extracted_set:
-                        product['lego_set_number'] = extracted_set
-                        product['product_id'] = f"LEGO{extracted_set}"
-                        success_count += 1
-                    else:
-                        failure_count += 1
-                    processed += 1
-                    if processed % 10 == 0 or processed == len(indexed_jobs):
-                        print(
-                            f"Checked {processed}/{len(indexed_jobs)} product URLs "
-                            f"(set found: {success_count}, missing/failed: {failure_count})"
-                        )
-        else:
-            for processed, (index, product, full_url) in enumerate(indexed_jobs, start=1):
-                try:
-                    driver.get(full_url)
-                    time.sleep(random.uniform(1.2, 2.2))
-                    extracted_set = extract_set_number(driver.page_source)
-                    if extracted_set:
-                        product['lego_set_number'] = extracted_set
-                        product['product_id'] = f"LEGO{extracted_set}"
-                        success_count += 1
-                    else:
-                        failure_count += 1
-                except Exception:
-                    failure_count += 1
+                    idx = futures[future]
+                    try:
+                        _, set_num, err = future.result()
+                        if set_num:
+                            all_products[idx]['lego_set_number'] = set_num
+                        elif err:
+                            pass  # silently skip errors
+                    except Exception:
+                        pass
 
-                if processed % 10 == 0 or processed == len(indexed_jobs):
-                    print(
-                        f"Checked {processed}/{len(indexed_jobs)} product URLs "
-                        f"(set found: {success_count}, missing/failed: {failure_count})"
+        resolved_count = sum(1 for p in all_products if p.get('lego_set_number'))
+        missing_count = len(all_products) - resolved_count
+        print(f"Resolved set numbers after URL fetch: {resolved_count}/{len(all_products)} (missing: {missing_count})")
+
+        # Open each unresolved URI and extract set number from rendered visible text.
+        unresolved = [
+            p for p in all_products
+            if not p.get('lego_set_number') and p.get('url')
+        ]
+        if unresolved:
+            print(f"Opening {len(unresolved)} unresolved product pages for direct set-number extraction…")
+            resolved_via_rendered = 0
+            for idx, product in enumerate(unresolved, start=1):
+                try:
+                    driver.get(product['url'])
+                    WebDriverWait(driver, 12).until(
+                        lambda d: d.execute_script("return document.readyState") == "complete"
                     )
+                    time.sleep(0.3)
+
+                    body_text = driver.find_element(By.TAG_NAME, 'body').text
+                    candidate = extract_set_number_from_visible_text(body_text)
+                    if not candidate:
+                        title_text = driver.title or ''
+                        candidate = extract_set_number_from_visible_text(title_text)
+
+                    if candidate:
+                        if candidate not in lego_data:
+                            candidate = None
+
+                    if candidate:
+                        product['lego_set_number'] = candidate
+                        resolved_via_rendered += 1
+
+                    if idx % 20 == 0:
+                        print(f"  Checked {idx}/{len(unresolved)} unresolved pages…")
+                except Exception:
+                    continue
+
+            final_resolved = sum(1 for p in all_products if p.get('lego_set_number'))
+            final_missing = len(all_products) - final_resolved
+            print(
+                f"Resolved after opening product URIs: {final_resolved}/{len(all_products)} "
+                f"(new from rendered pages: {resolved_via_rendered}, missing: {final_missing})"
+            )
+
+        log_unresolved_products(all_products)
 
         all_products = [enrich_with_lego_data(p, lego_data) for p in all_products]
         all_products = dedupe_products(all_products, ['url', 'hagkaup_price', 'name'])

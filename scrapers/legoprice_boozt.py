@@ -21,6 +21,13 @@ def extract_lego_set_number(title):
     """Extract the LEGO set number from the product title."""
     return extract_set_number(title)
 
+
+def log_unresolved_products(products):
+    missing = [p for p in products if not p.get('lego_set_number')]
+    print(f"Unresolved set numbers: {len(missing)}/{len(products)}")
+    for product in missing:
+        print(f"  - {product.get('name', '')} | {product.get('boozt_url') or 'no-url'}")
+
 def extract_products_from_soup(soup, lego_data):
     """Extract product details from the BeautifulSoup object."""
     product_cards = soup.select("div.palette-product-card")
@@ -29,6 +36,9 @@ def extract_products_from_soup(soup, lego_data):
     for card in product_cards:
         title = card.get("aria-label", "").strip()
         product_id = card.get("data-product-id", "")
+        product_link = card.get("data-url", "")
+        if product_link and product_link.startswith('/'):
+            product_link = f"https://www.boozt.com{product_link}"
 
         # Current price: prefer data-actual-price attribute, fallback to visible price text
         price_text = card.get("data-actual-price") or ''
@@ -54,15 +64,14 @@ def extract_products_from_soup(soup, lego_data):
         lowest_price = normalize_price(price_text)
         original_price = normalize_price(original_text)
 
-        # Try to extract LEGO set number from title first
+        # Skip items with no price (sold out / unavailable)
+        if not lowest_price:
+            continue
+
+        # Try to extract LEGO set number from title only
         lego_set_number = extract_lego_set_number(title)
-        # If still not found, try to match set name (simple substring)
-        if not lego_set_number:
-            title_lower = title.lower()
-            for set_num, set_info in lego_data.items():
-                if set_info['name'].lower() in title_lower:
-                    lego_set_number = set_num
-                    break
+        if lego_set_number and lego_set_number not in lego_data:
+            lego_set_number = None
 
         product = {
             "boozt_price": format_price_isk(price_text),
@@ -70,7 +79,8 @@ def extract_products_from_soup(soup, lego_data):
             "original_boozt_price": original_price or None,
             "lego_set_number": lego_set_number,
             "name": title,
-            "product_id": product_id
+            "product_id": product_id,
+            "boozt_url": product_link or None,
         }
 
         products.append(product)
@@ -177,6 +187,7 @@ def fetch_all_pages(csv_filename):
 
     all_products = [enrich_with_lego_data(product, lego_data) for product in all_products]
     all_products = dedupe_products(all_products, ['product_id', 'lego_set_number', 'boozt_price', 'name'])
+    log_unresolved_products(all_products)
 
     driver.quit()
 
