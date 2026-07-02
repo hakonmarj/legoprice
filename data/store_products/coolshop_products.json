@@ -9,15 +9,6 @@
     "num_parts": "-1"
   },
   {
-    "coolshop_price": "999",
-    "lowest_price": "999",
-    "original_coolshop_price": "999",
-    "lego_set_number": null,
-    "name": "LEGO AQUADIRT RACER 3-IN-1",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-aquadirt-racer-3-in-1/23PE85/",
-    "num_parts": "-1"
-  },
-  {
     "coolshop_price": "799",
     "lowest_price": "799",
     "original_coolshop_price": "799",
@@ -36,17 +27,6 @@
     "num_parts": "1022",
     "pieces_per_kr": 0.14602086012287468,
     "pieces_per_dollar": 19.079085583654805
-  },
-  {
-    "coolshop_price": "3499",
-    "lowest_price": "3499",
-    "original_coolshop_price": "3499",
-    "lego_set_number": "11509",
-    "name": "Flowering Cactus",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-botanicals-flowering-cactus-11509/23UX8D/",
-    "num_parts": "482",
-    "pieces_per_kr": 0.13775364389825664,
-    "pieces_per_dollar": 17.998891111746214
   },
   {
     "coolshop_price": "479",
@@ -71,28 +51,6 @@
     "pieces_per_dollar": 16.057102029151185
   },
   {
-    "coolshop_price": "7999",
-    "lowest_price": "7999",
-    "original_coolshop_price": "7999",
-    "lego_set_number": "71499",
-    "name": "Mateo's Spray Paint Truck",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-dreamzzz-mateos-spray-paint-truck-71499/23RN8T/",
-    "num_parts": "929",
-    "pieces_per_kr": 0.11613951743967996,
-    "pieces_per_dollar": 15.174789348668583
-  },
-  {
-    "coolshop_price": "3999",
-    "lowest_price": "3999",
-    "original_coolshop_price": "3999",
-    "lego_set_number": "71492",
-    "name": "Mateo's Fire Chameleon",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-dreamzzz-mateos-fire-chameleon-71492/23RN8P/",
-    "num_parts": "443",
-    "pieces_per_kr": 0.1107776944236059,
-    "pieces_per_dollar": 14.474213553388346
-  },
-  {
     "coolshop_price": "9999",
     "lowest_price": "9999",
     "original_coolshop_price": "9999",
@@ -102,6 +60,17 @@
     "num_parts": "1107",
     "pieces_per_kr": 0.11071107110711072,
     "pieces_per_dollar": 14.465508550855086
+  },
+  {
+    "coolshop_price": "799",
+    "lowest_price": "799",
+    "original_coolshop_price": "799",
+    "lego_set_number": "30735",
+    "name": "Hot Rod Car",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-technic-hot-rod-car-30735/23V4TK/",
+    "num_parts": "83",
+    "pieces_per_kr": 0.10387984981226533,
+    "pieces_per_dollar": 13.572941176470588
   },
   {
     "coolshop_price": "799",
@@ -170,17 +139,6 @@
     "pieces_per_dollar": 12.918823529411764
   },
   {
-    "coolshop_price": "4799",
-    "lowest_price": "4799",
-    "original_coolshop_price": "4799",
-    "lego_set_number": "43266",
-    "name": "Cinderella's Dress",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-disney-princess-cinderellas-dress-43266/23QC79/",
-    "num_parts": "474",
-    "pieces_per_kr": 0.09877057720358408,
-    "pieces_per_dollar": 12.905363617420296
-  },
-  {
     "coolshop_price": "799",
     "lowest_price": "799",
     "original_coolshop_price": "799",
@@ -190,17 +148,6 @@
     "num_parts": "77",
     "pieces_per_kr": 0.09637046307884856,
     "pieces_per_dollar": 12.591764705882351
-  },
-  {
-    "coolshop_price": "3599",
-    "lowest_price": "3599",
-    "original_coolshop_price": "3599",
-    "lego_set_number": "76970",
-    "name": "Baby Dinosaur Dolores: Aquilops",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-baby-dolores-aquilops-dinosaur-76970/23QH9Z/",
-    "num_parts": "339",
-    "pieces_per_kr": 0.09419283134203946,
-    "pieces_per_dollar": 12.307235343150875
   },
   {
     "coolshop_price": "799",
@@ -225,28 +172,6 @@
     "pieces_per_dollar": 12.101176470588236
   },
   {
-    "coolshop_price": "2499",
-    "lowest_price": "2499",
-    "original_coolshop_price": "2499",
-    "lego_set_number": "40647",
-    "name": "Lotus Flowers",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-lotus-flowers-40647/23J9GT/",
-    "num_parts": "220",
-    "pieces_per_kr": 0.08803521408563425,
-    "pieces_per_dollar": 11.50268107242897
-  },
-  {
-    "coolshop_price": "5399",
-    "lowest_price": "5399",
-    "original_coolshop_price": "5399",
-    "lego_set_number": "42684",
-    "name": "Unicorn Dream Café",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-friends-unicorn-dream-cafe-42684/23V4WN/",
-    "num_parts": "475",
-    "pieces_per_kr": 0.08797925541766993,
-    "pieces_per_dollar": 11.495369512872752
-  },
-  {
     "coolshop_price": "9999",
     "lowest_price": "9999",
     "original_coolshop_price": "9999",
@@ -267,6 +192,17 @@
     "num_parts": "1755",
     "pieces_per_kr": 0.08775438771938597,
     "pieces_per_dollar": 11.46598829941497
+  },
+  {
+    "coolshop_price": "799",
+    "lowest_price": "799",
+    "original_coolshop_price": "799",
+    "lego_set_number": "30718",
+    "name": "Cataclaws Snow Adventure",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-lego-creator-cataclaws-snow-adventure-30718/23X6ZG/",
+    "num_parts": "70",
+    "pieces_per_kr": 0.08760951188986232,
+    "pieces_per_dollar": 11.44705882352941
   },
   {
     "coolshop_price": "8999",
@@ -291,17 +227,6 @@
     "pieces_per_dollar": 11.293541416566628
   },
   {
-    "coolshop_price": "12749",
-    "lowest_price": "12749",
-    "original_coolshop_price": "12749",
-    "lego_set_number": "10362",
-    "name": "French Café",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-icons-french-cafe-10362/23QC7A/",
-    "num_parts": "1101",
-    "pieces_per_kr": 0.08635971448741078,
-    "pieces_per_dollar": 11.283760294925093
-  },
-  {
     "coolshop_price": "4499",
     "lowest_price": "4499",
     "original_coolshop_price": "4499",
@@ -311,17 +236,6 @@
     "num_parts": "386",
     "pieces_per_kr": 0.08579684374305402,
     "pieces_per_dollar": 11.210215603467438
-  },
-  {
-    "coolshop_price": "5999",
-    "lowest_price": "5999",
-    "original_coolshop_price": "5999",
-    "lego_set_number": "72038",
-    "name": "Mario Kart – Wario & King Boo",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-super-mario-mario-kart-tm-wario-king-boo-72038/23RS8W/",
-    "num_parts": "512",
-    "pieces_per_kr": 0.08534755792632105,
-    "pieces_per_dollar": 11.151511918653108
   },
   {
     "coolshop_price": "799",
@@ -346,6 +260,17 @@
     "pieces_per_dollar": 11.10795132522087
   },
   {
+    "coolshop_price": "13999",
+    "lowest_price": "13999",
+    "original_coolshop_price": "13999",
+    "lego_set_number": "71834",
+    "name": "Zane's Ultra Combiner Mech",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-ninjago-zanes-ultra-combiner-mech-71834/23Q4BK/",
+    "num_parts": "1187",
+    "pieces_per_kr": 0.08479177084077434,
+    "pieces_per_dollar": 11.078892778055575
+  },
+  {
     "coolshop_price": "5999",
     "lowest_price": "5999",
     "original_coolshop_price": "5999",
@@ -355,28 +280,6 @@
     "num_parts": "500",
     "pieces_per_kr": 0.08334722453742291,
     "pieces_per_dollar": 10.890148358059678
-  },
-  {
-    "coolshop_price": "7499",
-    "lowest_price": "7499",
-    "original_coolshop_price": "7499",
-    "lego_set_number": "76443",
-    "name": "Hagrid & Harry's Motorcycle Ride",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-harry-potter-tm-hagrid-tm-harrys-motorcycle-ride-76443/23Q4CY/",
-    "num_parts": "617",
-    "pieces_per_kr": 0.08227763701826911,
-    "pieces_per_dollar": 10.75039605280704
-  },
-  {
-    "coolshop_price": "4499",
-    "lowest_price": "4499",
-    "original_coolshop_price": "4499",
-    "lego_set_number": "71495",
-    "name": "Mateo vs. Cyber Brain Mech",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-dreamzzz-mateo-vs-cyber-brain-mech-71495/23RN8S/",
-    "num_parts": "368",
-    "pieces_per_kr": 0.08179595465659036,
-    "pieces_per_dollar": 10.687459435430096
   },
   {
     "coolshop_price": "5999",
@@ -399,50 +302,6 @@
     "num_parts": "490",
     "pieces_per_kr": 0.08168028004667445,
     "pieces_per_dollar": 10.672345390898483
-  },
-  {
-    "coolshop_price": "9999",
-    "lowest_price": "9999",
-    "original_coolshop_price": "9999",
-    "lego_set_number": "77057",
-    "name": "Creative Houses: Seasons of Fun",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-animal-crossing-creative-houses-seasons-of-fun-77057/23RS7E/",
-    "num_parts": "814",
-    "pieces_per_kr": 0.0814081408140814,
-    "pieces_per_dollar": 10.636787678767876
-  },
-  {
-    "coolshop_price": "10199",
-    "lowest_price": "10199",
-    "original_coolshop_price": "10199",
-    "lego_set_number": "76785",
-    "name": "Thing's Apartment",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-wednesday-things-apartment-76785/23TG7S/",
-    "num_parts": "828",
-    "pieces_per_kr": 0.08118442984606333,
-    "pieces_per_dollar": 10.607557603686635
-  },
-  {
-    "coolshop_price": "10199",
-    "lowest_price": "10199",
-    "original_coolshop_price": "10199",
-    "lego_set_number": "72036",
-    "name": "Mario Kart - Baby Peach & Grand Prix Set",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-super-mario-mario-kart-tm-baby-peach-grand-prix-set-72036/23P4FJ/",
-    "num_parts": "823",
-    "pieces_per_kr": 0.08069418570448084,
-    "pieces_per_dollar": 10.543502304147466
-  },
-  {
-    "coolshop_price": "3999",
-    "lowest_price": "3999",
-    "original_coolshop_price": "3999",
-    "lego_set_number": "77055",
-    "name": "Able Sisters' Clothing Shop",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-animal-crossing-able-sisters-clothing-shop-77055/23NX95/",
-    "num_parts": "322",
-    "pieces_per_kr": 0.08052013003250813,
-    "pieces_per_dollar": 10.520760190047511
   },
   {
     "coolshop_price": "10999",
@@ -478,17 +337,6 @@
     "pieces_per_dollar": 10.384463111577789
   },
   {
-    "coolshop_price": "6399",
-    "lowest_price": "6399",
-    "original_coolshop_price": "6399",
-    "lego_set_number": "42167",
-    "name": "Mack LR Electric Garbage Truck",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-technic-mack-r-lr-electric-garbage-truck-42167/23J9MQ/",
-    "num_parts": "503",
-    "pieces_per_kr": 0.07860603219253008,
-    "pieces_per_dollar": 10.27066416627598
-  },
-  {
     "coolshop_price": "34999",
     "lowest_price": "34999",
     "original_coolshop_price": "34999",
@@ -498,17 +346,6 @@
     "num_parts": "2750",
     "pieces_per_kr": 0.07857367353352952,
     "pieces_per_dollar": 10.266436183890967
-  },
-  {
-    "coolshop_price": "13799",
-    "lowest_price": "13799",
-    "original_coolshop_price": "13799",
-    "lego_set_number": "42211",
-    "name": "Lunar Outpost Moon Rover Space Vehicle",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-technic-lunar-outpost-tm-moon-rover-space-vehicle-42211/23RS7W/",
-    "num_parts": "1082",
-    "pieces_per_kr": 0.07841147909268788,
-    "pieces_per_dollar": 10.245243858250598
   },
   {
     "coolshop_price": "11999",
@@ -544,17 +381,6 @@
     "pieces_per_dollar": 10.16957264957265
   },
   {
-    "coolshop_price": "11899",
-    "lowest_price": "11899",
-    "original_coolshop_price": "11899",
-    "lego_set_number": "75638",
-    "name": "Battle at Arlong Park",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-one-piece-battle-at-arlong-park-75638/23S8VX/",
-    "num_parts": "923",
-    "pieces_per_kr": 0.07756954365913102,
-    "pieces_per_dollar": 10.13523657450206
-  },
-  {
     "coolshop_price": "19999",
     "lowest_price": "19999",
     "original_coolshop_price": "19999",
@@ -577,17 +403,6 @@
     "pieces_per_dollar": 10.032899211023448
   },
   {
-    "coolshop_price": "13999",
-    "lowest_price": "13999",
-    "original_coolshop_price": "13999",
-    "lego_set_number": "72039",
-    "name": "Mario Kart – Bowser's Castle",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-super-mario-mario-kart-tm-bowsers-castle-72039/23RT8B/",
-    "num_parts": "1068",
-    "pieces_per_kr": 0.07629116365454676,
-    "pieces_per_dollar": 9.968203443103079
-  },
-  {
     "coolshop_price": "24999",
     "lowest_price": "24999",
     "original_coolshop_price": "24999",
@@ -608,17 +423,6 @@
     "num_parts": "340",
     "pieces_per_kr": 0.07557234941098022,
     "pieces_per_dollar": 9.874283174038675
-  },
-  {
-    "coolshop_price": "17249",
-    "lowest_price": "17249",
-    "original_coolshop_price": "17249",
-    "lego_set_number": "10359",
-    "name": "Fountain Garden",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-icons-fountain-garden-10359/23Q4EN/",
-    "num_parts": "1302",
-    "pieces_per_kr": 0.07548263667458983,
-    "pieces_per_dollar": 9.862561307901908
   },
   {
     "coolshop_price": "11999",
@@ -663,17 +467,6 @@
     "num_parts": "665",
     "pieces_per_kr": 0.07389709967774197,
     "pieces_per_dollar": 9.655395043893765
-  },
-  {
-    "coolshop_price": "15399",
-    "lowest_price": "15399",
-    "original_coolshop_price": "15399",
-    "lego_set_number": "42158",
-    "name": "NASA Mars Rover Perseverance",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-technic-nasa-mars-rover-perseverance-42158/23FH7P/",
-    "num_parts": "1132",
-    "pieces_per_kr": 0.07351126696538736,
-    "pieces_per_dollar": 9.604982141697512
   },
   {
     "coolshop_price": "22999",
@@ -742,17 +535,6 @@
     "pieces_per_dollar": 9.467695043342966
   },
   {
-    "coolshop_price": "5399",
-    "lowest_price": "5399",
-    "original_coolshop_price": "5399",
-    "lego_set_number": "72035",
-    "name": "Mario Kart – Toad's Garage",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-super-mario-mario-kart-tm-toads-garage-72035/23P4FG/",
-    "num_parts": "390",
-    "pieces_per_kr": 0.07223559918503426,
-    "pieces_per_dollar": 9.438303389516577
-  },
-  {
     "coolshop_price": "6999",
     "lowest_price": "6999",
     "original_coolshop_price": "6999",
@@ -764,15 +546,15 @@
     "pieces_per_dollar": 9.42753250464352
   },
   {
-    "coolshop_price": "4399",
-    "lowest_price": "4399",
-    "original_coolshop_price": "4399",
-    "lego_set_number": "76967",
-    "name": "Little Eatie: T. rex",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-jurassic-world-little-eatie-t-rex-76967/23Q4DR/",
-    "num_parts": "317",
-    "pieces_per_kr": 0.07206183223459878,
-    "pieces_per_dollar": 9.415598999772676
+    "coolshop_price": "3499",
+    "lowest_price": "3499",
+    "original_coolshop_price": "3499",
+    "lego_set_number": "71490",
+    "name": "Izzie and Bunchurro the Gaming Bunny",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-dreamzzz-izzie-and-bunchurro-gaming-bunny-71490/23Q4CT/",
+    "num_parts": "252",
+    "pieces_per_kr": 0.07202057730780223,
+    "pieces_per_dollar": 9.41020863103744
   },
   {
     "coolshop_price": "10999",
@@ -874,17 +656,6 @@
     "pieces_per_dollar": 9.089138793199243
   },
   {
-    "coolshop_price": "15999",
-    "lowest_price": "15999",
-    "original_coolshop_price": "15999",
-    "lego_set_number": "71845",
-    "name": "Lloyd’s Jet Mech",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-ninjago-lloyds-jet-mech-71845/23RS8M/",
-    "num_parts": "1112",
-    "pieces_per_kr": 0.06950434402150134,
-    "pieces_per_dollar": 9.081437589849365
-  },
-  {
     "coolshop_price": "12999",
     "lowest_price": "12999",
     "original_coolshop_price": "12999",
@@ -907,28 +678,6 @@
     "pieces_per_dollar": 9.035496499499928
   },
   {
-    "coolshop_price": "23199",
-    "lowest_price": "23199",
-    "original_coolshop_price": "23199",
-    "lego_set_number": "76453",
-    "name": "Malfoy Manor",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-harry-potter-tm-malfoy-manor-76453/23Q4D7/",
-    "num_parts": "1602",
-    "pieces_per_kr": 0.069054700633648,
-    "pieces_per_dollar": 9.022687184792447
-  },
-  {
-    "coolshop_price": "8099",
-    "lowest_price": "8099",
-    "original_coolshop_price": "8099",
-    "lego_set_number": "75405",
-    "name": "Home One Starcruiser",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-star-wars-tm-home-one-starcruiser-75405/23Q4BT/",
-    "num_parts": "559",
-    "pieces_per_kr": 0.06902086677367576,
-    "pieces_per_dollar": 9.018266452648476
-  },
-  {
     "coolshop_price": "12999",
     "lowest_price": "12999",
     "original_coolshop_price": "12999",
@@ -938,6 +687,28 @@
     "num_parts": "897",
     "pieces_per_kr": 0.06900530810062312,
     "pieces_per_dollar": 9.016233556427418
+  },
+  {
+    "coolshop_price": "6999",
+    "lowest_price": "6999",
+    "original_coolshop_price": "6999",
+    "lego_set_number": "11509",
+    "name": "Flowering Cactus",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-botanicals-flowering-cactus-11509/23UX8D/",
+    "num_parts": "482",
+    "pieces_per_kr": 0.06886698099728533,
+    "pieces_per_dollar": 8.9981597371053
+  },
+  {
+    "coolshop_price": "799",
+    "lowest_price": "799",
+    "original_coolshop_price": "799",
+    "lego_set_number": "30721",
+    "name": "Flower Stand with Roses",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-friends-flower-stand-with-roses-30721/23V4SR/",
+    "num_parts": "55",
+    "pieces_per_kr": 0.0688360450563204,
+    "pieces_per_dollar": 8.994117647058824
   },
   {
     "coolshop_price": "11999",
@@ -960,17 +731,6 @@
     "num_parts": "3398",
     "pieces_per_kr": 0.06796135922718455,
     "pieces_per_dollar": 8.879831196623932
-  },
-  {
-    "coolshop_price": "13999",
-    "lowest_price": "13999",
-    "original_coolshop_price": "13999",
-    "lego_set_number": "10338",
-    "name": "Bumblebee",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-icons-bumblebee-10338/23MX5Y/",
-    "num_parts": "950",
-    "pieces_per_kr": 0.06786199014215301,
-    "pieces_per_dollar": 8.866847631973712
   },
   {
     "coolshop_price": "5999",
@@ -1193,17 +953,6 @@
     "pieces_per_dollar": 8.494315719286549
   },
   {
-    "coolshop_price": "11999",
-    "lowest_price": "11999",
-    "original_coolshop_price": "11999",
-    "lego_set_number": "31150",
-    "name": "Wild Safari Animals",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-creator-wild-safari-animals-31150/23J9GK/",
-    "num_parts": "780",
-    "pieces_per_kr": 0.06500541711809317,
-    "pieces_per_dollar": 8.493607800650054
-  },
-  {
     "coolshop_price": "2299",
     "lowest_price": "2299",
     "original_coolshop_price": "2299",
@@ -1213,6 +962,17 @@
     "num_parts": "149",
     "pieces_per_kr": 0.06481078729882557,
     "pieces_per_dollar": 8.468177468464548
+  },
+  {
+    "coolshop_price": "16999",
+    "lowest_price": "16999",
+    "original_coolshop_price": "16999",
+    "lego_set_number": "10362",
+    "name": "French Café",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-icons-french-cafe-10362/23QC7A/",
+    "num_parts": "1101",
+    "pieces_per_kr": 0.06476851579504676,
+    "pieces_per_dollar": 8.46265427378081
   },
   {
     "coolshop_price": "3499",
@@ -1246,17 +1006,6 @@
     "num_parts": "321",
     "pieces_per_kr": 0.0642128425685137,
     "pieces_per_dollar": 8.390050010002
-  },
-  {
-    "coolshop_price": "9799",
-    "lowest_price": "9799",
-    "original_coolshop_price": "9799",
-    "lego_set_number": "31151",
-    "name": "T. rex",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-creator-t-rex-31151/23K6CP/",
-    "num_parts": "626",
-    "pieces_per_kr": 0.06388406980304112,
-    "pieces_per_dollar": 8.347092560465352
   },
   {
     "coolshop_price": "8999",
@@ -1325,6 +1074,28 @@
     "pieces_per_dollar": 8.223927745484094
   },
   {
+    "coolshop_price": "7999",
+    "lowest_price": "7999",
+    "original_coolshop_price": "7999",
+    "lego_set_number": "42167",
+    "name": "Mack LR Electric Garbage Truck",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-technic-mack-r-lr-electric-garbage-truck-42167/23J9MQ/",
+    "num_parts": "503",
+    "pieces_per_kr": 0.06288286035754469,
+    "pieces_per_dollar": 8.216274534316788
+  },
+  {
+    "coolshop_price": "3499",
+    "lowest_price": "3499",
+    "original_coolshop_price": "3499",
+    "lego_set_number": "40647",
+    "name": "Lotus Flowers",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-lotus-flowers-40647/23J9GT/",
+    "num_parts": "220",
+    "pieces_per_kr": 0.06287510717347813,
+    "pieces_per_dollar": 8.215261503286653
+  },
+  {
     "coolshop_price": "54999",
     "lowest_price": "54999",
     "original_coolshop_price": "54999",
@@ -1334,17 +1105,6 @@
     "num_parts": "3455",
     "pieces_per_kr": 0.06281932398770887,
     "pieces_per_dollar": 8.207972872234041
-  },
-  {
-    "coolshop_price": "13599",
-    "lowest_price": "13599",
-    "original_coolshop_price": "13599",
-    "lego_set_number": "75349",
-    "name": "Captain Rex Helmet",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-star-wars-captain-rex-tm-helmet-75349/23E96S/",
-    "num_parts": "854",
-    "pieces_per_kr": 0.06279873520111773,
-    "pieces_per_dollar": 8.205282741378042
   },
   {
     "coolshop_price": "5999",
@@ -1389,17 +1149,6 @@
     "num_parts": "876",
     "pieces_per_kr": 0.06257589827844846,
     "pieces_per_dollar": 8.176166869062076
-  },
-  {
-    "coolshop_price": "23099",
-    "lowest_price": "23099",
-    "original_coolshop_price": "23099",
-    "lego_set_number": "43247",
-    "name": "Young Simba the Lion King",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-disney-young-simba-lion-king-43247/23K6E4/",
-    "num_parts": "1445",
-    "pieces_per_kr": 0.06255682064158621,
-    "pieces_per_dollar": 8.173674185029654
   },
   {
     "coolshop_price": "4499",
@@ -1490,6 +1239,17 @@
     "pieces_per_dollar": 8.076175361753616
   },
   {
+    "coolshop_price": "9999",
+    "lowest_price": "9999",
+    "original_coolshop_price": "9999",
+    "lego_set_number": "76443",
+    "name": "Hagrid & Harry's Motorcycle Ride",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-harry-potter-tm-hagrid-tm-harrys-motorcycle-ride-76443/23Q4CY/",
+    "num_parts": "617",
+    "pieces_per_kr": 0.061706170617061705,
+    "pieces_per_dollar": 8.062528252825283
+  },
+  {
     "coolshop_price": "2499",
     "lowest_price": "2499",
     "original_coolshop_price": "2499",
@@ -1521,6 +1281,17 @@
     "num_parts": "614",
     "pieces_per_kr": 0.061406140614061404,
     "pieces_per_dollar": 8.023326332633262
+  },
+  {
+    "coolshop_price": "5999",
+    "lowest_price": "5999",
+    "original_coolshop_price": "5999",
+    "lego_set_number": "71495",
+    "name": "Mateo vs. Cyber Brain Mech",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-dreamzzz-mateo-vs-cyber-brain-mech-71495/23RN8S/",
+    "num_parts": "368",
+    "pieces_per_kr": 0.061343557259543255,
+    "pieces_per_dollar": 8.015149191531922
   },
   {
     "coolshop_price": "12999",
@@ -1617,6 +1388,17 @@
     "lego_set_number": "30700",
     "name": "Arin vs. Dragonian Battle",
     "coolshop_url": "https://www.coolshop.is/vara/lego-ninjago-arin-vs-dragonian-battle-30700/23RN8W/",
+    "num_parts": "48",
+    "pieces_per_kr": 0.060075093867334166,
+    "pieces_per_dollar": 7.849411764705882
+  },
+  {
+    "coolshop_price": "799",
+    "lowest_price": "799",
+    "original_coolshop_price": "799",
+    "lego_set_number": "30719",
+    "name": "Go-Kart Racer",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-lego-city-go-kart-racer-30719/23V4SQ/",
     "num_parts": "48",
     "pieces_per_kr": 0.060075093867334166,
     "pieces_per_dollar": 7.849411764705882
@@ -1743,6 +1525,17 @@
     "pieces_per_dollar": 7.749739210708516
   },
   {
+    "coolshop_price": "7999",
+    "lowest_price": "7999",
+    "original_coolshop_price": "7999",
+    "lego_set_number": "43266",
+    "name": "Cinderella's Dress",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-disney-princess-cinderellas-dress-43266/23QC79/",
+    "num_parts": "474",
+    "pieces_per_kr": 0.05925740717589699,
+    "pieces_per_dollar": 7.7425728216027006
+  },
+  {
     "coolshop_price": "6499",
     "lowest_price": "6499",
     "original_coolshop_price": "6499",
@@ -1864,17 +1657,6 @@
     "pieces_per_dollar": 7.655130037153473
   },
   {
-    "coolshop_price": "4799",
-    "lowest_price": "4799",
-    "original_coolshop_price": "4799",
-    "lego_set_number": "31164",
-    "name": "Space Robot",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-creator-space-robot-31164/23Q48G/",
-    "num_parts": "281",
-    "pieces_per_kr": 0.05855386538862263,
-    "pieces_per_dollar": 7.6506480516774324
-  },
-  {
     "coolshop_price": "11999",
     "lowest_price": "11999",
     "original_coolshop_price": "11999",
@@ -1972,6 +1754,17 @@
     "num_parts": "2891",
     "pieces_per_kr": 0.05782115642312846,
     "pieces_per_dollar": 7.554912298245965
+  },
+  {
+    "coolshop_price": "5499",
+    "lowest_price": "5499",
+    "original_coolshop_price": "5499",
+    "lego_set_number": "76967",
+    "name": "Little Eatie: T. rex",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-jurassic-world-little-eatie-t-rex-76967/23Q4DR/",
+    "num_parts": "317",
+    "pieces_per_kr": 0.057646844880887435,
+    "pieces_per_dollar": 7.532136752136752
   },
   {
     "coolshop_price": "2499",
@@ -2117,6 +1910,28 @@
     "pieces_per_dollar": 7.396835367073415
   },
   {
+    "coolshop_price": "22999",
+    "lowest_price": "22999",
+    "original_coolshop_price": "22999",
+    "lego_set_number": "10359",
+    "name": "Fountain Garden",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-icons-fountain-garden-10359/23Q4EN/",
+    "num_parts": "1302",
+    "pieces_per_kr": 0.05661115700682638,
+    "pieces_per_dollar": 7.3968137745119344
+  },
+  {
+    "coolshop_price": "5999",
+    "lowest_price": "5999",
+    "original_coolshop_price": "5999",
+    "lego_set_number": "76970",
+    "name": "Baby Dinosaur Dolores: Aquilops",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-baby-dolores-aquilops-dinosaur-76970/23QH9Z/",
+    "num_parts": "339",
+    "pieces_per_kr": 0.056509418236372726,
+    "pieces_per_dollar": 7.38352058676446
+  },
+  {
     "coolshop_price": "5999",
     "lowest_price": "5999",
     "original_coolshop_price": "5999",
@@ -2170,17 +1985,6 @@
     "num_parts": "2532",
     "pieces_per_kr": 0.05626791706482366,
     "pieces_per_dollar": 7.35196604368986
-  },
-  {
-    "coolshop_price": "7999",
-    "lowest_price": "7999",
-    "original_coolshop_price": "7999",
-    "lego_set_number": "75404",
-    "name": "Acclamator-Class Assault Ship",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-star-wars-tm-acclamator-class-assault-ship-75404/23Q4BS/",
-    "num_parts": "450",
-    "pieces_per_kr": 0.05625703212901613,
-    "pieces_per_dollar": 7.350543817977247
   },
   {
     "coolshop_price": "4499",
@@ -2238,17 +2042,6 @@
     "pieces_per_dollar": 7.297543438585964
   },
   {
-    "coolshop_price": "10499",
-    "lowest_price": "10499",
-    "original_coolshop_price": "10499",
-    "lego_set_number": "71843",
-    "name": "Rogue's Mech Dragon Rider",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-ninjago-rogues-mech-dragon-rider-71843/23RS8J/",
-    "num_parts": "584",
-    "pieces_per_kr": 0.05562434517573102,
-    "pieces_per_dollar": 7.267876940661015
-  },
-  {
     "coolshop_price": "12999",
     "lowest_price": "12999",
     "original_coolshop_price": "12999",
@@ -2304,6 +2097,17 @@
     "pieces_per_dollar": 7.22466352336048
   },
   {
+    "coolshop_price": "28999",
+    "lowest_price": "28999",
+    "original_coolshop_price": "28999",
+    "lego_set_number": "76453",
+    "name": "Malfoy Manor",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-harry-potter-tm-malfoy-manor-76453/23Q4D7/",
+    "num_parts": "1602",
+    "pieces_per_kr": 0.05524328425118107,
+    "pieces_per_dollar": 7.218087520259319
+  },
+  {
     "coolshop_price": "1799",
     "lowest_price": "1799",
     "original_coolshop_price": "1799",
@@ -2324,17 +2128,6 @@
     "num_parts": "660",
     "pieces_per_kr": 0.055004583715309606,
     "pieces_per_dollar": 7.186898908242353
-  },
-  {
-    "coolshop_price": "29999",
-    "lowest_price": "29999",
-    "original_coolshop_price": "29999",
-    "lego_set_number": "71847",
-    "name": "The Guardian Dragon",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-ninjago-guardian-dragon-71847/23RS8P/",
-    "num_parts": "1650",
-    "pieces_per_kr": 0.05500183339444648,
-    "pieces_per_dollar": 7.186539551318377
   },
   {
     "coolshop_price": "24999",
@@ -2425,17 +2218,6 @@
     "pieces_per_dollar": 7.123868154726189
   },
   {
-    "coolshop_price": "5599",
-    "lowest_price": "5599",
-    "original_coolshop_price": "5599",
-    "lego_set_number": "75388",
-    "name": "Jedi Bob's Starfighter",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-star-wars-jedi-bobs-starfighter-75388/23N4X5/",
-    "num_parts": "305",
-    "pieces_per_kr": 0.05447401321664583,
-    "pieces_per_dollar": 7.117574566886944
-  },
-  {
     "coolshop_price": "12999",
     "lowest_price": "12999",
     "original_coolshop_price": "12999",
@@ -2456,17 +2238,6 @@
     "num_parts": "2178",
     "pieces_per_kr": 0.0544513612840321,
     "pieces_per_dollar": 7.114614865371634
-  },
-  {
-    "coolshop_price": "6999",
-    "lowest_price": "6999",
-    "original_coolshop_price": "6999",
-    "lego_set_number": "71842",
-    "name": "Rontu the Master Dragon",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-ninjago-rontu-master-dragon-71842/23RS8H/",
-    "num_parts": "381",
-    "pieces_per_kr": 0.05443634804972139,
-    "pieces_per_dollar": 7.112653236176596
   },
   {
     "coolshop_price": "22999",
@@ -2500,6 +2271,17 @@
     "num_parts": "190",
     "pieces_per_kr": 0.0543012289225493,
     "pieces_per_dollar": 7.094998571020292
+  },
+  {
+    "coolshop_price": "16999",
+    "lowest_price": "16999",
+    "original_coolshop_price": "16999",
+    "lego_set_number": "75638",
+    "name": "Battle at Arlong Park",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-one-piece-battle-at-arlong-park-75638/23S8VX/",
+    "num_parts": "923",
+    "pieces_per_kr": 0.05429731160656509,
+    "pieces_per_dollar": 7.0944867345137945
   },
   {
     "coolshop_price": "5999",
@@ -2722,6 +2504,17 @@
     "pieces_per_dollar": 6.9080192012800845
   },
   {
+    "coolshop_price": "8999",
+    "lowest_price": "8999",
+    "original_coolshop_price": "8999",
+    "lego_set_number": "42684",
+    "name": "Unicorn Dream Café",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-friends-unicorn-dream-cafe-42684/23V4WN/",
+    "num_parts": "475",
+    "pieces_per_kr": 0.05278364262695855,
+    "pieces_per_dollar": 6.896710745638404
+  },
+  {
     "coolshop_price": "12999",
     "lowest_price": "12999",
     "original_coolshop_price": "12999",
@@ -2843,6 +2636,17 @@
     "pieces_per_dollar": 6.79484268020617
   },
   {
+    "coolshop_price": "14999",
+    "lowest_price": "14999",
+    "original_coolshop_price": "14999",
+    "lego_set_number": "31150",
+    "name": "Wild Safari Animals",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-creator-wild-safari-animals-31150/23J9GK/",
+    "num_parts": "780",
+    "pieces_per_kr": 0.052003466897793185,
+    "pieces_per_dollar": 6.7947729848656575
+  },
+  {
     "coolshop_price": "19999",
     "lowest_price": "19999",
     "original_coolshop_price": "19999",
@@ -2898,17 +2702,6 @@
     "pieces_per_dollar": 6.7481377241231515
   },
   {
-    "coolshop_price": "22999",
-    "lowest_price": "22999",
-    "original_coolshop_price": "22999",
-    "lego_set_number": "71834",
-    "name": "Zane's Ultra Combiner Mech",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-ninjago-zanes-ultra-combiner-mech-71834/23Q4BK/",
-    "num_parts": "1187",
-    "pieces_per_kr": 0.05161093960606983,
-    "pieces_per_dollar": 6.7434853689290835
-  },
-  {
     "coolshop_price": "4499",
     "lowest_price": "4499",
     "original_coolshop_price": "4499",
@@ -2918,6 +2711,17 @@
     "num_parts": "232",
     "pieces_per_kr": 0.05156701489219827,
     "pieces_per_dollar": 6.737746165814626
+  },
+  {
+    "coolshop_price": "21999",
+    "lowest_price": "21999",
+    "original_coolshop_price": "21999",
+    "lego_set_number": "42158",
+    "name": "NASA Mars Rover Perseverance",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-technic-nasa-mars-rover-perseverance-42158/23FH7P/",
+    "num_parts": "1132",
+    "pieces_per_kr": 0.051456884403836535,
+    "pieces_per_dollar": 6.723356516205281
   },
   {
     "coolshop_price": "12999",
@@ -2995,6 +2799,17 @@
     "num_parts": "153",
     "pieces_per_kr": 0.05101700566855619,
     "pieces_per_dollar": 6.665881960653551
+  },
+  {
+    "coolshop_price": "3499",
+    "lowest_price": "3499",
+    "original_coolshop_price": "3499",
+    "lego_set_number": "31160",
+    "name": "Aircraft: Race Plane",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-creator-race-plane-31160/23Q4A9/",
+    "num_parts": "178",
+    "pieces_per_kr": 0.050871677622177765,
+    "pieces_per_dollar": 6.646893398113747
   },
   {
     "coolshop_price": "19999",
@@ -3113,6 +2928,17 @@
     "lego_set_number": "43016",
     "name": "Cristiano Ronaldo – Football Legend",
     "coolshop_url": "https://www.coolshop.is/vara/lego-editions-football-cristiano-ronaldo-football-legend-43016/23WN9T/",
+    "num_parts": "854",
+    "pieces_per_kr": 0.05023824930878287,
+    "pieces_per_dollar": 6.56412965468557
+  },
+  {
+    "coolshop_price": "16999",
+    "lowest_price": "16999",
+    "original_coolshop_price": "16999",
+    "lego_set_number": "75349",
+    "name": "Captain Rex Helmet",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-star-wars-captain-rex-tm-helmet-75349/23E96S/",
     "num_parts": "854",
     "pieces_per_kr": 0.05023824930878287,
     "pieces_per_dollar": 6.56412965468557
@@ -3261,17 +3087,6 @@
     "pieces_per_dollar": 6.483329331732693
   },
   {
-    "coolshop_price": "24499",
-    "lowest_price": "24499",
-    "original_coolshop_price": "24499",
-    "lego_set_number": "71438",
-    "name": "Super Mario World: Mario & Yoshi",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-super-mario-super-mario-world-tm-mario-yoshi-71438/23N6CQ/",
-    "num_parts": "1215",
-    "pieces_per_kr": 0.049593860973917304,
-    "pieces_per_dollar": 6.479933874852035
-  },
-  {
     "coolshop_price": "10999",
     "lowest_price": "10999",
     "original_coolshop_price": "10999",
@@ -3415,17 +3230,6 @@
     "pieces_per_dollar": 6.403254750678668
   },
   {
-    "coolshop_price": "27999",
-    "lowest_price": "27999",
-    "original_coolshop_price": "27999",
-    "lego_set_number": "10327",
-    "name": "Dune Atreides Royal Ornithopter",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-icons-dune-atreides-royal-ornithopter-10327/23J9QD/",
-    "num_parts": "1370",
-    "pieces_per_kr": 0.04893031893996214,
-    "pieces_per_dollar": 6.393235472695453
-  },
-  {
     "coolshop_price": "11999",
     "lowest_price": "11999",
     "original_coolshop_price": "11999",
@@ -3492,6 +3296,17 @@
     "pieces_per_dollar": 6.37764705882353
   },
   {
+    "coolshop_price": "16999",
+    "lowest_price": "16999",
+    "original_coolshop_price": "16999",
+    "lego_set_number": "76785",
+    "name": "Thing's Apartment",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-wednesday-things-apartment-76785/23TG7S/",
+    "num_parts": "828",
+    "pieces_per_kr": 0.04870874757338667,
+    "pieces_per_dollar": 6.364284957938702
+  },
+  {
     "coolshop_price": "12999",
     "lowest_price": "12999",
     "original_coolshop_price": "12999",
@@ -3523,6 +3338,17 @@
     "num_parts": "730",
     "pieces_per_kr": 0.04866991132742183,
     "pieces_per_dollar": 6.359210614040936
+  },
+  {
+    "coolshop_price": "11899",
+    "lowest_price": "11899",
+    "original_coolshop_price": "11899",
+    "lego_set_number": "76433",
+    "name": "Mandrake",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-harry-potter-mandrake-76433/23K6EB/",
+    "num_parts": "579",
+    "pieces_per_kr": 0.04865955122279183,
+    "pieces_per_dollar": 6.35785696276998
   },
   {
     "coolshop_price": "12999",
@@ -3578,6 +3404,28 @@
     "num_parts": "218",
     "pieces_per_kr": 0.0484552122693932,
     "pieces_per_dollar": 6.331158035118915
+  },
+  {
+    "coolshop_price": "16999",
+    "lowest_price": "16999",
+    "original_coolshop_price": "16999",
+    "lego_set_number": "72036",
+    "name": "Mario Kart - Baby Peach & Grand Prix Set",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-super-mario-mario-kart-tm-baby-peach-grand-prix-set-72036/23P4FJ/",
+    "num_parts": "823",
+    "pieces_per_kr": 0.04841461262427202,
+    "pieces_per_dollar": 6.325853285487382
+  },
+  {
+    "coolshop_price": "22999",
+    "lowest_price": "22999",
+    "original_coolshop_price": "22999",
+    "lego_set_number": "71845",
+    "name": "Lloyd’s Jet Mech",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-ninjago-lloyds-jet-mech-71845/23RS8M/",
+    "num_parts": "1112",
+    "pieces_per_kr": 0.048349928257750335,
+    "pieces_per_dollar": 6.317401626157658
   },
   {
     "coolshop_price": "49999",
@@ -3734,6 +3582,17 @@
     "pieces_per_dollar": 6.21111940796053
   },
   {
+    "coolshop_price": "19999",
+    "lowest_price": "19999",
+    "original_coolshop_price": "19999",
+    "lego_set_number": "10338",
+    "name": "Bumblebee",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-icons-bumblebee-10338/23MX5Y/",
+    "num_parts": "950",
+    "pieces_per_kr": 0.047502375118755935,
+    "pieces_per_dollar": 6.20666033301665
+  },
+  {
     "coolshop_price": "16999",
     "lowest_price": "16999",
     "original_coolshop_price": "16999",
@@ -3855,6 +3714,17 @@
     "pieces_per_dollar": 6.154209084181683
   },
   {
+    "coolshop_price": "22999",
+    "lowest_price": "22999",
+    "original_coolshop_price": "22999",
+    "lego_set_number": "42211",
+    "name": "Lunar Outpost Moon Rover Space Vehicle",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-technic-lunar-outpost-tm-moon-rover-space-vehicle-42211/23RS7W/",
+    "num_parts": "1082",
+    "pieces_per_kr": 0.04704552371842254,
+    "pieces_per_dollar": 6.146968129049089
+  },
+  {
     "coolshop_price": "16999",
     "lowest_price": "16999",
     "original_coolshop_price": "16999",
@@ -3875,6 +3745,17 @@
     "num_parts": "1410",
     "pieces_per_kr": 0.04700156671889063,
     "pieces_per_dollar": 6.14122470749025
+  },
+  {
+    "coolshop_price": "5999",
+    "lowest_price": "5999",
+    "original_coolshop_price": "5999",
+    "lego_set_number": "31164",
+    "name": "Space Robot",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-creator-space-robot-31164/23Q48G/",
+    "num_parts": "281",
+    "pieces_per_kr": 0.046841140190031674,
+    "pieces_per_dollar": 6.120263377229539
   },
   {
     "coolshop_price": "2499",
@@ -4031,6 +3912,28 @@
     "pieces_per_dollar": 6.069779951100244
   },
   {
+    "coolshop_price": "19999",
+    "lowest_price": "19999",
+    "original_coolshop_price": "19999",
+    "lego_set_number": "71499",
+    "name": "Mateo's Spray Paint Truck",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-dreamzzz-mateos-spray-paint-truck-71499/23RN8T/",
+    "num_parts": "929",
+    "pieces_per_kr": 0.0464523226161308,
+    "pieces_per_dollar": 6.069460473023651
+  },
+  {
+    "coolshop_price": "22999",
+    "lowest_price": "22999",
+    "original_coolshop_price": "22999",
+    "lego_set_number": "72039",
+    "name": "Mario Kart – Bowser's Castle",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-super-mario-mario-kart-tm-bowsers-castle-72039/23RT8B/",
+    "num_parts": "1068",
+    "pieces_per_kr": 0.04643680160006957,
+    "pieces_per_dollar": 6.06743249706509
+  },
+  {
     "coolshop_price": "2499",
     "lowest_price": "2499",
     "original_coolshop_price": "2499",
@@ -4056,9 +3959,9 @@
     "coolshop_price": "6499",
     "lowest_price": "6499",
     "original_coolshop_price": "6499",
-    "lego_set_number": "60480",
-    "name": "Yellow Backhoe Loader",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-lego-city-yellow-backhoe-loader-60480/23X6YS/",
+    "lego_set_number": "21593",
+    "name": "First Night Adventure",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-minecraft-first-night-adventure-21593/23X6Y9/",
     "num_parts": "301",
     "pieces_per_kr": 0.04631481766425604,
     "pieces_per_dollar": 6.051494076011694
@@ -4067,9 +3970,9 @@
     "coolshop_price": "6499",
     "lowest_price": "6499",
     "original_coolshop_price": "6499",
-    "lego_set_number": "21593",
-    "name": "First Night Adventure",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-minecraft-first-night-adventure-21593/23X6Y9/",
+    "lego_set_number": "60480",
+    "name": "Yellow Backhoe Loader",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-lego-city-yellow-backhoe-loader-60480/23X6YS/",
     "num_parts": "301",
     "pieces_per_kr": 0.04631481766425604,
     "pieces_per_dollar": 6.051494076011694
@@ -4180,6 +4083,17 @@
     "lego_set_number": "71808",
     "name": "Kai's Elemental Fire Mech",
     "coolshop_url": "https://www.coolshop.is/vara/lego-ninjago-kais-elemental-fire-mech-71808/23J9KR/",
+    "num_parts": "322",
+    "pieces_per_kr": 0.04600657236748107,
+    "pieces_per_dollar": 6.011218745535077
+  },
+  {
+    "coolshop_price": "6999",
+    "lowest_price": "6999",
+    "original_coolshop_price": "6999",
+    "lego_set_number": "77055",
+    "name": "Able Sisters' Clothing Shop",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-animal-crossing-able-sisters-clothing-shop-77055/23NX95/",
     "num_parts": "322",
     "pieces_per_kr": 0.04600657236748107,
     "pieces_per_dollar": 6.011218745535077
@@ -4405,6 +4319,17 @@
     "pieces_per_dollar": 5.880435054381798
   },
   {
+    "coolshop_price": "9999",
+    "lowest_price": "9999",
+    "original_coolshop_price": "9999",
+    "lego_set_number": "75404",
+    "name": "Acclamator-Class Assault Ship",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-star-wars-tm-acclamator-class-assault-ship-75404/23Q4BS/",
+    "num_parts": "450",
+    "pieces_per_kr": 0.045004500450045004,
+    "pieces_per_dollar": 5.88028802880288
+  },
+  {
     "coolshop_price": "26999",
     "lowest_price": "26999",
     "original_coolshop_price": "26999",
@@ -4471,6 +4396,17 @@
     "pieces_per_dollar": 5.84424255280463
   },
   {
+    "coolshop_price": "13999",
+    "lowest_price": "13999",
+    "original_coolshop_price": "13999",
+    "lego_set_number": "31151",
+    "name": "T. rex",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-creator-t-rex-31151/23K6CP/",
+    "num_parts": "626",
+    "pieces_per_kr": 0.044717479819987145,
+    "pieces_per_dollar": 5.842785913279521
+  },
+  {
     "coolshop_price": "14999",
     "lowest_price": "14999",
     "original_coolshop_price": "14999",
@@ -4480,17 +4416,6 @@
     "num_parts": "670",
     "pieces_per_kr": 0.0446696446429762,
     "pieces_per_dollar": 5.83653576905127
-  },
-  {
-    "coolshop_price": "8399",
-    "lowest_price": "8399",
-    "original_coolshop_price": "8399",
-    "lego_set_number": "76311",
-    "name": "Miles Morales vs. the Spot",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-super-heroes-spider-verse-miles-morales-vs-spot-76311/23Q4C5/",
-    "num_parts": "375",
-    "pieces_per_kr": 0.044648172401476366,
-    "pieces_per_dollar": 5.833730205976901
   },
   {
     "coolshop_price": "13999",
@@ -4579,6 +4504,17 @@
     "num_parts": "576",
     "pieces_per_kr": 0.044311100853911836,
     "pieces_per_dollar": 5.789688437572121
+  },
+  {
+    "coolshop_price": "9999",
+    "lowest_price": "9999",
+    "original_coolshop_price": "9999",
+    "lego_set_number": "71492",
+    "name": "Mateo's Fire Chameleon",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-dreamzzz-mateos-fire-chameleon-71492/23RN8P/",
+    "num_parts": "443",
+    "pieces_per_kr": 0.0443044304430443,
+    "pieces_per_dollar": 5.788816881688168
   },
   {
     "coolshop_price": "19999",
@@ -4702,6 +4638,17 @@
     "pieces_per_dollar": 5.723529411764705
   },
   {
+    "coolshop_price": "32999",
+    "lowest_price": "32999",
+    "original_coolshop_price": "32999",
+    "lego_set_number": "43247",
+    "name": "Young Simba the Lion King",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-disney-young-simba-lion-king-43247/23K6E4/",
+    "num_parts": "1445",
+    "pieces_per_kr": 0.04378920573350708,
+    "pieces_per_dollar": 5.721497621140035
+  },
+  {
     "coolshop_price": "29999",
     "lowest_price": "29999",
     "original_coolshop_price": "29999",
@@ -4790,17 +4737,6 @@
     "pieces_per_dollar": 5.692233829739942
   },
   {
-    "coolshop_price": "3999",
-    "lowest_price": "3999",
-    "original_coolshop_price": "3999",
-    "lego_set_number": "71421",
-    "name": "Dixie Kong's Jungle Jam Expansion Set",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-super-mario-dixie-kongs-jungle-jam-expansion-set-71421/23GC5P/",
-    "num_parts": "174",
-    "pieces_per_kr": 0.04351087771942986,
-    "pieces_per_dollar": 5.685131282820706
-  },
-  {
     "coolshop_price": "34999",
     "lowest_price": "34999",
     "original_coolshop_price": "34999",
@@ -4823,6 +4759,17 @@
     "pieces_per_dollar": 5.6633395239864
   },
   {
+    "coolshop_price": "8999",
+    "lowest_price": "8999",
+    "original_coolshop_price": "8999",
+    "lego_set_number": "72035",
+    "name": "Mario Kart – Toad's Garage",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-super-mario-mario-kart-tm-toads-garage-72035/23P4FG/",
+    "num_parts": "390",
+    "pieces_per_kr": 0.04333814868318702,
+    "pieces_per_dollar": 5.662562506945216
+  },
+  {
     "coolshop_price": "34999",
     "lowest_price": "34999",
     "original_coolshop_price": "34999",
@@ -4843,6 +4790,17 @@
     "num_parts": "2164",
     "pieces_per_kr": 0.04328086561731235,
     "pieces_per_dollar": 5.655077901558031
+  },
+  {
+    "coolshop_price": "14999",
+    "lowest_price": "14999",
+    "original_coolshop_price": "14999",
+    "lego_set_number": "76447",
+    "name": "Hogwarts Castle: Flying Lessons",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-harry-potter-tm-hogwarts-castle-flying-lessons-76447/23Q4D6/",
+    "num_parts": "649",
+    "pieces_per_kr": 0.04326955130342023,
+    "pieces_per_dollar": 5.653599573304887
   },
   {
     "coolshop_price": "18999",
@@ -4988,15 +4946,15 @@
     "pieces_per_dollar": 5.586874147701446
   },
   {
-    "coolshop_price": "17249",
-    "lowest_price": "17249",
-    "original_coolshop_price": "17249",
-    "lego_set_number": "76314",
-    "name": "Captain America: Civil War Battle",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-super-heroes-captain-america-civil-war-action-battle-76314/23Q4C7/",
-    "num_parts": "736",
-    "pieces_per_kr": 0.04266914024001391,
-    "pieces_per_dollar": 5.575149863760218
+    "coolshop_price": "11999",
+    "lowest_price": "11999",
+    "original_coolshop_price": "11999",
+    "lego_set_number": "72038",
+    "name": "Mario Kart – Wario & King Boo",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-super-mario-mario-kart-tm-wario-king-boo-72038/23RS8W/",
+    "num_parts": "512",
+    "pieces_per_kr": 0.04267022251854321,
+    "pieces_per_dollar": 5.575291274272856
   },
   {
     "coolshop_price": "22999",
@@ -5008,6 +4966,17 @@
     "num_parts": "981",
     "pieces_per_kr": 0.04265402843601896,
     "pieces_per_dollar": 5.573175355450237
+  },
+  {
+    "coolshop_price": "10999",
+    "lowest_price": "10999",
+    "original_coolshop_price": "10999",
+    "lego_set_number": "21034",
+    "name": "London",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-architecture-london-21034/AF9VB5/",
+    "num_parts": "468",
+    "pieces_per_kr": 0.04254932266569688,
+    "pieces_per_dollar": 5.559494499499954
   },
   {
     "coolshop_price": "6499",
@@ -5285,6 +5254,17 @@
     "pieces_per_dollar": 5.413830547221031
   },
   {
+    "coolshop_price": "13499",
+    "lowest_price": "13499",
+    "original_coolshop_price": "13499",
+    "lego_set_number": "75405",
+    "name": "Home One Starcruiser",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-star-wars-tm-home-one-starcruiser-75405/23Q4BT/",
+    "num_parts": "559",
+    "pieces_per_kr": 0.04141047484998889,
+    "pieces_per_dollar": 5.410692643899548
+  },
+  {
     "coolshop_price": "5999",
     "lowest_price": "5999",
     "original_coolshop_price": "5999",
@@ -5450,6 +5430,17 @@
     "pieces_per_dollar": 5.327317485960458
   },
   {
+    "coolshop_price": "19999",
+    "lowest_price": "19999",
+    "original_coolshop_price": "19999",
+    "lego_set_number": "77057",
+    "name": "Creative Houses: Seasons of Fun",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-animal-crossing-creative-houses-seasons-of-fun-77057/23RS7E/",
+    "num_parts": "814",
+    "pieces_per_kr": 0.04070203510175509,
+    "pieces_per_dollar": 5.318127906395319
+  },
+  {
     "coolshop_price": "12999",
     "lowest_price": "12999",
     "original_coolshop_price": "12999",
@@ -5604,23 +5595,12 @@
     "pieces_per_dollar": 5.236330408260207
   },
   {
-    "coolshop_price": "13999",
-    "lowest_price": "13999",
-    "original_coolshop_price": "13999",
-    "lego_set_number": "71844",
-    "name": "Ninja Combat Vehicle",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-ninjago-ninja-combat-vehicle-71844/23RS8K/",
-    "num_parts": "561",
-    "pieces_per_kr": 0.040074291020787196,
-    "pieces_per_dollar": 5.236106864776055
-  },
-  {
     "coolshop_price": "1749",
     "lowest_price": "1749",
     "original_coolshop_price": "1749",
-    "lego_set_number": "60459",
-    "name": "Airplane vs. Hospital Bed Race Car Pack",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-lego-city-race-car-pack-aeroplane-vs-hospital-bed-60459/23Q4CJ/",
+    "lego_set_number": "60458",
+    "name": "Pizza vs. Fire Truck Race Car Pack",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-lego-city-race-car-pack-pizza-vs-fire-truck-60458/23Q4CH/",
     "num_parts": "70",
     "pieces_per_kr": 0.040022870211549454,
     "pieces_per_dollar": 5.2293882218410515
@@ -5629,9 +5609,9 @@
     "coolshop_price": "1749",
     "lowest_price": "1749",
     "original_coolshop_price": "1749",
-    "lego_set_number": "60458",
-    "name": "Pizza vs. Fire Truck Race Car Pack",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-lego-city-race-car-pack-pizza-vs-fire-truck-60458/23Q4CH/",
+    "lego_set_number": "60459",
+    "name": "Airplane vs. Hospital Bed Race Car Pack",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-lego-city-race-car-pack-aeroplane-vs-hospital-bed-60459/23Q4CJ/",
     "num_parts": "70",
     "pieces_per_kr": 0.040022870211549454,
     "pieces_per_dollar": 5.2293882218410515
@@ -5805,9 +5785,9 @@
     "coolshop_price": "2499",
     "lowest_price": "2499",
     "original_coolshop_price": "2499",
-    "lego_set_number": "60400",
-    "name": "Go-Karts and Race Drivers",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-city-go-karts-and-race-drivers-60400/23J9EV/",
+    "lego_set_number": "21266",
+    "name": "The Nether Lava Battle",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-minecraft-nether-lava-battle-21266/23Q4BC/",
     "num_parts": "99",
     "pieces_per_kr": 0.03961584633853541,
     "pieces_per_dollar": 5.176206482593036
@@ -5816,9 +5796,9 @@
     "coolshop_price": "2499",
     "lowest_price": "2499",
     "original_coolshop_price": "2499",
-    "lego_set_number": "21266",
-    "name": "The Nether Lava Battle",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-minecraft-nether-lava-battle-21266/23Q4BC/",
+    "lego_set_number": "60400",
+    "name": "Go-Karts and Race Drivers",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-city-go-karts-and-race-drivers-60400/23J9EV/",
     "num_parts": "99",
     "pieces_per_kr": 0.03961584633853541,
     "pieces_per_dollar": 5.176206482593036
@@ -5956,6 +5936,17 @@
     "pieces_per_dollar": 5.122076883075323
   },
   {
+    "coolshop_price": "34999",
+    "lowest_price": "34999",
+    "original_coolshop_price": "34999",
+    "lego_set_number": "10327",
+    "name": "Dune Atreides Royal Ornithopter",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-icons-dune-atreides-royal-ornithopter-10327/23J9QD/",
+    "num_parts": "1370",
+    "pieces_per_kr": 0.03914397554215835,
+    "pieces_per_dollar": 5.11455184433841
+  },
+  {
     "coolshop_price": "4499",
     "lowest_price": "4499",
     "original_coolshop_price": "4499",
@@ -5987,6 +5978,17 @@
     "num_parts": "390",
     "pieces_per_kr": 0.039003900390039,
     "pieces_per_dollar": 5.096249624962496
+  },
+  {
+    "coolshop_price": "14999",
+    "lowest_price": "14999",
+    "original_coolshop_price": "14999",
+    "lego_set_number": "71843",
+    "name": "Rogue's Mech Dragon Rider",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-ninjago-rogues-mech-dragon-rider-71843/23RS8J/",
+    "num_parts": "584",
+    "pieces_per_kr": 0.03893592906193746,
+    "pieces_per_dollar": 5.087368491232748
   },
   {
     "coolshop_price": "5499",
@@ -6196,6 +6198,28 @@
     "num_parts": "229",
     "pieces_per_kr": 0.03817302883813969,
     "pieces_per_dollar": 4.987687947991332
+  },
+  {
+    "coolshop_price": "7999",
+    "lowest_price": "7999",
+    "original_coolshop_price": "7999",
+    "lego_set_number": "75388",
+    "name": "Jedi Bob's Starfighter",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-star-wars-jedi-bobs-starfighter-75388/23N4X5/",
+    "num_parts": "305",
+    "pieces_per_kr": 0.0381297662207776,
+    "pieces_per_dollar": 4.982035254406801
+  },
+  {
+    "coolshop_price": "9999",
+    "lowest_price": "9999",
+    "original_coolshop_price": "9999",
+    "lego_set_number": "71842",
+    "name": "Rontu the Master Dragon",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-ninjago-rontu-master-dragon-71842/23RS8H/",
+    "num_parts": "381",
+    "pieces_per_kr": 0.038103810381038106,
+    "pieces_per_dollar": 4.978643864386439
   },
   {
     "coolshop_price": "16999",
@@ -6836,6 +6860,17 @@
     "pieces_per_dollar": 4.5432971767059
   },
   {
+    "coolshop_price": "34999",
+    "lowest_price": "34999",
+    "original_coolshop_price": "34999",
+    "lego_set_number": "71438",
+    "name": "Super Mario World: Mario & Yoshi",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-super-mario-super-mario-world-tm-mario-yoshi-71438/23N6CQ/",
+    "num_parts": "1215",
+    "pieces_per_kr": 0.03471527757935941,
+    "pieces_per_dollar": 4.5358981685191
+  },
+  {
     "coolshop_price": "14999",
     "lowest_price": "14999",
     "original_coolshop_price": "14999",
@@ -7067,17 +7102,6 @@
     "pieces_per_dollar": 4.364916983396679
   },
   {
-    "coolshop_price": "17499",
-    "lowest_price": "17499",
-    "original_coolshop_price": "17499",
-    "lego_set_number": "76973",
-    "name": "Raptor & Titanosaurus Tracking Mission",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-raptor-titanosaurus-tracking-mission-76973/23QJ48/",
-    "num_parts": "582",
-    "pieces_per_kr": 0.03325904337390708,
-    "pieces_per_dollar": 4.345626607234699
-  },
-  {
     "coolshop_price": "10999",
     "lowest_price": "10999",
     "original_coolshop_price": "10999",
@@ -7153,17 +7177,6 @@
     "num_parts": "147",
     "pieces_per_kr": 0.03267392753945321,
     "pieces_per_dollar": 4.269175372304956
-  },
-  {
-    "coolshop_price": "17249",
-    "lowest_price": "17249",
-    "original_coolshop_price": "17249",
-    "lego_set_number": "76429",
-    "name": "Talking Sorting Hat",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-harry-potter-sorting-hat-76429/23J87X/",
-    "num_parts": "561",
-    "pieces_per_kr": 0.032523624557945385,
-    "pieces_per_dollar": 4.249536784741144
   },
   {
     "coolshop_price": "10999",
@@ -7243,6 +7256,17 @@
     "pieces_per_dollar": 4.210623402600288
   },
   {
+    "coolshop_price": "3999",
+    "lowest_price": "3999",
+    "original_coolshop_price": "3999",
+    "lego_set_number": "71829",
+    "name": "Lloyd's Green Forest Dragon",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-ninjago-lloyds-green-forest-dragon-71829/23Q4BF/",
+    "num_parts": "128",
+    "pieces_per_kr": 0.03200800200050013,
+    "pieces_per_dollar": 4.182165541385347
+  },
+  {
     "coolshop_price": "11999",
     "lowest_price": "11999",
     "original_coolshop_price": "11999",
@@ -7252,6 +7276,17 @@
     "num_parts": "384",
     "pieces_per_kr": 0.03200266688890741,
     "pieces_per_dollar": 4.181468455704643
+  },
+  {
+    "coolshop_price": "22999",
+    "lowest_price": "22999",
+    "original_coolshop_price": "22999",
+    "lego_set_number": "76314",
+    "name": "Captain America: Civil War Battle",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-super-heroes-captain-america-civil-war-action-battle-76314/23Q4C7/",
+    "num_parts": "736",
+    "pieces_per_kr": 0.03200139136484195,
+    "pieces_per_dollar": 4.181301795730249
   },
   {
     "coolshop_price": "2499",
@@ -7318,6 +7353,17 @@
     "num_parts": "376",
     "pieces_per_kr": 0.03133594466205517,
     "pieces_per_dollar": 4.094354529544129
+  },
+  {
+    "coolshop_price": "11999",
+    "lowest_price": "11999",
+    "original_coolshop_price": "11999",
+    "lego_set_number": "76311",
+    "name": "Miles Morales vs. the Spot",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-super-heroes-spider-verse-miles-morales-vs-spot-76311/23Q4C5/",
+    "num_parts": "375",
+    "pieces_per_kr": 0.03125260438369864,
+    "pieces_per_dollar": 4.083465288774064
   },
   {
     "coolshop_price": "2499",
@@ -7461,17 +7507,6 @@
     "num_parts": "808",
     "pieces_per_kr": 0.029927034334604984,
     "pieces_per_dollar": 3.910266306159487
-  },
-  {
-    "coolshop_price": "5399",
-    "lowest_price": "5399",
-    "original_coolshop_price": "5399",
-    "lego_set_number": "43274",
-    "name": "Minnie's Pet Hotel",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-disney-classic-minnies-pet-hotel-43274/23RS6N/",
-    "num_parts": "161",
-    "pieces_per_kr": 0.029820337099462864,
-    "pieces_per_dollar": 3.8963252454158175
   },
   {
     "coolshop_price": "4499",
@@ -7694,6 +7729,17 @@
     "pieces_per_dollar": 3.6879253250361153
   },
   {
+    "coolshop_price": "54999",
+    "lowest_price": "54999",
+    "original_coolshop_price": "54999",
+    "lego_set_number": "42240",
+    "name": "Aston Martin Aramco AMR25 F1 Car",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-technic-aston-martin-aramco-amr25-f1-r-car-42240/23XE7Y/",
+    "num_parts": "1547",
+    "pieces_per_kr": 0.028127784141529846,
+    "pieces_per_dollar": 3.6751762759322895
+  },
+  {
     "coolshop_price": "34999",
     "lowest_price": "34999",
     "original_coolshop_price": "34999",
@@ -7703,6 +7749,17 @@
     "num_parts": "984",
     "pieces_per_kr": 0.02811508900254293,
     "pieces_per_dollar": 3.6735175290722593
+  },
+  {
+    "coolshop_price": "19999",
+    "lowest_price": "19999",
+    "original_coolshop_price": "19999",
+    "lego_set_number": "71844",
+    "name": "Ninja Combat Vehicle",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-ninjago-ninja-combat-vehicle-71844/23RS8K/",
+    "num_parts": "561",
+    "pieces_per_kr": 0.028051402570128506,
+    "pieces_per_dollar": 3.6651962598129906
   },
   {
     "coolshop_price": "34999",
@@ -7738,17 +7795,6 @@
     "pieces_per_dollar": 3.6012091575905756
   },
   {
-    "coolshop_price": "3999",
-    "lowest_price": "3999",
-    "original_coolshop_price": "3999",
-    "lego_set_number": "75373",
-    "name": "Ambush on Mandalore Battle Pack",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-star-wars-ambush-on-mandalore-tm-battle-pack-75373/23K6FM/",
-    "num_parts": "110",
-    "pieces_per_kr": 0.027506876719179795,
-    "pieces_per_dollar": 3.594048512128032
-  },
-  {
     "coolshop_price": "14999",
     "lowest_price": "14999",
     "original_coolshop_price": "14999",
@@ -7758,17 +7804,6 @@
     "num_parts": "412",
     "pieces_per_kr": 0.02746849789985999,
     "pieces_per_dollar": 3.5890339355957064
-  },
-  {
-    "coolshop_price": "9599",
-    "lowest_price": "9599",
-    "original_coolshop_price": "9599",
-    "lego_set_number": "11205",
-    "name": "Sweet Treat Mountain & Kitty Garden",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-gabbys-dollhouse-sweet-treat-mountain-kitty-garden-11205/23S8VT/",
-    "num_parts": "263",
-    "pieces_per_kr": 0.027398687363267008,
-    "pieces_per_dollar": 3.579912490884467
   },
   {
     "coolshop_price": "13999",
@@ -8002,6 +8037,17 @@
     "pieces_per_dollar": 3.18937975190076
   },
   {
+    "coolshop_price": "22999",
+    "lowest_price": "22999",
+    "original_coolshop_price": "22999",
+    "lego_set_number": "76429",
+    "name": "Talking Sorting Hat",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-harry-potter-sorting-hat-76429/23J87X/",
+    "num_parts": "561",
+    "pieces_per_kr": 0.024392364885429802,
+    "pieces_per_dollar": 3.187106395930258
+  },
+  {
     "coolshop_price": "118499",
     "lowest_price": "118499",
     "original_coolshop_price": "118499",
@@ -8079,6 +8125,17 @@
     "pieces_per_dollar": 3.0463316094745565
   },
   {
+    "coolshop_price": "24999",
+    "lowest_price": "24999",
+    "original_coolshop_price": "24999",
+    "lego_set_number": "76973",
+    "name": "Raptor & Titanosaurus Tracking Mission",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-raptor-titanosaurus-tracking-mission-76973/23QJ48/",
+    "num_parts": "582",
+    "pieces_per_kr": 0.02328093123724949,
+    "pieces_per_dollar": 3.0418864754590182
+  },
+  {
     "coolshop_price": "2499",
     "lowest_price": "2499",
     "original_coolshop_price": "2499",
@@ -8126,9 +8183,9 @@
     "coolshop_price": "3999",
     "lowest_price": "3999",
     "original_coolshop_price": "3999",
-    "lego_set_number": "42644",
-    "name": "Heartlake City Ice Cream Truck",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-lego-friends-heartlake-city-ice-cream-van-42644/23Q4AN/",
+    "lego_set_number": "60464",
+    "name": "F1 Williams Racing & Haas F1 Race Cars",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-city-f1-r-williams-racing-haas-f1-r-race-cars-60464/23Q4F9/",
     "num_parts": "92",
     "pieces_per_kr": 0.023005751437859465,
     "pieces_per_dollar": 3.0059314828707175
@@ -8137,9 +8194,9 @@
     "coolshop_price": "3999",
     "lowest_price": "3999",
     "original_coolshop_price": "3999",
-    "lego_set_number": "60464",
-    "name": "F1 Williams Racing & Haas F1 Race Cars",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-city-f1-r-williams-racing-haas-f1-r-race-cars-60464/23Q4F9/",
+    "lego_set_number": "42644",
+    "name": "Heartlake City Ice Cream Truck",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-lego-friends-heartlake-city-ice-cream-van-42644/23Q4AN/",
     "num_parts": "92",
     "pieces_per_kr": 0.023005751437859465,
     "pieces_per_dollar": 3.0059314828707175
@@ -8189,6 +8246,17 @@
     "pieces_per_dollar": 2.907427285607134
   },
   {
+    "coolshop_price": "4999",
+    "lowest_price": "4999",
+    "original_coolshop_price": "4999",
+    "lego_set_number": "75373",
+    "name": "Ambush on Mandalore Battle Pack",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-star-wars-ambush-on-mandalore-tm-battle-pack-75373/23K6FM/",
+    "num_parts": "110",
+    "pieces_per_kr": 0.022004400880176037,
+    "pieces_per_dollar": 2.8750950190038007
+  },
+  {
     "coolshop_price": "6999",
     "lowest_price": "6999",
     "original_coolshop_price": "6999",
@@ -8198,6 +8266,17 @@
     "num_parts": "154",
     "pieces_per_kr": 0.0220031433061866,
     "pieces_per_dollar": 2.8749307043863412
+  },
+  {
+    "coolshop_price": "11999",
+    "lowest_price": "11999",
+    "original_coolshop_price": "11999",
+    "lego_set_number": "11205",
+    "name": "Sweet Treat Mountain & Kitty Garden",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-gabbys-dollhouse-sweet-treat-mountain-kitty-garden-11205/23S8VT/",
+    "num_parts": "263",
+    "pieces_per_kr": 0.021918493207767314,
+    "pieces_per_dollar": 2.863870322526877
   },
   {
     "coolshop_price": "4499",
@@ -8264,17 +8343,6 @@
     "num_parts": "88",
     "pieces_per_kr": 0.019559902200488997,
     "pieces_per_dollar": 2.5556968215158924
-  },
-  {
-    "coolshop_price": "3499",
-    "lowest_price": "3499",
-    "original_coolshop_price": "3499",
-    "lego_set_number": "76287",
-    "name": "Iron Man with Bike and The Hulk",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-super-heroes-iron-man-with-bike-and-hulk-76287/23N4MV/",
-    "num_parts": "68",
-    "pieces_per_kr": 0.019434124035438698,
-    "pieces_per_dollar": 2.53926264647042
   },
   {
     "coolshop_price": "5499",
@@ -8374,6 +8442,17 @@
     "num_parts": "359",
     "pieces_per_kr": 0.017950897544877244,
     "pieces_per_dollar": 2.345464273213661
+  },
+  {
+    "coolshop_price": "8999",
+    "lowest_price": "8999",
+    "original_coolshop_price": "8999",
+    "lego_set_number": "43274",
+    "name": "Minnie's Pet Hotel",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-disney-classic-minnies-pet-hotel-43274/23RS6N/",
+    "num_parts": "161",
+    "pieces_per_kr": 0.0178908767640849,
+    "pieces_per_dollar": 2.337621957995333
   },
   {
     "coolshop_price": "4499",
@@ -9061,9 +9140,9 @@
     "coolshop_price": "2999",
     "lowest_price": "2999",
     "original_coolshop_price": "2999",
-    "lego_set_number": "10460",
-    "name": "Green Building Plate",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-duplo-classic-green-building-plate-10460/23Q4AG/",
+    "lego_set_number": "11024",
+    "name": "Gray Baseplate",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-classic-gray-baseplate-11024/23A8J6/",
     "num_parts": "1",
     "pieces_per_kr": 0.00033344448149383126,
     "pieces_per_dollar": 0.043567855951983994
@@ -9072,9 +9151,9 @@
     "coolshop_price": "2999",
     "lowest_price": "2999",
     "original_coolshop_price": "2999",
-    "lego_set_number": "11024",
-    "name": "Gray Baseplate",
-    "coolshop_url": "https://www.coolshop.is/vara/lego-classic-gray-baseplate-11024/23A8J6/",
+    "lego_set_number": "10460",
+    "name": "Green Building Plate",
+    "coolshop_url": "https://www.coolshop.is/vara/lego-duplo-classic-green-building-plate-10460/23Q4AG/",
     "num_parts": "1",
     "pieces_per_kr": 0.00033344448149383126,
     "pieces_per_dollar": 0.043567855951983994

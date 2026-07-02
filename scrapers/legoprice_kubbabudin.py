@@ -18,6 +18,29 @@ from utils.price_utils import (
 )
 
 
+PRODUCT_CARD_SELECTORS = [
+    "div.product__BaseProductCardViewWrapper-sc-18rnnrl-0",
+    "div[class*='BaseProductCardViewWrapper']",
+]
+
+PRICE_SELECTORS = [
+    "strong.price",
+    ".container-price strong",
+    "[class*='price'] strong",
+]
+
+ORIGINAL_PRICE_SELECTORS = [
+    "span.regular-price strike",
+    ".regular-price strike",
+    "strike",
+]
+
+SKU_SELECTORS = [
+    ".sku",
+    "div[class*='sku']",
+]
+
+
 def log_unresolved_products(products):
     missing = [p for p in products if not p.get('lego_set_number')]
     print(f"Unresolved set numbers: {len(missing)}/{len(products)}")
@@ -26,7 +49,12 @@ def log_unresolved_products(products):
 
 def extract_products_from_soup(soup, lego_data):
     """Extract product details from the BeautifulSoup object."""
-    product_cards = soup.select("div.product__BaseProductCardViewWrapper-sc-18rnnrl-0")
+    product_cards = []
+    for selector in PRODUCT_CARD_SELECTORS:
+        product_cards = soup.select(selector)
+        if product_cards:
+            break
+
     products = []
 
     for card in product_cards:
@@ -39,17 +67,25 @@ def extract_products_from_soup(soup, lego_data):
             href = f"https://kubbabudin.is{href}"
 
         # ✅ Extract current (discounted or regular) price
-        price_tag = card.select_one("strong.typopgraphy__DisplayBold24-sc-1qfpj1g-17.gXvSFa.price.rz-tg-display-bold-24")
+        price_tag = None
+        for selector in PRICE_SELECTORS:
+            price_tag = card.select_one(selector)
+            if price_tag:
+                break
         price = format_price_isk(price_tag.get_text(strip=True)) if price_tag else None
 
         # Skip items with no price or out-of-stock
         if not price:
             continue
-        if 'uppselt' in card_text.lower() or 'out of stock' in card_text.lower():
+        if any(stock_marker in card_text.lower() for stock_marker in ['uppselt', 'uppseld', 'out of stock', 'sold out']):
             continue
 
         # ✅ Extract original price if discounted
-        original_price_tag = card.select_one("span.regular-price strike")
+        original_price_tag = None
+        for selector in ORIGINAL_PRICE_SELECTORS:
+            original_price_tag = card.select_one(selector)
+            if original_price_tag:
+                break
         original_price = format_price_isk(original_price_tag.get_text(strip=True)) if original_price_tag else None
 
         if not original_price:
@@ -57,11 +93,16 @@ def extract_products_from_soup(soup, lego_data):
 
         # ✅ Extract LEGO set number from the SKU
         lego_set_number = None
-        sku_tag = card.select_one("div.typopgraphy__Text16-sc-1qfpj1g-23.dtZOIa.sku.rz-tg-text-16")
+        sku_tag = None
+        for selector in SKU_SELECTORS:
+            sku_tag = card.select_one(selector)
+            if sku_tag:
+                break
         if sku_tag:
             sku_text = sku_tag.get_text(strip=True)
-            if sku_text.startswith('LEGO'):
-                lego_set_number = sku_text[4:].replace('ST', '')
+            match = re.search(r'LEGO\s*([0-9]{4,6})', sku_text, flags=re.IGNORECASE)
+            if match:
+                lego_set_number = match.group(1)
         if not lego_set_number:
             lego_set_number = extract_set_number(card_text)
         if lego_set_number and lego_set_number not in lego_data:

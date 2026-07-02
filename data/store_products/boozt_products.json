@@ -20,6 +20,16 @@
     "num_parts": "-1"
   },
   {
+    "boozt_price": "6929 kr",
+    "lowest_price": "6929 kr",
+    "original_boozt_price": "9239 kr",
+    "lego_set_number": null,
+    "name": "LEGO® Large Creative Brick Box - LEGO® Classic",
+    "product_id": "30472114",
+    "boozt_url": "https://www.boozt.com/is/is/lego/lego-fantasiklosslada-stor_30472114/224604510",
+    "num_parts": "-1"
+  },
+  {
     "boozt_price": "11997 kr",
     "lowest_price": "11997 kr",
     "original_boozt_price": "17139 kr",
@@ -393,21 +403,6 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/71512-1.jpg",
     "pieces_per_kr": 0.12013022246337493,
     "pieces_per_dollar": 15.696214867064567
-  },
-  {
-    "boozt_price": "28769 kr",
-    "lowest_price": "28769 kr",
-    "original_boozt_price": "41099 kr",
-    "lego_set_number": "21063",
-    "name": "Neuschwanstein Castle",
-    "product_id": "32862752",
-    "boozt_url": "https://www.boozt.com/is/is/lego/architecture-neuschwanstein-castle-collectible-model-kit-for-adults-21063_32862752/230089569",
-    "year": "2025",
-    "theme_id": "252",
-    "num_parts": "3455",
-    "img_url": "https://cdn.rebrickable.com/media/sets/21063-1.jpg",
-    "pieces_per_kr": 0.12009454621293754,
-    "pieces_per_dollar": 15.691553408182418
   },
   {
     "boozt_price": "7424 kr",
@@ -4628,21 +4623,6 @@
     "boozt_price": "4159 kr",
     "lowest_price": "4159 kr",
     "original_boozt_price": null,
-    "lego_set_number": "21593",
-    "name": "First Night Adventure",
-    "product_id": "33059649",
-    "boozt_url": "https://www.boozt.com/is/is/lego/first-night-adventure-21593_33059649/232103206",
-    "year": "2026",
-    "theme_id": "577",
-    "num_parts": "301",
-    "img_url": "https://cdn.rebrickable.com/media/sets/21593-1.jpg",
-    "pieces_per_kr": 0.07237316662659293,
-    "pieces_per_dollar": 9.456277951430632
-  },
-  {
-    "boozt_price": "4159 kr",
-    "lowest_price": "4159 kr",
-    "original_boozt_price": null,
     "lego_set_number": "60480",
     "name": "Yellow Backhoe Loader",
     "product_id": "33059593",
@@ -4651,6 +4631,21 @@
     "theme_id": "56",
     "num_parts": "301",
     "img_url": "https://cdn.rebrickable.com/media/sets/60480-1.jpg",
+    "pieces_per_kr": 0.07237316662659293,
+    "pieces_per_dollar": 9.456277951430632
+  },
+  {
+    "boozt_price": "4159 kr",
+    "lowest_price": "4159 kr",
+    "original_boozt_price": null,
+    "lego_set_number": "21593",
+    "name": "First Night Adventure",
+    "product_id": "33059649",
+    "boozt_url": "https://www.boozt.com/is/is/lego/first-night-adventure-21593_33059649/232103206",
+    "year": "2026",
+    "theme_id": "577",
+    "num_parts": "301",
+    "img_url": "https://cdn.rebrickable.com/media/sets/21593-1.jpg",
     "pieces_per_kr": 0.07237316662659293,
     "pieces_per_dollar": 9.456277951430632
   },
@@ -5343,21 +5338,6 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/21357-1.jpg",
     "pieces_per_kr": 0.06962744207178555,
     "pieces_per_dollar": 9.0975215810995
-  },
-  {
-    "boozt_price": "5480 kr",
-    "lowest_price": "5480 kr",
-    "original_boozt_price": "7829 kr",
-    "lego_set_number": "71842",
-    "name": "Rontu the Master Dragon",
-    "product_id": "32862734",
-    "boozt_url": "https://www.boozt.com/is/is/lego/rontu-the-master-dragon-71842_32862734/230089551",
-    "year": "2025",
-    "theme_id": "435",
-    "num_parts": "381",
-    "img_url": "https://cdn.rebrickable.com/media/sets/71842-1.jpg",
-    "pieces_per_kr": 0.06952554744525548,
-    "pieces_per_dollar": 9.08420802919708
   },
   {
     "boozt_price": "2676 kr",
@@ -8315,21 +8295,6 @@
     "pieces_per_dollar": 6.633951434878587
   },
   {
-    "boozt_price": "5760 kr",
-    "lowest_price": "5760 kr",
-    "original_boozt_price": "8229 kr",
-    "lego_set_number": "75401",
-    "name": "Ahsoka's Jedi Interceptor",
-    "product_id": "32794535",
-    "boozt_url": "https://www.boozt.com/is/is/lego/ahsoka-s-jedi-interceptor_32794535/229297132",
-    "year": "2025",
-    "theme_id": "158",
-    "num_parts": "290",
-    "img_url": "https://cdn.rebrickable.com/media/sets/75401-1.jpg",
-    "pieces_per_kr": 0.050347222222222224,
-    "pieces_per_dollar": 6.578368055555556
-  },
-  {
     "boozt_price": "12063 kr",
     "lowest_price": "12063 kr",
     "original_boozt_price": null,
@@ -8885,6 +8850,21 @@
     "pieces_per_dollar": 5.842929838087895
   },
   {
+    "boozt_price": "2774 kr",
+    "lowest_price": "2774 kr",
+    "original_boozt_price": "3699 kr",
+    "lego_set_number": "11198",
+    "name": "Spin and Electro Dinosaur Vehicle Chase",
+    "product_id": "32794516",
+    "boozt_url": "https://www.boozt.com/is/is/lego/spin-and-electro-dinosaur-vehicle-chase_32794516/229297113",
+    "year": "2025",
+    "theme_id": "755",
+    "num_parts": "124",
+    "img_url": "https://cdn.rebrickable.com/media/sets/11198-1.jpg",
+    "pieces_per_kr": 0.044700793078586876,
+    "pieces_per_dollar": 5.840605623648161
+  },
+  {
     "boozt_price": "20839 kr",
     "lowest_price": "20839 kr",
     "original_boozt_price": null,
@@ -8973,6 +8953,21 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/71829-1.jpg",
     "pieces_per_kr": 0.04311215897608622,
     "pieces_per_dollar": 5.633034691815426
+  },
+  {
+    "boozt_price": "4116 kr",
+    "lowest_price": "4116 kr",
+    "original_boozt_price": "5489 kr",
+    "lego_set_number": "43265",
+    "name": "Arendelle Frozen Castle",
+    "product_id": "32794670",
+    "boozt_url": "https://www.boozt.com/is/is/lego/arendelle-frozen-castle_32794670/229297267",
+    "year": "2025",
+    "theme_id": "687",
+    "num_parts": "177",
+    "img_url": "https://cdn.rebrickable.com/media/sets/43265-1.jpg",
+    "pieces_per_kr": 0.043002915451895045,
+    "pieces_per_dollar": 5.618760932944606
   },
   {
     "boozt_price": "13047 kr",
@@ -9753,6 +9748,21 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/10452-1.jpg",
     "pieces_per_kr": 0.011535688536409516,
     "pieces_per_dollar": 1.5072530641672675
+  },
+  {
+    "boozt_price": "527 kr",
+    "lowest_price": "527 kr",
+    "original_boozt_price": null,
+    "lego_set_number": "71052",
+    "name": "Football Goalkeeper",
+    "product_id": "33141423",
+    "boozt_url": "https://www.boozt.com/is/is/lego/series-29-v111_33141423/232893564",
+    "year": "2026",
+    "theme_id": "795",
+    "num_parts": "6",
+    "img_url": "https://cdn.rebrickable.com/media/sets/71052-9.jpg",
+    "pieces_per_kr": 0.011385199240986717,
+    "pieces_per_dollar": 1.4875901328273244
   },
   {
     "boozt_price": "6171 kr",

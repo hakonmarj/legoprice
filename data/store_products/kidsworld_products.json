@@ -88,6 +88,14 @@
     "num_parts": "-1"
   },
   {
+    "kidsworld_price": "20 kr",
+    "lowest_price": "20 kr",
+    "lego_set_number": null,
+    "name": "Gjöf - LEGO® DUPLO Verkefna spjöld",
+    "kidsworld_url": "https://www.kids-world.com/is-is/gjoef-lego-duplo-verkefna-spjoeld-p-416464.html",
+    "num_parts": "-1"
+  },
+  {
     "kidsworld_price": "11380 kr",
     "lowest_price": "11380 kr",
     "lego_set_number": null,
@@ -682,19 +690,6 @@
     "pieces_per_dollar": 12.637535607817158
   },
   {
-    "kidsworld_price": "11612 kr",
-    "lowest_price": "11612 kr",
-    "lego_set_number": "71512",
-    "name": "Crocodile Submarine",
-    "kidsworld_url": "https://www.kids-world.com/is-is/lego-dreamzzz-krokodillkafbatur-71512-1107-partar-p-422401.html",
-    "year": "2026",
-    "theme_id": "749",
-    "num_parts": "1107",
-    "img_url": "https://cdn.rebrickable.com/media/sets/71512-1.jpg",
-    "pieces_per_kr": 0.09533241474336893,
-    "pieces_per_dollar": 12.456133310368584
-  },
-  {
     "kidsworld_price": "2744 kr",
     "lowest_price": "2744 kr",
     "lego_set_number": "40638",
@@ -1189,19 +1184,6 @@
     "pieces_per_dollar": 10.473817694369972
   },
   {
-    "kidsworld_price": "16257 kr",
-    "lowest_price": "16257 kr",
-    "lego_set_number": "10359",
-    "name": "Fountain Garden",
-    "kidsworld_url": "https://www.kids-world.com/is-is/lego-icons-fountain-garden-10359-1302-partar-p-378730.html",
-    "year": "2025",
-    "theme_id": "721",
-    "num_parts": "1302",
-    "img_url": "https://cdn.rebrickable.com/media/sets/10359-1.jpg",
-    "pieces_per_kr": 0.0800885772282709,
-    "pieces_per_dollar": 10.464373500645875
-  },
-  {
     "kidsworld_price": "9754 kr",
     "lowest_price": "9754 kr",
     "lego_set_number": "31150",
@@ -1265,19 +1247,6 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/42225-1.jpg",
     "pieces_per_kr": 0.0795155344918378,
     "pieces_per_dollar": 10.389499736703527
-  },
-  {
-    "kidsworld_price": "1899 kr",
-    "lowest_price": "1899 kr",
-    "lego_set_number": "11039",
-    "name": "Creative Food Friends",
-    "kidsworld_url": "https://www.kids-world.com/is-is/lego-classic-creative-food-friends-11039-150-partar-p-378835.html",
-    "year": "2025",
-    "theme_id": "621",
-    "num_parts": "150",
-    "img_url": "https://cdn.rebrickable.com/media/sets/11039-1.jpg",
-    "pieces_per_kr": 0.07898894154818326,
-    "pieces_per_dollar": 10.320695102685624
   },
   {
     "kidsworld_price": "14420 kr",
@@ -3763,19 +3732,6 @@
     "pieces_per_dollar": 7.448293169353498
   },
   {
-    "kidsworld_price": "38005 kr",
-    "lowest_price": "38005 kr",
-    "lego_set_number": "76473",
-    "name": "Hogwarts Castle: East Wing",
-    "kidsworld_url": "https://www.kids-world.com/is-is/lego-harry-potter-hogwarts-kastali-austuralma-76473-2164-p-442820.html",
-    "year": "2026",
-    "theme_id": "246",
-    "num_parts": "2164",
-    "img_url": "https://cdn.rebrickable.com/media/sets/76473-1.jpg",
-    "pieces_per_kr": 0.05693987633206157,
-    "pieces_per_dollar": 7.439764241547165
-  },
-  {
     "kidsworld_price": "5805 kr",
     "lowest_price": "5805 kr",
     "lego_set_number": "76254",
@@ -4309,19 +4265,6 @@
     "pieces_per_dollar": 7.161355244079265
   },
   {
-    "kidsworld_price": "1899 kr",
-    "lowest_price": "1899 kr",
-    "lego_set_number": "42197",
-    "name": "Backhoe Loader",
-    "kidsworld_url": "https://www.kids-world.com/is-is/lego-technic-backhoe-loader-42197-104-partar-p-378854.html",
-    "year": "2025",
-    "theme_id": "1",
-    "num_parts": "104",
-    "img_url": "https://cdn.rebrickable.com/media/sets/42197-1.jpg",
-    "pieces_per_kr": 0.05476566614007372,
-    "pieces_per_dollar": 7.155681937862032
-  },
-  {
     "kidsworld_price": "5700 kr",
     "lowest_price": "5700 kr",
     "lego_set_number": "31384",
@@ -4736,19 +4679,6 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/42703-1.jpg",
     "pieces_per_kr": 0.052401223094909764,
     "pieces_per_dollar": 6.84674380958091
-  },
-  {
-    "kidsworld_price": "3800 kr",
-    "lowest_price": "3800 kr",
-    "lego_set_number": "42647",
-    "name": "Paisley's Room",
-    "kidsworld_url": "https://www.kids-world.com/is-is/lego-friends-paisleys-room-42647-199-partar-p-378864.html",
-    "year": "2025",
-    "theme_id": "494",
-    "num_parts": "199",
-    "img_url": "https://cdn.rebrickable.com/media/sets/42647-1.jpg",
-    "pieces_per_kr": 0.05236842105263158,
-    "pieces_per_dollar": 6.8424578947368415
   },
   {
     "kidsworld_price": "23225 kr",
@@ -6503,19 +6433,6 @@
     "pieces_per_dollar": 5.229400475682769
   },
   {
-    "kidsworld_price": "5383 kr",
-    "lowest_price": "5383 kr",
-    "lego_set_number": "75372",
-    "name": "Clone Trooper & Battle Droid Battle Pack",
-    "kidsworld_url": "https://www.kids-world.com/is-is/lego-star-wars-clone-trooper-battle-droid-battle-pack-75372-p-333925.html",
-    "year": "2024",
-    "theme_id": "158",
-    "num_parts": "215",
-    "img_url": "https://cdn.rebrickable.com/media/sets/75372-1.jpg",
-    "pieces_per_kr": 0.039940553594649826,
-    "pieces_per_dollar": 5.218632732676946
-  },
-  {
     "kidsworld_price": "12562 kr",
     "lowest_price": "12562 kr",
     "lego_set_number": "10788",
@@ -6932,19 +6849,6 @@
     "pieces_per_dollar": 4.579907971308701
   },
   {
-    "kidsworld_price": "7389 kr",
-    "lowest_price": "7389 kr",
-    "lego_set_number": "75431",
-    "name": "327th Star Corps Clone Troopers Battle Pack",
-    "kidsworld_url": "https://www.kids-world.com/is-is/lego-star-wars-bardagahopur-me-klonu-um-hermoennum-75431-25-p-405460.html",
-    "year": "2025",
-    "theme_id": "158",
-    "num_parts": "258",
-    "img_url": "https://cdn.rebrickable.com/media/sets/75431-1.jpg",
-    "pieces_per_kr": 0.034916768168899714,
-    "pieces_per_dollar": 4.562224928948437
-  },
-  {
     "kidsworld_price": "1899 kr",
     "lowest_price": "1899 kr",
     "lego_set_number": "42665",
@@ -7320,19 +7224,6 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/60464-1.jpg",
     "pieces_per_kr": 0.024351508734780307,
     "pieces_per_dollar": 3.181768131286395
-  },
-  {
-    "kidsworld_price": "3800 kr",
-    "lowest_price": "3800 kr",
-    "lego_set_number": "42644",
-    "name": "Heartlake City Ice Cream Truck",
-    "kidsworld_url": "https://www.kids-world.com/is-is/lego-friends-heartlake-city-ice-cream-truck-42644-92-partar-p-378878.html",
-    "year": "2025",
-    "theme_id": "494",
-    "num_parts": "92",
-    "img_url": "https://cdn.rebrickable.com/media/sets/42644-1.jpg",
-    "pieces_per_kr": 0.024210526315789474,
-    "pieces_per_dollar": 3.1633473684210527
   },
   {
     "kidsworld_price": "6756 kr",

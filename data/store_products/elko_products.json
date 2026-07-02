@@ -1,14 +1,5 @@
 [
   {
-    "elko_price": "3595 kr",
-    "lowest_price": "3595 kr",
-    "lego_set_number": null,
-    "name": "Svartur Blár Ljósgrár Rauður LEGO sýningarkassi f. 16 legokalla - Rauður LEGO4066RED LEGO Fyrir 16 LEGO kalla 18,4 cm á hæð",
-    "url": "https://elko.is/vorur/lego-syningarkassi-f-16-legokalla-427824/LEGO4066RED",
-    "elko_url": "https://elko.is/vorur/lego-syningarkassi-f-16-legokalla-427824/LEGO4066RED",
-    "num_parts": "-1"
-  },
-  {
     "elko_price": "1995 kr",
     "lowest_price": "1995 kr",
     "lego_set_number": null,
@@ -24,6 +15,15 @@
     "name": "LEGO smáfígúrusýningarskápur - Blár LEGO4065BLUE LEGO sýningarskápur Aldursstig: 3+ Fyrir 8 smáfígúrur",
     "url": "https://elko.is/vorur/lego-smafigurusyningarskapur-422148/LEGO4065BLUE",
     "elko_url": "https://elko.is/vorur/lego-smafigurusyningarskapur-422148/LEGO4065BLUE",
+    "num_parts": "-1"
+  },
+  {
+    "elko_price": "3595 kr",
+    "lowest_price": "3595 kr",
+    "lego_set_number": null,
+    "name": "Svartur Blár Ljósgrár Rauður LEGO sýningarkassi f. 16 legokalla - Rauður LEGO4066RED LEGO Fyrir 16 LEGO kalla 18,4 cm á hæð",
+    "url": "https://elko.is/vorur/lego-syningarkassi-f-16-legokalla-427824/LEGO4066RED",
+    "elko_url": "https://elko.is/vorur/lego-syningarkassi-f-16-legokalla-427824/LEGO4066RED",
     "num_parts": "-1"
   },
   {
@@ -145,6 +145,20 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/11036-1.jpg",
     "pieces_per_kr": 0.10594467333725721,
     "pieces_per_dollar": 13.842731018246027
+  },
+  {
+    "elko_price": "6795 kr",
+    "lowest_price": "6795 kr",
+    "lego_set_number": "21276",
+    "name": "The Creeper",
+    "url": "https://elko.is/vorur/lego-minecraft-creeper-21276-402427/LEGO21276",
+    "elko_url": "https://elko.is/vorur/lego-minecraft-creeper-21276-402427/LEGO21276",
+    "year": "2025",
+    "theme_id": "577",
+    "num_parts": "665",
+    "img_url": "https://cdn.rebrickable.com/media/sets/21276-1.jpg",
+    "pieces_per_kr": 0.09786607799852833,
+    "pieces_per_dollar": 12.787181751287712
   },
   {
     "elko_price": "695 kr",
@@ -1083,6 +1097,20 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/10713-1.jpg",
     "pieces_per_kr": 0.06237482117310444,
     "pieces_per_dollar": 8.149894134477826
+  },
+  {
+    "elko_price": "3495 kr",
+    "lowest_price": "3495 kr",
+    "lego_set_number": "10349",
+    "name": "Happy Plants",
+    "url": "https://elko.is/vorur/lego-botanicals-happy-plants-10349-422046/LEGO10349",
+    "elko_url": "https://elko.is/vorur/lego-botanicals-happy-plants-10349-422046/LEGO10349",
+    "year": "2025",
+    "theme_id": "769",
+    "num_parts": "217",
+    "img_url": "https://cdn.rebrickable.com/media/sets/10349-1.jpg",
+    "pieces_per_kr": 0.06208869814020029,
+    "pieces_per_dollar": 8.11250929899857
   },
   {
     "elko_price": "17495 kr",
@@ -2399,6 +2427,20 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/60367-1.jpg",
     "pieces_per_kr": 0.04806528033693077,
     "pieces_per_dollar": 6.280209528823375
+  },
+  {
+    "elko_price": "5495 kr",
+    "lowest_price": "5495 kr",
+    "lego_set_number": "60456",
+    "name": "Police Boat Chase",
+    "url": "https://elko.is/vorur/lego-city-logreglubatur-60456-413213/LEGO60456",
+    "elko_url": "https://elko.is/vorur/lego-city-logreglubatur-60456-413213/LEGO60456",
+    "year": "2025",
+    "theme_id": "61",
+    "num_parts": "264",
+    "img_url": "https://cdn.rebrickable.com/media/sets/60456-1.jpg",
+    "pieces_per_kr": 0.04804367606915377,
+    "pieces_per_dollar": 6.2773867151956315
   },
   {
     "elko_price": "18995 kr",

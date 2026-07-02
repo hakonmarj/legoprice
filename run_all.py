@@ -1,6 +1,7 @@
 import argparse
 import csv
 import gzip
+import os
 import re
 import shutil
 import subprocess
@@ -148,9 +149,9 @@ def parse_args():
         help="Delay between pipeline steps (default: 1.0)",
     )
     parser.add_argument(
-        "--with-bricklink",
+        "--skip-bricklink",
         action="store_true",
-        help="Run BrickLink enrichment after aggregations",
+        help="Skip BrickLink enrichment step",
     )
     parser.add_argument(
         "--bricklink-workers",
@@ -188,7 +189,14 @@ def main():
         ([sys.executable, "aggregate_cheapest_prices.py"], "aggregate_cheapest_prices"),
     ])
 
-    if args.with_bricklink:
+    if os.getenv("DATABASE_URL"):
+        steps.append(
+            ([sys.executable, "-m", "backend.ingest", "data/aggregated_products.json"], "db_ingest")
+        )
+    else:
+        print("DATABASE_URL not set; skipping db ingest step.")
+
+    if not args.skip_bricklink:
         steps.append((
             [
                 sys.executable,
@@ -199,6 +207,8 @@ def main():
             ],
             "enrich_bricklink_prices",
         ))
+    else:
+        print("BrickLink enrichment step skipped.")
 
     for command, label in steps:
         if not run_command(command, label):
