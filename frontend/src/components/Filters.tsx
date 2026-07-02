@@ -24,6 +24,7 @@ interface Props {
 
   totalCount: number
   filteredCount: number
+  allThemesCount: number
 }
 
 export function Filters({
@@ -43,9 +44,8 @@ export function Filters({
   onTopNChange,
   totalCount,
   filteredCount,
+  allThemesCount,
 }: Props) {
-  const allStoreCount = storeOptions.reduce((sum, s) => Math.max(sum, s.count), 0)
-
   return (
     <div className="bg-white border-b border-gray-200 px-4 py-3 space-y-3">
       {/* Search row */}
@@ -84,7 +84,7 @@ export function Filters({
           onChange={(e) => onThemeChange(e.target.value)}
           className="text-sm border border-gray-200 rounded-lg px-2 py-1.5 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-white max-w-[180px]"
         >
-          <option value="all">All themes ({allStoreCount || filteredCount})</option>
+          <option value="all">All themes ({allThemesCount})</option>
           {themeOptions.map((t) => (
             <option key={t.name} value={t.name}>
               {t.name} ({t.count})

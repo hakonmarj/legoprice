@@ -61,13 +61,13 @@ export function PriceHistoryChart({ setNumber }: Props) {
     )
 
   const chartData: StorePricePoint[] = data.map((entry) => ({
-    date: formatDate(entry.captured_at),
-    coolshop: entry.coolshop_price_isk ?? undefined,
-    kubbabudin: entry.kubbabudin_price_isk ?? undefined,
-    boozt: entry.boozt_price_isk ?? undefined,
-    hagkaup: entry.hagkaup_price_isk ?? undefined,
-    kidsworld: entry.kidsworld_price_isk ?? undefined,
-    elko: entry.elko_price_isk ?? undefined,
+    date: formatDate(entry.capturedAt),
+    coolshop: entry.coolshopPriceIsk ?? undefined,
+    kubbabudin: entry.kubbabudinPriceIsk ?? undefined,
+    boozt: entry.booztPriceIsk ?? undefined,
+    hagkaup: entry.hagkaupPriceIsk ?? undefined,
+    kidsworld: entry.kidsworldPriceIsk ?? undefined,
+    elko: entry.elkoPriceIsk ?? undefined,
   }))
 
   const activeStores = STORES.filter((s) => chartData.some((d) => d[s] != null))

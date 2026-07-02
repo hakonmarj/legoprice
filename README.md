@@ -1,6 +1,6 @@
 # legoprice
 
-Scrapes LEGO prices from Icelandic stores, aggregates value metrics, stores daily snapshots in PostgreSQL, and serves data via FastAPI + React frontend.
+Scrapes LEGO prices from Icelandic stores, aggregates value metrics, stores daily snapshots in PostgreSQL, and serves data via ASP.NET Core + React frontend.
 
 ## Project layout
 
@@ -11,7 +11,7 @@ Scrapes LEGO prices from Icelandic stores, aggregates value metrics, stores dail
 - `data/store_products/` - per-store outputs
 - `data/aggregated_products.json` - merged value dataset
 - `data/aggregated_cheapest_prices.json` - merged cheapest-price dataset
-- `backend/` - FastAPI API + SQLAlchemy models + ingest script
+- `backend-dotnet/src/Legoprice.Api/` - ASP.NET Core API with Entity Framework Core (Controllers/Services/Repositories)
 - `frontend/` - React + Vite + TypeScript UI
 - `terraform/` - Azure infrastructure (ACR, Log Analytics, Container Apps, PostgreSQL)
 
@@ -23,7 +23,7 @@ Scrapes LEGO prices from Icelandic stores, aggregates value metrics, stores dail
 4. Run `aggregate_prices.py`
 5. Run `aggregate_cheapest_prices.py`
 6. Run `enrich_bricklink_prices.py` (unless explicitly skipped)
-7. Optional: ingest current aggregate into database (`backend.ingest`) if `DATABASE_URL` is set
+7. Optional: ingest current aggregate into backend API (`push_prices_to_api.py`) if `BACKEND_API_URL` is set
 
 ## Run commands
 
@@ -95,27 +95,56 @@ Open:
 ## Backend API
 
 ```bash
-source .venv/bin/activate
-pip install -r backend/requirements.txt
-uvicorn backend.main:app --reload
+dotnet run --project backend-dotnet/src/Legoprice.Api/Legoprice.Api.csproj
 ```
 
-Set `DATABASE_URL` for PostgreSQL, for example:
+Set `DATABASE_URL` (or `ConnectionStrings:DefaultConnection`) for PostgreSQL, for example:
 
 ```bash
-export DATABASE_URL="postgresql://postgres:postgres@localhost:5432/legoprice"
+export DATABASE_URL="Host=localhost;Port=5432;Database=legoprice;Username=postgres;Password=postgres"
 ```
 
 Endpoints:
 
 - `GET /api/products`
 - `GET /api/products/{set_number}/history?days=30`
+- `POST /api/ingest/products`
+- `POST /api/pipeline/trigger` (secured trigger endpoint used by GitHub Actions)
+
+Ingest aggregated output into API/database:
+
+```bash
+export BACKEND_API_URL="http://localhost:8080"
+.venv/bin/python push_prices_to_api.py data/aggregated_products.json
+```
+
+### Trigger architecture (recommended)
+
+For complex scraping/data-transformation logic, keep orchestration in backend and use GitHub Actions only as a trigger:
+
+- GitHub Action: `.github/workflows/trigger-backend-pipeline.yml`
+- Action sends `POST` to backend `/api/pipeline/trigger`
+- Backend validates `X-Trigger-Token` and starts configured pipeline command
+
+Required backend environment variables:
+
+```bash
+PIPELINE_TRIGGER_TOKEN=your-strong-token
+PIPELINE_RUN_COMMAND="python3 /app/run_all.py --delay-seconds 0"
+```
+
+Required GitHub repository secrets:
+
+- `BACKEND_TRIGGER_URL` (for example `https://<backend-host>/api/pipeline/trigger`)
+- `BACKEND_TRIGGER_TOKEN` (must match backend `PIPELINE_TRIGGER_TOKEN`)
 
 ## Docker + CI
 
 - Frontend Dockerfile: `frontend/Dockerfile`
-- Backend Dockerfile: `backend/Dockerfile`
-- Push-to-main image build workflow: `.github/workflows/docker-build.yml`
+- Backend Dockerfile: `backend-dotnet/src/Legoprice.Api/Dockerfile`
+- Frontend push workflow: `.github/workflows/docker-build-frontend.yml`
+- Backend push workflow: `.github/workflows/docker-build-backend.yml`
+- Scheduled trigger workflow: `.github/workflows/trigger-backend-pipeline.yml`
 
 Required GitHub secrets for the docker workflow:
 

@@ -1,4 +1,4 @@
-import { useCallback, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
 import { useQuery } from '@tanstack/react-query'
 import { Blocks } from 'lucide-react'
 import { fetchProducts } from './api'
@@ -13,12 +13,12 @@ const STORES: Array<{
   priceKey: keyof Product
   urlKey: keyof Product
 }> = [
-  { key: 'coolshop',   label: 'Coolshop',   priceKey: 'coolshop_price_isk',   urlKey: 'coolshop_url' },
-  { key: 'kubbabudin', label: 'Kubbabúðin', priceKey: 'kubbabudin_price_isk', urlKey: 'kubbabudin_url' },
-  { key: 'boozt',      label: 'Boozt',      priceKey: 'boozt_price_isk',      urlKey: 'boozt_url' },
-  { key: 'hagkaup',    label: 'Hagkaup',    priceKey: 'hagkaup_price_isk',    urlKey: 'hagkaup_url' },
-  { key: 'kidsworld',  label: 'Kidsworld',  priceKey: 'kidsworld_price_isk',  urlKey: 'kidsworld_url' },
-  { key: 'elko',       label: 'Elko',       priceKey: 'elko_price_isk',       urlKey: 'elko_url' },
+  { key: 'coolshop',   label: 'Coolshop',   priceKey: 'coolshopPriceIsk',   urlKey: 'coolshopUrl' },
+  { key: 'kubbabudin', label: 'Kubbabúðin', priceKey: 'kubbabudinPriceIsk', urlKey: 'kubbabudinUrl' },
+  { key: 'boozt',      label: 'Boozt',      priceKey: 'booztPriceIsk',      urlKey: 'booztUrl' },
+  { key: 'hagkaup',    label: 'Hagkaup',    priceKey: 'hagkaupPriceIsk',    urlKey: 'hagkaupUrl' },
+  { key: 'kidsworld',  label: 'Kidsworld',  priceKey: 'kidsworldPriceIsk',  urlKey: 'kidsworldUrl' },
+  { key: 'elko',       label: 'Elko',       priceKey: 'elkoPriceIsk',       urlKey: 'elkoUrl' },
 ]
 
 export default function App() {
@@ -40,7 +40,7 @@ export default function App() {
       if (!searchQuery) return true
       const q = searchQuery.toLowerCase()
       return (
-        p.lego_set_number.toLowerCase().includes(q) ||
+        p.legoSetNumber.toLowerCase().includes(q) ||
         (p.name ?? '').toLowerCase().includes(q)
       )
     },
@@ -68,10 +68,10 @@ export default function App() {
     (p: Product): boolean => {
       if (selectedPreset === 'strictValue') {
         const count = STORES.filter((s) => p[s.priceKey] != null).length
-        return count >= 2 && (p.num_parts ?? 0) > 0
+        return count >= 2 && (p.numParts ?? 0) > 0
       }
       if (selectedPreset === 'bricklinkLiquid') {
-        return (p.bricklink_6m_sales_count_new ?? 0) >= 10
+        return (p.bricklink6mSalesCountNew ?? 0) >= 10
       }
       return true
     },
@@ -109,6 +109,11 @@ export default function App() {
       .map(([name, count]) => ({ name, count }))
   }, [allProducts, matchesQuery, matchesStore, matchesPreset])
 
+  const allThemesCount = useMemo(
+    () => allProducts.filter((p) => matchesQuery(p) && matchesStore(p) && matchesPreset(p)).length,
+    [allProducts, matchesQuery, matchesStore, matchesPreset],
+  )
+
   // ── Fully filtered + sorted result set ───────────────────────────────────
   const filteredProducts = useMemo(() => {
     let rows = allProducts.filter(
@@ -118,23 +123,23 @@ export default function App() {
     rows = [...rows].sort((a, b) => {
       switch (sortBy) {
         case 'value':
-          return (b.pieces_per_kr ?? 0) - (a.pieces_per_kr ?? 0)
+          return (b.piecesPerKr ?? 0) - (a.piecesPerKr ?? 0)
         case 'priceAsc':
-          return (a.lowest_price_isk ?? Infinity) - (b.lowest_price_isk ?? Infinity)
+          return (a.lowestPriceIsk ?? Infinity) - (b.lowestPriceIsk ?? Infinity)
         case 'priceDesc':
-          return (b.lowest_price_isk ?? 0) - (a.lowest_price_isk ?? 0)
+          return (b.lowestPriceIsk ?? 0) - (a.lowestPriceIsk ?? 0)
         case 'ratioAsc':
           return (
-            (a.lowest_price_vs_bricklink_avg_ratio ?? Infinity) -
-            (b.lowest_price_vs_bricklink_avg_ratio ?? Infinity)
+            (a.lowestPriceVsBricklinkAvgRatio ?? Infinity) -
+            (b.lowestPriceVsBricklinkAvgRatio ?? Infinity)
           )
         case 'sixMonthDiff':
           return (
-            (a.price_diff_from_six_month_low_pct ?? Infinity) -
-            (b.price_diff_from_six_month_low_pct ?? Infinity)
+            (a.priceDiffFromSixMonthLowPct ?? Infinity) -
+            (b.priceDiffFromSixMonthLowPct ?? Infinity)
           )
         case 'bricklinkSales':
-          return (b.bricklink_6m_sales_count_new ?? 0) - (a.bricklink_6m_sales_count_new ?? 0)
+          return (b.bricklink6mSalesCountNew ?? 0) - (a.bricklink6mSalesCountNew ?? 0)
         default:
           return 0
       }
@@ -143,9 +148,14 @@ export default function App() {
     return topN === 'all' ? rows : rows.slice(0, Number(topN))
   }, [allProducts, matchesQuery, matchesStore, matchesTheme, matchesPreset, sortBy, topN])
 
-  // Ensure selected theme is still valid; reset if its count dropped to 0
   const selectedThemeStillValid =
     selectedTheme === 'all' || themeOptions.some((t) => t.name === selectedTheme)
+
+  useEffect(() => {
+    if (!selectedThemeStillValid) {
+      setSelectedTheme('all')
+    }
+  }, [selectedThemeStillValid])
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -165,7 +175,7 @@ export default function App() {
         selectedStore={selectedStore}
         storeOptions={storeOptions}
         onStoreChange={setSelectedStore}
-        selectedTheme={selectedThemeStillValid ? selectedTheme : 'all'}
+        selectedTheme={selectedTheme}
         themeOptions={themeOptions}
         onThemeChange={setSelectedTheme}
         selectedPreset={selectedPreset}
@@ -176,6 +186,7 @@ export default function App() {
         onTopNChange={setTopN}
         totalCount={allProducts.length}
         filteredCount={filteredProducts.length}
+        allThemesCount={allThemesCount}
       />
 
       {/* Content */}
@@ -201,7 +212,7 @@ export default function App() {
         {!isLoading && !isError && (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
             {filteredProducts.map((p) => (
-              <ProductCard key={p.lego_set_number} product={p} />
+              <ProductCard key={p.legoSetNumber} product={p} />
             ))}
           </div>
         )}

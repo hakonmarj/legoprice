@@ -8,12 +8,12 @@ interface Props {
 }
 
 const STORES = [
-  { key: 'coolshop',   label: 'Coolshop',     priceKey: 'coolshop_price_isk',   urlKey: 'coolshop_url' },
-  { key: 'kubbabudin', label: 'Kubbabúðin',   priceKey: 'kubbabudin_price_isk', urlKey: 'kubbabudin_url' },
-  { key: 'boozt',      label: 'Boozt',        priceKey: 'boozt_price_isk',      urlKey: 'boozt_url' },
-  { key: 'hagkaup',    label: 'Hagkaup',      priceKey: 'hagkaup_price_isk',    urlKey: 'hagkaup_url' },
-  { key: 'kidsworld',  label: 'Kidsworld',    priceKey: 'kidsworld_price_isk',  urlKey: 'kidsworld_url' },
-  { key: 'elko',       label: 'Elko',         priceKey: 'elko_price_isk',       urlKey: 'elko_url' },
+  { key: 'coolshop',   label: 'Coolshop',     priceKey: 'coolshopPriceIsk',   urlKey: 'coolshopUrl' },
+  { key: 'kubbabudin', label: 'Kubbabúðin',   priceKey: 'kubbabudinPriceIsk', urlKey: 'kubbabudinUrl' },
+  { key: 'boozt',      label: 'Boozt',        priceKey: 'booztPriceIsk',      urlKey: 'booztUrl' },
+  { key: 'hagkaup',    label: 'Hagkaup',      priceKey: 'hagkaupPriceIsk',    urlKey: 'hagkaupUrl' },
+  { key: 'kidsworld',  label: 'Kidsworld',    priceKey: 'kidsworldPriceIsk',  urlKey: 'kidsworldUrl' },
+  { key: 'elko',       label: 'Elko',         priceKey: 'elkoPriceIsk',       urlKey: 'elkoUrl' },
 ] as const
 
 const STORE_LABEL: Record<string, string> = Object.fromEntries(STORES.map((s) => [s.key, s.label]))
@@ -28,20 +28,20 @@ export function ProductCard({ product }: Props) {
   const [showStores, setShowStores] = useState(false)
 
   const imageUrl =
-    product.bricklink_thumbnail_url ||
-    product.bricklink_image_url ||
-    product.display_image_url
+    product.bricklinkThumbnailUrl ||
+    product.bricklinkImageUrl ||
+    product.displayImageUrl
 
-  const diff = product.price_diff_from_six_month_low_pct
+  const diff = product.priceDiffFromSixMonthLowPct
   const isAtLow = diff !== null && diff !== undefined && Math.abs(diff) < 0.5
 
   const activeStores = STORES.filter((s) => product[s.priceKey] != null)
 
-  const lowestStoreInfo = STORES.find((s) => s.key === product.lowest_price_store)
+  const lowestStoreInfo = STORES.find((s) => s.key === product.lowestPriceStore)
   const productUrl = lowestStoreInfo ? product[lowestStoreInfo.urlKey] : null
 
-  const blAvgISK = product.bricklink_6m_avg_price_new_isk
-    ? Math.round(product.bricklink_6m_avg_price_new_isk * 1.24)
+  const blAvgISK = product.bricklink6mAvgPriceNewIsk
+    ? Math.round(product.bricklink6mAvgPriceNewIsk * 1.24)
     : null
 
   return (
@@ -51,7 +51,7 @@ export function ProductCard({ product }: Props) {
         <div className="bg-gray-50 border-b border-gray-100 h-44 flex items-center justify-center p-3">
           <img
             src={imageUrl}
-            alt={product.name ?? product.lego_set_number}
+            alt={product.name ?? product.legoSetNumber}
             className="max-h-full max-w-full object-contain"
             loading="lazy"
           />
@@ -62,15 +62,15 @@ export function ProductCard({ product }: Props) {
         {/* Header badges */}
         <div className="flex items-center gap-1.5 flex-wrap">
           <span className="text-xs font-mono bg-yellow-100 text-yellow-800 px-2 py-0.5 rounded font-semibold">
-            {product.lego_set_number}
+            {product.legoSetNumber}
           </span>
           {product.theme && (
             <span className="text-xs bg-gray-100 text-gray-600 px-2 py-0.5 rounded">
               {product.theme}
             </span>
           )}
-          {product.num_parts != null && product.num_parts > 0 && (
-            <span className="text-xs text-gray-400">{product.num_parts.toLocaleString()} pcs</span>
+          {product.numParts != null && product.numParts > 0 && (
+            <span className="text-xs text-gray-400">{product.numParts.toLocaleString()} pcs</span>
           )}
         </div>
 
@@ -81,10 +81,10 @@ export function ProductCard({ product }: Props) {
 
         {/* Best price + link */}
         <div className="flex items-baseline gap-2">
-          <span className="text-xl font-bold text-emerald-600">{fmtISK(product.lowest_price_isk)}</span>
-          {product.lowest_price_store && (
+          <span className="text-xl font-bold text-emerald-600">{fmtISK(product.lowestPriceIsk)}</span>
+          {product.lowestPriceStore && (
             <span className="text-xs text-gray-500">
-              @ {STORE_LABEL[product.lowest_price_store] ?? product.lowest_price_store}
+              @ {STORE_LABEL[product.lowestPriceStore] ?? product.lowestPriceStore}
             </span>
           )}
           {productUrl && (
@@ -112,8 +112,8 @@ export function ProductCard({ product }: Props) {
               <span className="inline-flex items-center gap-1.5 text-xs font-medium bg-amber-50 text-amber-700 border border-amber-200 px-2 py-0.5 rounded-full">
                 <TrendingUp size={11} />
                 +{diff.toFixed(1)}% vs 6M low
-                {product.six_month_low_isk && (
-                  <span className="text-amber-500">({fmtISK(product.six_month_low_isk)})</span>
+                {product.sixMonthLowIsk && (
+                  <span className="text-amber-500">({fmtISK(product.sixMonthLowIsk)})</span>
                 )}
               </span>
             )}
@@ -125,7 +125,7 @@ export function ProductCard({ product }: Props) {
           <div>
             <dt className="text-gray-400">Pieces/ISK</dt>
             <dd className="font-semibold">
-              {product.pieces_per_kr != null ? product.pieces_per_kr.toFixed(4) : '—'}
+              {product.piecesPerKr != null ? product.piecesPerKr.toFixed(4) : '—'}
             </dd>
           </div>
           {blAvgISK != null && (
@@ -134,16 +134,16 @@ export function ProductCard({ product }: Props) {
               <dd className="font-semibold">{fmtISK(blAvgISK)}</dd>
             </div>
           )}
-          {product.lowest_price_vs_bricklink_avg_ratio != null && (
+          {product.lowestPriceVsBricklinkAvgRatio != null && (
             <div>
               <dt className="text-gray-400">Price / BL ratio</dt>
-              <dd className="font-semibold">{product.lowest_price_vs_bricklink_avg_ratio.toFixed(3)}</dd>
+              <dd className="font-semibold">{product.lowestPriceVsBricklinkAvgRatio.toFixed(3)}</dd>
             </div>
           )}
-          {product.bricklink_6m_sales_count_new != null && (
+          {product.bricklink6mSalesCountNew != null && (
             <div>
               <dt className="text-gray-400">BL 6M sales</dt>
-              <dd className="font-semibold">{product.bricklink_6m_sales_count_new}</dd>
+              <dd className="font-semibold">{product.bricklink6mSalesCountNew}</dd>
             </div>
           )}
         </dl>
@@ -192,7 +192,7 @@ export function ProductCard({ product }: Props) {
           {showHistory ? 'Hide' : 'Show'} 30-day price history
         </button>
 
-        {showHistory && <PriceHistoryChart setNumber={product.lego_set_number} />}
+        {showHistory && <PriceHistoryChart setNumber={product.legoSetNumber} />}
       </div>
     </article>
   )

@@ -4,6 +4,11 @@ from typing import Optional, List
 from pydantic import BaseModel
 
 
+def _to_camel(s: str) -> str:
+    parts = s.split("_")
+    return parts[0] + "".join(p.title() for p in parts[1:])
+
+
 class PriceHistoryEntry(BaseModel):
     captured_at: datetime
     lowest_price_isk: Optional[int] = None
@@ -15,7 +20,7 @@ class PriceHistoryEntry(BaseModel):
     kidsworld_price_isk: Optional[int] = None
     elko_price_isk: Optional[int] = None
 
-    model_config = {"from_attributes": True}
+    model_config = {"from_attributes": True, "alias_generator": _to_camel, "populate_by_name": True}
 
 
 class ProductSummary(BaseModel):
@@ -58,4 +63,4 @@ class ProductSummary(BaseModel):
     six_month_low_store: Optional[str] = None
     price_diff_from_six_month_low_pct: Optional[float] = None
 
-    model_config = {"from_attributes": True}
+    model_config = {"from_attributes": True, "alias_generator": _to_camel, "populate_by_name": True}

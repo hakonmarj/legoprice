@@ -189,12 +189,12 @@ def main():
         ([sys.executable, "aggregate_cheapest_prices.py"], "aggregate_cheapest_prices"),
     ])
 
-    if os.getenv("DATABASE_URL"):
+    if os.getenv("BACKEND_API_URL"):
         steps.append(
-            ([sys.executable, "-m", "backend.ingest", "data/aggregated_products.json"], "db_ingest")
+            ([sys.executable, "push_prices_to_api.py", "data/aggregated_products.json"], "db_ingest_via_api")
         )
     else:
-        print("DATABASE_URL not set; skipping db ingest step.")
+        print("BACKEND_API_URL not set; skipping db ingest step.")
 
     if not args.skip_bricklink:
         steps.append((

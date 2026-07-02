@@ -1,54 +1,54 @@
 export interface Product {
-  lego_set_number: string
+  legoSetNumber: string
   name: string | null
   theme: string | null
-  num_parts: number | null
-  display_image_url: string | null
-  bricklink_image_url: string | null
-  bricklink_thumbnail_url: string | null
-  bricklink_name: string | null
+  numParts: number | null
+  displayImageUrl: string | null
+  bricklinkImageUrl: string | null
+  bricklinkThumbnailUrl: string | null
+  bricklinkName: string | null
 
   // Current prices (ISK integers)
-  lowest_price_isk: number | null
-  lowest_price_store: string | null
-  coolshop_price_isk: number | null
-  kubbabudin_price_isk: number | null
-  boozt_price_isk: number | null
-  hagkaup_price_isk: number | null
-  kidsworld_price_isk: number | null
-  elko_price_isk: number | null
+  lowestPriceIsk: number | null
+  lowestPriceStore: string | null
+  coolshopPriceIsk: number | null
+  kubbabudinPriceIsk: number | null
+  booztPriceIsk: number | null
+  hagkaupPriceIsk: number | null
+  kidsworldPriceIsk: number | null
+  elkoPriceIsk: number | null
 
   // Store URLs
-  coolshop_url: string | null
-  kubbabudin_url: string | null
-  boozt_url: string | null
-  hagkaup_url: string | null
-  kidsworld_url: string | null
-  elko_url: string | null
+  coolshopUrl: string | null
+  kubbabudinUrl: string | null
+  booztUrl: string | null
+  hagkaupUrl: string | null
+  kidsworldUrl: string | null
+  elkoUrl: string | null
 
   // Value metrics
-  pieces_per_kr: number | null
-  bricklink_6m_avg_price_new_usd: number | null
-  bricklink_6m_avg_price_new_isk: number | null
-  lowest_price_vs_bricklink_avg_ratio: number | null
-  bricklink_6m_sales_count_new: number | null
+  piecesPerKr: number | null
+  bricklink6mAvgPriceNewUsd: number | null
+  bricklink6mAvgPriceNewIsk: number | null
+  lowestPriceVsBricklinkAvgRatio: number | null
+  bricklink6mSalesCountNew: number | null
 
   // 6-month historical comparison
-  six_month_low_isk: number | null
-  six_month_low_store: string | null
-  price_diff_from_six_month_low_pct: number | null
+  sixMonthLowIsk: number | null
+  sixMonthLowStore: string | null
+  priceDiffFromSixMonthLowPct: number | null
 }
 
 export interface PriceHistoryEntry {
-  captured_at: string
-  lowest_price_isk: number | null
-  lowest_price_store: string | null
-  coolshop_price_isk: number | null
-  kubbabudin_price_isk: number | null
-  boozt_price_isk: number | null
-  hagkaup_price_isk: number | null
-  kidsworld_price_isk: number | null
-  elko_price_isk: number | null
+  capturedAt: string
+  lowestPriceIsk: number | null
+  lowestPriceStore: string | null
+  coolshopPriceIsk: number | null
+  kubbabudinPriceIsk: number | null
+  booztPriceIsk: number | null
+  hagkaupPriceIsk: number | null
+  kidsworldPriceIsk: number | null
+  elkoPriceIsk: number | null
 }
 
 export interface StoreOption {

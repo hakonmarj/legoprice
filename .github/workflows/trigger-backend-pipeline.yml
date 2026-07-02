@@ -1,0 +1,38 @@
+name: Trigger backend pipeline
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  trigger-backend:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call backend pipeline trigger endpoint
+        env:
+          BACKEND_TRIGGER_URL: ${{ secrets.BACKEND_TRIGGER_URL }}
+          BACKEND_TRIGGER_TOKEN: ${{ secrets.BACKEND_TRIGGER_TOKEN }}
+        run: |
+          if [[ -z "$BACKEND_TRIGGER_URL" || -z "$BACKEND_TRIGGER_TOKEN" ]]; then
+            echo "Missing BACKEND_TRIGGER_URL or BACKEND_TRIGGER_TOKEN secret"
+            exit 1
+          fi
+
+          echo "Triggering backend pipeline: $BACKEND_TRIGGER_URL"
+          http_code=$(curl -sS -o response.json -w "%{http_code}" \
+            -X POST "$BACKEND_TRIGGER_URL" \
+            -H "Content-Type: application/json" \
+            -H "X-Trigger-Token: $BACKEND_TRIGGER_TOKEN")
+
+          cat response.json
+
+          if [[ "$http_code" -lt 200 || "$http_code" -ge 300 ]]; then
+            echo "Trigger failed with HTTP $http_code"
+            exit 1
+          fi
+
+          echo "Trigger succeeded"
